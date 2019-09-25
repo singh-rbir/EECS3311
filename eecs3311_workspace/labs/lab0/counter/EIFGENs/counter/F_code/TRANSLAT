@@ -1,0 +1,2768 @@
+elks	ANY	generating_type	F1_5	C1/an1.c
+elks	ANY	is_equal	F1_8	C1/an1.c
+elks	ANY	twin	F1_14	C1/an1.c
+elks	ANY	copy	F1_15	C1/an1.c
+elks	ANY	standard_copy	F1_16	C1/an1.c
+elks	ANY	internal_correct_mismatch	F1_23	C1/an1.c
+elks	ANY	io	F1_24	C1/an1.c
+elks	ANY	out	F1_25	C1/an1.c
+elks	ANY	tagged_out	F1_26	C1/an1.c
+elks	ANY	print	F1_27	C1/an1.c
+elks	ANY	default_create	F1_29	C1/an1.c
+elks	ANY	default_rescue	F1_30	C1/an1.c
+elks	ANY	do_nothing	F1_31	C1/an1.c
+elks	ANY	default_pointer	F1_33	C1/an1.c
+elks	SPECIAL [G#1]	make_empty	F466_3202	C7/sp345.c
+elks	SPECIAL [G#1]	make_filled	F466_3203	C7/sp345.c
+elks	SPECIAL [G#1]	item	F466_3205	C7/sp345.c
+elks	SPECIAL [G#1]	item	F466_3206	C7/sp345.c
+elks	SPECIAL [G#1]	item_address	F466_3208	C7/sp345.c
+elks	SPECIAL [G#1]	base_address	F466_3209	C7/sp345.c
+elks	SPECIAL [G#1]	to_array	F466_3211	C7/sp345.c
+elks	SPECIAL [G#1]	lower	F466_3213	C7/sp345.c
+elks	SPECIAL [G#1]	upper	F466_3214	C7/sp345.c
+elks	SPECIAL [G#1]	count	F466_3215	C7/sp345.c
+elks	SPECIAL [G#1]	capacity	F466_3216	C7/sp345.c
+elks	SPECIAL [G#1]	same_items	F466_3218	C7/sp345.c
+elks	SPECIAL [G#1]	valid_index	F466_3219	C7/sp345.c
+elks	SPECIAL [G#1]	put	F466_3220	C7/sp345.c
+elks	SPECIAL [G#1]	force	F466_3221	C7/sp345.c
+elks	SPECIAL [G#1]	extend	F466_3222	C7/sp345.c
+elks	SPECIAL [G#1]	fill_with	F466_3224	C7/sp345.c
+elks	SPECIAL [G#1]	copy_data	F466_3227	C7/sp345.c
+elks	SPECIAL [G#1]	move_data	F466_3228	C7/sp345.c
+elks	SPECIAL [G#1]	overlapping_move	F466_3229	C7/sp345.c
+elks	SPECIAL [G#1]	non_overlapping_move	F466_3230	C7/sp345.c
+elks	SPECIAL [G#1]	resized_area	F466_3235	C7/sp345.c
+elks	SPECIAL [G#1]	aliased_resized_area	F466_3237	C7/sp345.c
+elks	SPECIAL [G#1]	aliased_resized_area_with_default	F466_3238	C7/sp345.c
+elks	SPECIAL [G#1]	wipe_out	F466_3240	C7/sp345.c
+elks	SPECIAL [G#1]	clear_all	F466_3241	C7/sp345.c
+elks	SPECIAL [G#1]	element_size	F466_3249	C7/sp345.c
+elks	SPECIAL [G#1]	set_count	F466_3250	C7/sp345.c
+elks	SPECIAL [POINTER]	make_empty	F467_3202	C7/sp300.c
+elks	SPECIAL [POINTER]	make_filled	F467_3203	C7/sp300.c
+elks	SPECIAL [POINTER]	item	F467_3205	C7/sp300.c
+elks	SPECIAL [POINTER]	item	F467_3206	C7/sp300.c
+elks	SPECIAL [POINTER]	item_address	F467_3208	C7/sp300.c
+elks	SPECIAL [POINTER]	base_address	F467_3209	C7/sp300.c
+elks	SPECIAL [POINTER]	to_array	F467_3211	C7/sp300.c
+elks	SPECIAL [POINTER]	lower	F467_3213	C7/sp300.c
+elks	SPECIAL [POINTER]	upper	F467_3214	C7/sp300.c
+elks	SPECIAL [POINTER]	count	F467_3215	C7/sp300.c
+elks	SPECIAL [POINTER]	capacity	F467_3216	C7/sp300.c
+elks	SPECIAL [POINTER]	same_items	F467_3218	C7/sp300.c
+elks	SPECIAL [POINTER]	valid_index	F467_3219	C7/sp300.c
+elks	SPECIAL [POINTER]	put	F467_3220	C7/sp300.c
+elks	SPECIAL [POINTER]	force	F467_3221	C7/sp300.c
+elks	SPECIAL [POINTER]	extend	F467_3222	C7/sp300.c
+elks	SPECIAL [POINTER]	fill_with	F467_3224	C7/sp300.c
+elks	SPECIAL [POINTER]	copy_data	F467_3227	C7/sp300.c
+elks	SPECIAL [POINTER]	move_data	F467_3228	C7/sp300.c
+elks	SPECIAL [POINTER]	overlapping_move	F467_3229	C7/sp300.c
+elks	SPECIAL [POINTER]	non_overlapping_move	F467_3230	C7/sp300.c
+elks	SPECIAL [POINTER]	resized_area	F467_3235	C7/sp300.c
+elks	SPECIAL [POINTER]	aliased_resized_area	F467_3237	C7/sp300.c
+elks	SPECIAL [POINTER]	aliased_resized_area_with_default	F467_3238	C7/sp300.c
+elks	SPECIAL [POINTER]	wipe_out	F467_3240	C7/sp300.c
+elks	SPECIAL [POINTER]	clear_all	F467_3241	C7/sp300.c
+elks	SPECIAL [POINTER]	element_size	F467_3249	C7/sp300.c
+elks	SPECIAL [POINTER]	set_count	F467_3250	C7/sp300.c
+elks	SPECIAL [REAL_32]	make_empty	F468_3202	C8/sp366.c
+elks	SPECIAL [REAL_32]	make_filled	F468_3203	C8/sp366.c
+elks	SPECIAL [REAL_32]	item	F468_3205	C8/sp366.c
+elks	SPECIAL [REAL_32]	item	F468_3206	C8/sp366.c
+elks	SPECIAL [REAL_32]	item_address	F468_3208	C8/sp366.c
+elks	SPECIAL [REAL_32]	base_address	F468_3209	C8/sp366.c
+elks	SPECIAL [REAL_32]	to_array	F468_3211	C8/sp366.c
+elks	SPECIAL [REAL_32]	lower	F468_3213	C8/sp366.c
+elks	SPECIAL [REAL_32]	upper	F468_3214	C8/sp366.c
+elks	SPECIAL [REAL_32]	count	F468_3215	C8/sp366.c
+elks	SPECIAL [REAL_32]	capacity	F468_3216	C8/sp366.c
+elks	SPECIAL [REAL_32]	same_items	F468_3218	C8/sp366.c
+elks	SPECIAL [REAL_32]	valid_index	F468_3219	C8/sp366.c
+elks	SPECIAL [REAL_32]	put	F468_3220	C8/sp366.c
+elks	SPECIAL [REAL_32]	force	F468_3221	C8/sp366.c
+elks	SPECIAL [REAL_32]	extend	F468_3222	C8/sp366.c
+elks	SPECIAL [REAL_32]	fill_with	F468_3224	C8/sp366.c
+elks	SPECIAL [REAL_32]	copy_data	F468_3227	C8/sp366.c
+elks	SPECIAL [REAL_32]	move_data	F468_3228	C8/sp366.c
+elks	SPECIAL [REAL_32]	overlapping_move	F468_3229	C8/sp366.c
+elks	SPECIAL [REAL_32]	non_overlapping_move	F468_3230	C8/sp366.c
+elks	SPECIAL [REAL_32]	resized_area	F468_3235	C8/sp366.c
+elks	SPECIAL [REAL_32]	aliased_resized_area	F468_3237	C8/sp366.c
+elks	SPECIAL [REAL_32]	aliased_resized_area_with_default	F468_3238	C8/sp366.c
+elks	SPECIAL [REAL_32]	wipe_out	F468_3240	C8/sp366.c
+elks	SPECIAL [REAL_32]	clear_all	F468_3241	C8/sp366.c
+elks	SPECIAL [REAL_32]	element_size	F468_3249	C8/sp366.c
+elks	SPECIAL [REAL_32]	set_count	F468_3250	C8/sp366.c
+elks	SPECIAL [CHARACTER_8]	make_empty	F469_3202	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	make_filled	F469_3203	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	item	F469_3205	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	item	F469_3206	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	item_address	F469_3208	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	base_address	F469_3209	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	to_array	F469_3211	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	lower	F469_3213	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	upper	F469_3214	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	count	F469_3215	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	capacity	F469_3216	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	same_items	F469_3218	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	valid_index	F469_3219	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	put	F469_3220	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	force	F469_3221	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	extend	F469_3222	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	fill_with	F469_3224	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	copy_data	F469_3227	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	move_data	F469_3228	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	overlapping_move	F469_3229	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	non_overlapping_move	F469_3230	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	resized_area	F469_3235	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	aliased_resized_area	F469_3237	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	aliased_resized_area_with_default	F469_3238	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	wipe_out	F469_3240	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	clear_all	F469_3241	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	element_size	F469_3249	C9/sp401.c
+elks	SPECIAL [CHARACTER_8]	set_count	F469_3250	C9/sp401.c
+elks	SPECIAL [REAL_64]	make_empty	F470_3202	C10/sp475.c
+elks	SPECIAL [REAL_64]	make_filled	F470_3203	C10/sp475.c
+elks	SPECIAL [REAL_64]	item	F470_3205	C10/sp475.c
+elks	SPECIAL [REAL_64]	item	F470_3206	C10/sp475.c
+elks	SPECIAL [REAL_64]	item_address	F470_3208	C10/sp475.c
+elks	SPECIAL [REAL_64]	base_address	F470_3209	C10/sp475.c
+elks	SPECIAL [REAL_64]	to_array	F470_3211	C10/sp475.c
+elks	SPECIAL [REAL_64]	lower	F470_3213	C10/sp475.c
+elks	SPECIAL [REAL_64]	upper	F470_3214	C10/sp475.c
+elks	SPECIAL [REAL_64]	count	F470_3215	C10/sp475.c
+elks	SPECIAL [REAL_64]	capacity	F470_3216	C10/sp475.c
+elks	SPECIAL [REAL_64]	same_items	F470_3218	C10/sp475.c
+elks	SPECIAL [REAL_64]	valid_index	F470_3219	C10/sp475.c
+elks	SPECIAL [REAL_64]	put	F470_3220	C10/sp475.c
+elks	SPECIAL [REAL_64]	force	F470_3221	C10/sp475.c
+elks	SPECIAL [REAL_64]	extend	F470_3222	C10/sp475.c
+elks	SPECIAL [REAL_64]	fill_with	F470_3224	C10/sp475.c
+elks	SPECIAL [REAL_64]	copy_data	F470_3227	C10/sp475.c
+elks	SPECIAL [REAL_64]	move_data	F470_3228	C10/sp475.c
+elks	SPECIAL [REAL_64]	overlapping_move	F470_3229	C10/sp475.c
+elks	SPECIAL [REAL_64]	non_overlapping_move	F470_3230	C10/sp475.c
+elks	SPECIAL [REAL_64]	resized_area	F470_3235	C10/sp475.c
+elks	SPECIAL [REAL_64]	aliased_resized_area	F470_3237	C10/sp475.c
+elks	SPECIAL [REAL_64]	aliased_resized_area_with_default	F470_3238	C10/sp475.c
+elks	SPECIAL [REAL_64]	wipe_out	F470_3240	C10/sp475.c
+elks	SPECIAL [REAL_64]	clear_all	F470_3241	C10/sp475.c
+elks	SPECIAL [REAL_64]	element_size	F470_3249	C10/sp475.c
+elks	SPECIAL [REAL_64]	set_count	F470_3250	C10/sp475.c
+elks	SPECIAL [INTEGER_32]	make_empty	F471_3202	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	make_filled	F471_3203	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	item	F471_3205	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	item	F471_3206	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	item_address	F471_3208	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	base_address	F471_3209	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	to_array	F471_3211	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	lower	F471_3213	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	upper	F471_3214	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	count	F471_3215	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	capacity	F471_3216	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	same_items	F471_3218	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	valid_index	F471_3219	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	put	F471_3220	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	force	F471_3221	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	extend	F471_3222	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	fill_with	F471_3224	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	copy_data	F471_3227	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	move_data	F471_3228	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	overlapping_move	F471_3229	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	non_overlapping_move	F471_3230	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	resized_area	F471_3235	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	aliased_resized_area	F471_3237	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	aliased_resized_area_with_default	F471_3238	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	wipe_out	F471_3240	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	clear_all	F471_3241	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	element_size	F471_3249	C12/sp552.c
+elks	SPECIAL [INTEGER_32]	set_count	F471_3250	C12/sp552.c
+elks	SPECIAL [NATURAL_8]	make_empty	F472_3202	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	make_filled	F472_3203	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	item	F472_3205	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	item	F472_3206	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	item_address	F472_3208	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	base_address	F472_3209	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	to_array	F472_3211	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	lower	F472_3213	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	upper	F472_3214	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	count	F472_3215	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	capacity	F472_3216	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	same_items	F472_3218	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	valid_index	F472_3219	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	put	F472_3220	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	force	F472_3221	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	extend	F472_3222	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	fill_with	F472_3224	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	copy_data	F472_3227	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	move_data	F472_3228	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	overlapping_move	F472_3229	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	non_overlapping_move	F472_3230	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	resized_area	F472_3235	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	aliased_resized_area	F472_3237	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	aliased_resized_area_with_default	F472_3238	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	wipe_out	F472_3240	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	clear_all	F472_3241	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	element_size	F472_3249	C12/sp576.c
+elks	SPECIAL [NATURAL_8]	set_count	F472_3250	C12/sp576.c
+elks	SPECIAL [NATURAL_16]	make_empty	F473_3202	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	make_filled	F473_3203	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	item	F473_3205	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	item	F473_3206	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	item_address	F473_3208	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	base_address	F473_3209	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	to_array	F473_3211	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	lower	F473_3213	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	upper	F473_3214	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	count	F473_3215	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	capacity	F473_3216	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	same_items	F473_3218	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	valid_index	F473_3219	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	put	F473_3220	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	force	F473_3221	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	extend	F473_3222	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	fill_with	F473_3224	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	copy_data	F473_3227	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	move_data	F473_3228	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	overlapping_move	F473_3229	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	non_overlapping_move	F473_3230	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	resized_area	F473_3235	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	aliased_resized_area	F473_3237	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	aliased_resized_area_with_default	F473_3238	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	wipe_out	F473_3240	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	clear_all	F473_3241	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	element_size	F473_3249	C13/sp612.c
+elks	SPECIAL [NATURAL_16]	set_count	F473_3250	C13/sp612.c
+elks	SPECIAL [INTEGER_8]	make_empty	F474_3202	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	make_filled	F474_3203	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	item	F474_3205	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	item	F474_3206	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	item_address	F474_3208	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	base_address	F474_3209	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	to_array	F474_3211	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	lower	F474_3213	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	upper	F474_3214	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	count	F474_3215	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	capacity	F474_3216	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	same_items	F474_3218	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	valid_index	F474_3219	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	put	F474_3220	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	force	F474_3221	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	extend	F474_3222	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	fill_with	F474_3224	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	copy_data	F474_3227	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	move_data	F474_3228	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	overlapping_move	F474_3229	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	non_overlapping_move	F474_3230	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	resized_area	F474_3235	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	aliased_resized_area	F474_3237	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	aliased_resized_area_with_default	F474_3238	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	wipe_out	F474_3240	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	clear_all	F474_3241	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	element_size	F474_3249	C13/sp648.c
+elks	SPECIAL [INTEGER_8]	set_count	F474_3250	C13/sp648.c
+elks	SPECIAL [NATURAL_32]	make_empty	F475_3202	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	make_filled	F475_3203	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	item	F475_3205	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	item	F475_3206	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	item_address	F475_3208	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	base_address	F475_3209	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	to_array	F475_3211	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	lower	F475_3213	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	upper	F475_3214	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	count	F475_3215	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	capacity	F475_3216	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	same_items	F475_3218	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	valid_index	F475_3219	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	put	F475_3220	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	force	F475_3221	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	extend	F475_3222	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	fill_with	F475_3224	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	copy_data	F475_3227	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	move_data	F475_3228	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	overlapping_move	F475_3229	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	non_overlapping_move	F475_3230	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	resized_area	F475_3235	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	aliased_resized_area	F475_3237	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	aliased_resized_area_with_default	F475_3238	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	wipe_out	F475_3240	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	clear_all	F475_3241	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	element_size	F475_3249	C14/sp684.c
+elks	SPECIAL [NATURAL_32]	set_count	F475_3250	C14/sp684.c
+elks	SPECIAL [NATURAL_64]	make_empty	F476_3202	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	make_filled	F476_3203	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	item	F476_3205	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	item	F476_3206	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	item_address	F476_3208	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	base_address	F476_3209	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	to_array	F476_3211	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	lower	F476_3213	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	upper	F476_3214	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	count	F476_3215	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	capacity	F476_3216	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	same_items	F476_3218	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	valid_index	F476_3219	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	put	F476_3220	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	force	F476_3221	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	extend	F476_3222	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	fill_with	F476_3224	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	copy_data	F476_3227	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	move_data	F476_3228	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	overlapping_move	F476_3229	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	non_overlapping_move	F476_3230	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	resized_area	F476_3235	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	aliased_resized_area	F476_3237	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	aliased_resized_area_with_default	F476_3238	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	wipe_out	F476_3240	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	clear_all	F476_3241	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	element_size	F476_3249	C15/sp720.c
+elks	SPECIAL [NATURAL_64]	set_count	F476_3250	C15/sp720.c
+elks	SPECIAL [INTEGER_64]	make_empty	F477_3202	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	make_filled	F477_3203	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	item	F477_3205	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	item	F477_3206	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	item_address	F477_3208	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	base_address	F477_3209	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	to_array	F477_3211	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	lower	F477_3213	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	upper	F477_3214	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	count	F477_3215	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	capacity	F477_3216	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	same_items	F477_3218	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	valid_index	F477_3219	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	put	F477_3220	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	force	F477_3221	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	extend	F477_3222	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	fill_with	F477_3224	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	copy_data	F477_3227	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	move_data	F477_3228	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	overlapping_move	F477_3229	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	non_overlapping_move	F477_3230	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	resized_area	F477_3235	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	aliased_resized_area	F477_3237	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	aliased_resized_area_with_default	F477_3238	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	wipe_out	F477_3240	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	clear_all	F477_3241	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	element_size	F477_3249	C16/sp756.c
+elks	SPECIAL [INTEGER_64]	set_count	F477_3250	C16/sp756.c
+elks	SPECIAL [BOOLEAN]	make_empty	F478_3202	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	make_filled	F478_3203	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	item	F478_3205	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	item	F478_3206	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	item_address	F478_3208	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	base_address	F478_3209	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	to_array	F478_3211	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	lower	F478_3213	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	upper	F478_3214	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	count	F478_3215	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	capacity	F478_3216	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	same_items	F478_3218	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	valid_index	F478_3219	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	put	F478_3220	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	force	F478_3221	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	extend	F478_3222	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	fill_with	F478_3224	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	copy_data	F478_3227	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	move_data	F478_3228	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	overlapping_move	F478_3229	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	non_overlapping_move	F478_3230	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	resized_area	F478_3235	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	aliased_resized_area	F478_3237	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	aliased_resized_area_with_default	F478_3238	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	wipe_out	F478_3240	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	clear_all	F478_3241	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	element_size	F478_3249	C16/sp793.c
+elks	SPECIAL [BOOLEAN]	set_count	F478_3250	C16/sp793.c
+elks	SPECIAL [CHARACTER_32]	make_empty	F479_3202	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	make_filled	F479_3203	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	item	F479_3205	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	item	F479_3206	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	item_address	F479_3208	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	base_address	F479_3209	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	to_array	F479_3211	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	lower	F479_3213	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	upper	F479_3214	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	count	F479_3215	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	capacity	F479_3216	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	same_items	F479_3218	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	valid_index	F479_3219	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	put	F479_3220	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	force	F479_3221	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	extend	F479_3222	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	fill_with	F479_3224	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	copy_data	F479_3227	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	move_data	F479_3228	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	overlapping_move	F479_3229	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	non_overlapping_move	F479_3230	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	resized_area	F479_3235	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	aliased_resized_area	F479_3237	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	aliased_resized_area_with_default	F479_3238	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	wipe_out	F479_3240	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	clear_all	F479_3241	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	element_size	F479_3249	C17/sp831.c
+elks	SPECIAL [CHARACTER_32]	set_count	F479_3250	C17/sp831.c
+elks	SPECIAL [INTEGER_16]	make_empty	F480_3202	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	make_filled	F480_3203	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	item	F480_3205	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	item	F480_3206	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	item_address	F480_3208	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	base_address	F480_3209	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	to_array	F480_3211	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	lower	F480_3213	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	upper	F480_3214	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	count	F480_3215	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	capacity	F480_3216	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	same_items	F480_3218	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	valid_index	F480_3219	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	put	F480_3220	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	force	F480_3221	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	extend	F480_3222	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	fill_with	F480_3224	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	copy_data	F480_3227	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	move_data	F480_3228	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	overlapping_move	F480_3229	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	non_overlapping_move	F480_3230	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	resized_area	F480_3235	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	aliased_resized_area	F480_3237	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	aliased_resized_area_with_default	F480_3238	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	wipe_out	F480_3240	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	clear_all	F480_3241	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	element_size	F480_3249	C18/sp892.c
+elks	SPECIAL [INTEGER_16]	set_count	F480_3250	C18/sp892.c
+elks	reference POINTER	hash_code	F864_6452	C5/po229.c
+elks	reference POINTER	plus	F864_6454	C5/po229.c
+elks	reference POINTER	out	F864_6456	C5/po229.c
+elks	POINTER	hash_code	F865_6452	C5/po228.c
+elks	POINTER	plus	F865_6454	C5/po228.c
+elks	POINTER	out	F865_6456	C5/po228.c
+elks	ARRAY [G#1]	make_filled	F497_3306	C7/ar341.c
+elks	ARRAY [G#1]	make	F497_3307	C7/ar341.c
+elks	ARRAY [G#1]	make_from_special	F497_3309	C7/ar341.c
+elks	ARRAY [G#1]	item	F497_3311	C7/ar341.c
+elks	ARRAY [G#1]	lower	F497_3316	C7/ar341.c
+elks	ARRAY [G#1]	upper	F497_3317	C7/ar341.c
+elks	ARRAY [G#1]	count	F497_3318	C7/ar341.c
+elks	ARRAY [G#1]	capacity	F497_3319	C7/ar341.c
+elks	ARRAY [G#1]	is_equal	F497_3321	C7/ar341.c
+elks	ARRAY [G#1]	valid_index	F497_3326	C7/ar341.c
+elks	ARRAY [G#1]	put	F497_3330	C7/ar341.c
+elks	ARRAY [G#1]	copy	F497_3359	C7/ar341.c
+elks	ARRAY [POINTER]	make_filled	F498_3306	C6/ar297.c
+elks	ARRAY [POINTER]	make	F498_3307	C6/ar297.c
+elks	ARRAY [POINTER]	make_from_special	F498_3309	C6/ar297.c
+elks	ARRAY [POINTER]	item	F498_3311	C6/ar297.c
+elks	ARRAY [POINTER]	lower	F498_3316	C6/ar297.c
+elks	ARRAY [POINTER]	upper	F498_3317	C6/ar297.c
+elks	ARRAY [POINTER]	count	F498_3318	C6/ar297.c
+elks	ARRAY [POINTER]	capacity	F498_3319	C6/ar297.c
+elks	ARRAY [POINTER]	is_equal	F498_3321	C6/ar297.c
+elks	ARRAY [POINTER]	valid_index	F498_3326	C6/ar297.c
+elks	ARRAY [POINTER]	put	F498_3330	C6/ar297.c
+elks	ARRAY [POINTER]	copy	F498_3359	C6/ar297.c
+elks	ARRAY [REAL_32]	make_filled	F499_3306	C8/ar363.c
+elks	ARRAY [REAL_32]	make	F499_3307	C8/ar363.c
+elks	ARRAY [REAL_32]	make_from_special	F499_3309	C8/ar363.c
+elks	ARRAY [REAL_32]	item	F499_3311	C8/ar363.c
+elks	ARRAY [REAL_32]	lower	F499_3316	C8/ar363.c
+elks	ARRAY [REAL_32]	upper	F499_3317	C8/ar363.c
+elks	ARRAY [REAL_32]	count	F499_3318	C8/ar363.c
+elks	ARRAY [REAL_32]	capacity	F499_3319	C8/ar363.c
+elks	ARRAY [REAL_32]	is_equal	F499_3321	C8/ar363.c
+elks	ARRAY [REAL_32]	valid_index	F499_3326	C8/ar363.c
+elks	ARRAY [REAL_32]	put	F499_3330	C8/ar363.c
+elks	ARRAY [REAL_32]	copy	F499_3359	C8/ar363.c
+elks	ARRAY [CHARACTER_8]	make_filled	F500_3306	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	make	F500_3307	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	make_from_special	F500_3309	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	item	F500_3311	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	lower	F500_3316	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	upper	F500_3317	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	count	F500_3318	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	capacity	F500_3319	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	is_equal	F500_3321	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	valid_index	F500_3326	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	put	F500_3330	C8/ar399.c
+elks	ARRAY [CHARACTER_8]	copy	F500_3359	C8/ar399.c
+elks	ARRAY [REAL_64]	make_filled	F501_3306	C10/ar485.c
+elks	ARRAY [REAL_64]	make	F501_3307	C10/ar485.c
+elks	ARRAY [REAL_64]	make_from_special	F501_3309	C10/ar485.c
+elks	ARRAY [REAL_64]	item	F501_3311	C10/ar485.c
+elks	ARRAY [REAL_64]	lower	F501_3316	C10/ar485.c
+elks	ARRAY [REAL_64]	upper	F501_3317	C10/ar485.c
+elks	ARRAY [REAL_64]	count	F501_3318	C10/ar485.c
+elks	ARRAY [REAL_64]	capacity	F501_3319	C10/ar485.c
+elks	ARRAY [REAL_64]	is_equal	F501_3321	C10/ar485.c
+elks	ARRAY [REAL_64]	valid_index	F501_3326	C10/ar485.c
+elks	ARRAY [REAL_64]	put	F501_3330	C10/ar485.c
+elks	ARRAY [REAL_64]	copy	F501_3359	C10/ar485.c
+elks	ARRAY [INTEGER_32]	make_filled	F502_3306	C12/ar557.c
+elks	ARRAY [INTEGER_32]	make	F502_3307	C12/ar557.c
+elks	ARRAY [INTEGER_32]	make_from_special	F502_3309	C12/ar557.c
+elks	ARRAY [INTEGER_32]	item	F502_3311	C12/ar557.c
+elks	ARRAY [INTEGER_32]	lower	F502_3316	C12/ar557.c
+elks	ARRAY [INTEGER_32]	upper	F502_3317	C12/ar557.c
+elks	ARRAY [INTEGER_32]	count	F502_3318	C12/ar557.c
+elks	ARRAY [INTEGER_32]	capacity	F502_3319	C12/ar557.c
+elks	ARRAY [INTEGER_32]	is_equal	F502_3321	C12/ar557.c
+elks	ARRAY [INTEGER_32]	valid_index	F502_3326	C12/ar557.c
+elks	ARRAY [INTEGER_32]	put	F502_3330	C12/ar557.c
+elks	ARRAY [INTEGER_32]	copy	F502_3359	C12/ar557.c
+elks	ARRAY [NATURAL_8]	make_filled	F503_3306	C12/ar586.c
+elks	ARRAY [NATURAL_8]	make	F503_3307	C12/ar586.c
+elks	ARRAY [NATURAL_8]	make_from_special	F503_3309	C12/ar586.c
+elks	ARRAY [NATURAL_8]	item	F503_3311	C12/ar586.c
+elks	ARRAY [NATURAL_8]	lower	F503_3316	C12/ar586.c
+elks	ARRAY [NATURAL_8]	upper	F503_3317	C12/ar586.c
+elks	ARRAY [NATURAL_8]	count	F503_3318	C12/ar586.c
+elks	ARRAY [NATURAL_8]	capacity	F503_3319	C12/ar586.c
+elks	ARRAY [NATURAL_8]	is_equal	F503_3321	C12/ar586.c
+elks	ARRAY [NATURAL_8]	valid_index	F503_3326	C12/ar586.c
+elks	ARRAY [NATURAL_8]	put	F503_3330	C12/ar586.c
+elks	ARRAY [NATURAL_8]	copy	F503_3359	C12/ar586.c
+elks	ARRAY [NATURAL_16]	make_filled	F504_3306	C13/ar622.c
+elks	ARRAY [NATURAL_16]	make	F504_3307	C13/ar622.c
+elks	ARRAY [NATURAL_16]	make_from_special	F504_3309	C13/ar622.c
+elks	ARRAY [NATURAL_16]	item	F504_3311	C13/ar622.c
+elks	ARRAY [NATURAL_16]	lower	F504_3316	C13/ar622.c
+elks	ARRAY [NATURAL_16]	upper	F504_3317	C13/ar622.c
+elks	ARRAY [NATURAL_16]	count	F504_3318	C13/ar622.c
+elks	ARRAY [NATURAL_16]	capacity	F504_3319	C13/ar622.c
+elks	ARRAY [NATURAL_16]	is_equal	F504_3321	C13/ar622.c
+elks	ARRAY [NATURAL_16]	valid_index	F504_3326	C13/ar622.c
+elks	ARRAY [NATURAL_16]	put	F504_3330	C13/ar622.c
+elks	ARRAY [NATURAL_16]	copy	F504_3359	C13/ar622.c
+elks	ARRAY [INTEGER_8]	make_filled	F505_3306	C14/ar658.c
+elks	ARRAY [INTEGER_8]	make	F505_3307	C14/ar658.c
+elks	ARRAY [INTEGER_8]	make_from_special	F505_3309	C14/ar658.c
+elks	ARRAY [INTEGER_8]	item	F505_3311	C14/ar658.c
+elks	ARRAY [INTEGER_8]	lower	F505_3316	C14/ar658.c
+elks	ARRAY [INTEGER_8]	upper	F505_3317	C14/ar658.c
+elks	ARRAY [INTEGER_8]	count	F505_3318	C14/ar658.c
+elks	ARRAY [INTEGER_8]	capacity	F505_3319	C14/ar658.c
+elks	ARRAY [INTEGER_8]	is_equal	F505_3321	C14/ar658.c
+elks	ARRAY [INTEGER_8]	valid_index	F505_3326	C14/ar658.c
+elks	ARRAY [INTEGER_8]	put	F505_3330	C14/ar658.c
+elks	ARRAY [INTEGER_8]	copy	F505_3359	C14/ar658.c
+elks	ARRAY [NATURAL_32]	make_filled	F506_3306	C14/ar695.c
+elks	ARRAY [NATURAL_32]	make	F506_3307	C14/ar695.c
+elks	ARRAY [NATURAL_32]	make_from_special	F506_3309	C14/ar695.c
+elks	ARRAY [NATURAL_32]	item	F506_3311	C14/ar695.c
+elks	ARRAY [NATURAL_32]	lower	F506_3316	C14/ar695.c
+elks	ARRAY [NATURAL_32]	upper	F506_3317	C14/ar695.c
+elks	ARRAY [NATURAL_32]	count	F506_3318	C14/ar695.c
+elks	ARRAY [NATURAL_32]	capacity	F506_3319	C14/ar695.c
+elks	ARRAY [NATURAL_32]	is_equal	F506_3321	C14/ar695.c
+elks	ARRAY [NATURAL_32]	valid_index	F506_3326	C14/ar695.c
+elks	ARRAY [NATURAL_32]	put	F506_3330	C14/ar695.c
+elks	ARRAY [NATURAL_32]	copy	F506_3359	C14/ar695.c
+elks	ARRAY [NATURAL_64]	make_filled	F507_3306	C15/ar730.c
+elks	ARRAY [NATURAL_64]	make	F507_3307	C15/ar730.c
+elks	ARRAY [NATURAL_64]	make_from_special	F507_3309	C15/ar730.c
+elks	ARRAY [NATURAL_64]	item	F507_3311	C15/ar730.c
+elks	ARRAY [NATURAL_64]	lower	F507_3316	C15/ar730.c
+elks	ARRAY [NATURAL_64]	upper	F507_3317	C15/ar730.c
+elks	ARRAY [NATURAL_64]	count	F507_3318	C15/ar730.c
+elks	ARRAY [NATURAL_64]	capacity	F507_3319	C15/ar730.c
+elks	ARRAY [NATURAL_64]	is_equal	F507_3321	C15/ar730.c
+elks	ARRAY [NATURAL_64]	valid_index	F507_3326	C15/ar730.c
+elks	ARRAY [NATURAL_64]	put	F507_3330	C15/ar730.c
+elks	ARRAY [NATURAL_64]	copy	F507_3359	C15/ar730.c
+elks	ARRAY [INTEGER_64]	make_filled	F508_3306	C16/ar766.c
+elks	ARRAY [INTEGER_64]	make	F508_3307	C16/ar766.c
+elks	ARRAY [INTEGER_64]	make_from_special	F508_3309	C16/ar766.c
+elks	ARRAY [INTEGER_64]	item	F508_3311	C16/ar766.c
+elks	ARRAY [INTEGER_64]	lower	F508_3316	C16/ar766.c
+elks	ARRAY [INTEGER_64]	upper	F508_3317	C16/ar766.c
+elks	ARRAY [INTEGER_64]	count	F508_3318	C16/ar766.c
+elks	ARRAY [INTEGER_64]	capacity	F508_3319	C16/ar766.c
+elks	ARRAY [INTEGER_64]	is_equal	F508_3321	C16/ar766.c
+elks	ARRAY [INTEGER_64]	valid_index	F508_3326	C16/ar766.c
+elks	ARRAY [INTEGER_64]	put	F508_3330	C16/ar766.c
+elks	ARRAY [INTEGER_64]	copy	F508_3359	C16/ar766.c
+elks	ARRAY [BOOLEAN]	make_filled	F509_3306	C17/ar803.c
+elks	ARRAY [BOOLEAN]	make	F509_3307	C17/ar803.c
+elks	ARRAY [BOOLEAN]	make_from_special	F509_3309	C17/ar803.c
+elks	ARRAY [BOOLEAN]	item	F509_3311	C17/ar803.c
+elks	ARRAY [BOOLEAN]	lower	F509_3316	C17/ar803.c
+elks	ARRAY [BOOLEAN]	upper	F509_3317	C17/ar803.c
+elks	ARRAY [BOOLEAN]	count	F509_3318	C17/ar803.c
+elks	ARRAY [BOOLEAN]	capacity	F509_3319	C17/ar803.c
+elks	ARRAY [BOOLEAN]	is_equal	F509_3321	C17/ar803.c
+elks	ARRAY [BOOLEAN]	valid_index	F509_3326	C17/ar803.c
+elks	ARRAY [BOOLEAN]	put	F509_3330	C17/ar803.c
+elks	ARRAY [BOOLEAN]	copy	F509_3359	C17/ar803.c
+elks	ARRAY [CHARACTER_32]	make_filled	F510_3306	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	make	F510_3307	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	make_from_special	F510_3309	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	item	F510_3311	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	lower	F510_3316	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	upper	F510_3317	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	count	F510_3318	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	capacity	F510_3319	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	is_equal	F510_3321	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	valid_index	F510_3326	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	put	F510_3330	C17/ar836.c
+elks	ARRAY [CHARACTER_32]	copy	F510_3359	C17/ar836.c
+elks	ARRAY [INTEGER_16]	make_filled	F511_3306	C19/ar901.c
+elks	ARRAY [INTEGER_16]	make	F511_3307	C19/ar901.c
+elks	ARRAY [INTEGER_16]	make_from_special	F511_3309	C19/ar901.c
+elks	ARRAY [INTEGER_16]	item	F511_3311	C19/ar901.c
+elks	ARRAY [INTEGER_16]	lower	F511_3316	C19/ar901.c
+elks	ARRAY [INTEGER_16]	upper	F511_3317	C19/ar901.c
+elks	ARRAY [INTEGER_16]	count	F511_3318	C19/ar901.c
+elks	ARRAY [INTEGER_16]	capacity	F511_3319	C19/ar901.c
+elks	ARRAY [INTEGER_16]	is_equal	F511_3321	C19/ar901.c
+elks	ARRAY [INTEGER_16]	valid_index	F511_3326	C19/ar901.c
+elks	ARRAY [INTEGER_16]	put	F511_3330	C19/ar901.c
+elks	ARRAY [INTEGER_16]	copy	F511_3359	C19/ar901.c
+elks	TUPLE	item	F793_5317	C4/tu187.c
+elks	TUPLE	reference_item	F793_5319	C4/tu187.c
+elks	TUPLE	boolean_item	F793_5320	C4/tu187.c
+elks	TUPLE	character_8_item	F793_5321	C4/tu187.c
+elks	TUPLE	character_32_item	F793_5323	C4/tu187.c
+elks	TUPLE	real_64_item	F793_5325	C4/tu187.c
+elks	TUPLE	natural_8_item	F793_5327	C4/tu187.c
+elks	TUPLE	natural_16_item	F793_5328	C4/tu187.c
+elks	TUPLE	natural_32_item	F793_5329	C4/tu187.c
+elks	TUPLE	natural_64_item	F793_5330	C4/tu187.c
+elks	TUPLE	integer_8_item	F793_5331	C4/tu187.c
+elks	TUPLE	integer_16_item	F793_5332	C4/tu187.c
+elks	TUPLE	integer_32_item	F793_5333	C4/tu187.c
+elks	TUPLE	integer_64_item	F793_5335	C4/tu187.c
+elks	TUPLE	pointer_item	F793_5336	C4/tu187.c
+elks	TUPLE	real_32_item	F793_5337	C4/tu187.c
+elks	TUPLE	object_comparison	F793_5339	C4/tu187.c
+elks	TUPLE	is_equal	F793_5340	C4/tu187.c
+elks	TUPLE	hash_code	F793_5343	C4/tu187.c
+elks	TUPLE	valid_index	F793_5344	C4/tu187.c
+elks	TUPLE	valid_type_for_index	F793_5345	C4/tu187.c
+elks	TUPLE	count	F793_5346	C4/tu187.c
+elks	TUPLE	lower	F793_5347	C4/tu187.c
+elks	TUPLE	put	F793_5350	C4/tu187.c
+elks	TUPLE	put_reference	F793_5351	C4/tu187.c
+elks	TUPLE	put_boolean	F793_5352	C4/tu187.c
+elks	TUPLE	put_character_8	F793_5353	C4/tu187.c
+elks	TUPLE	put_character_32	F793_5355	C4/tu187.c
+elks	TUPLE	put_real_64	F793_5357	C4/tu187.c
+elks	TUPLE	put_real_32	F793_5359	C4/tu187.c
+elks	TUPLE	put_pointer	F793_5361	C4/tu187.c
+elks	TUPLE	put_natural_8	F793_5362	C4/tu187.c
+elks	TUPLE	put_natural_16	F793_5363	C4/tu187.c
+elks	TUPLE	put_natural_32	F793_5364	C4/tu187.c
+elks	TUPLE	put_natural_64	F793_5365	C4/tu187.c
+elks	TUPLE	put_integer_32	F793_5366	C4/tu187.c
+elks	TUPLE	put_integer_8	F793_5368	C4/tu187.c
+elks	TUPLE	put_integer_16	F793_5369	C4/tu187.c
+elks	TUPLE	put_integer_64	F793_5370	C4/tu187.c
+elks	TUPLE	is_reference_item	F793_5388	C4/tu187.c
+elks	TUPLE	correct_mismatch	F793_5421	C4/tu187.c
+elks	TUPLE	item_code	F793_5422	C4/tu187.c
+elks	TUPLE	area_name	F793_5441	C4/tu187.c
+elks	TUPLE	internal_primes	F793_5443	C4/tu187.c
+elks	ROUTINE [G#1]	operands	F866_6458	C6/ro262.c
+elks	ROUTINE [G#1]	hash_code	F866_6460	C6/ro262.c
+elks	ROUTINE [G#1]	is_equal	F866_6465	C6/ro262.c
+elks	ROUTINE [G#1]	copy	F866_6472	C6/ro262.c
+elks	ROUTINE [G#1]	correct_mismatch	F866_6476	C6/ro262.c
+elks	ROUTINE [G#1]	set_rout_disp_final	F866_6487	C6/ro262.c
+elks	FUNCTION [G#1, G#2]	last_result	F868_6499	C8/fu362.c
+elks	FUNCTION [G#1, G#2]	is_equal	F868_6503	C8/fu362.c
+elks	FUNCTION [G#1, G#2]	copy	F868_6504	C8/fu362.c
+elks	FUNCTION [G#1, BOOLEAN]	last_result	F869_6499	C6/fu258.c
+elks	FUNCTION [G#1, BOOLEAN]	is_equal	F869_6503	C6/fu258.c
+elks	FUNCTION [G#1, BOOLEAN]	copy	F869_6504	C6/fu258.c
+elks	TYPE [G#1]	name	F747_5288	C5/ty246.c
+elks	TYPE [G#1]	generic_parameter_type	F747_5289	C5/ty246.c
+elks	TYPE [G#1]	type_id	F747_5290	C5/ty246.c
+elks	TYPE [G#1]	hash_code	F747_5291	C5/ty246.c
+elks	TYPE [G#1]	is_attached	F747_5296	C5/ty246.c
+elks	TYPE [G#1]	is_equal	F747_5297	C5/ty246.c
+elks	TYPE [G#1]	default	F747_5304	C5/ty246.c
+elks	TYPE [G#1]	out	F747_5305	C5/ty246.c
+elks	TYPE [G#1]	runtime_name	F747_5316	C5/ty246.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	name	F748_5288	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	generic_parameter_type	F748_5289	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	type_id	F748_5290	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	hash_code	F748_5291	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	is_attached	F748_5296	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	is_equal	F748_5297	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	default	F748_5304	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	out	F748_5305	C6/ty250.c
+elks	TYPE [TYPED_POINTER [NATURAL_64]]	runtime_name	F748_5316	C6/ty250.c
+elks	TYPE [POINTER]	name	F749_5288	C7/ty309.c
+elks	TYPE [POINTER]	generic_parameter_type	F749_5289	C7/ty309.c
+elks	TYPE [POINTER]	type_id	F749_5290	C7/ty309.c
+elks	TYPE [POINTER]	hash_code	F749_5291	C7/ty309.c
+elks	TYPE [POINTER]	is_attached	F749_5296	C7/ty309.c
+elks	TYPE [POINTER]	is_equal	F749_5297	C7/ty309.c
+elks	TYPE [POINTER]	default	F749_5304	C7/ty309.c
+elks	TYPE [POINTER]	out	F749_5305	C7/ty309.c
+elks	TYPE [POINTER]	runtime_name	F749_5316	C7/ty309.c
+elks	TYPE [POINTER]	name	F750_5288	C6/ty251.c
+elks	TYPE [POINTER]	generic_parameter_type	F750_5289	C6/ty251.c
+elks	TYPE [POINTER]	type_id	F750_5290	C6/ty251.c
+elks	TYPE [POINTER]	hash_code	F750_5291	C6/ty251.c
+elks	TYPE [POINTER]	is_attached	F750_5296	C6/ty251.c
+elks	TYPE [POINTER]	is_equal	F750_5297	C6/ty251.c
+elks	TYPE [POINTER]	default	F750_5304	C6/ty251.c
+elks	TYPE [POINTER]	out	F750_5305	C6/ty251.c
+elks	TYPE [POINTER]	runtime_name	F750_5316	C6/ty251.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	name	F751_5288	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	generic_parameter_type	F751_5289	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	type_id	F751_5290	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	hash_code	F751_5291	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	is_attached	F751_5296	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	is_equal	F751_5297	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	default	F751_5304	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	out	F751_5305	C6/ty255.c
+elks	TYPE [TYPED_POINTER [INTEGER_16]]	runtime_name	F751_5316	C6/ty255.c
+elks	TYPE [TYPED_POINTER [ANY]]	name	F753_5288	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	generic_parameter_type	F753_5289	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	type_id	F753_5290	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	hash_code	F753_5291	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	is_attached	F753_5296	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	is_equal	F753_5297	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	default	F753_5304	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	out	F753_5305	C6/ty261.c
+elks	TYPE [TYPED_POINTER [ANY]]	runtime_name	F753_5316	C6/ty261.c
+elks	TYPE [REAL_64]	name	F754_5288	C10/ty484.c
+elks	TYPE [REAL_64]	generic_parameter_type	F754_5289	C10/ty484.c
+elks	TYPE [REAL_64]	type_id	F754_5290	C10/ty484.c
+elks	TYPE [REAL_64]	hash_code	F754_5291	C10/ty484.c
+elks	TYPE [REAL_64]	is_attached	F754_5296	C10/ty484.c
+elks	TYPE [REAL_64]	is_equal	F754_5297	C10/ty484.c
+elks	TYPE [REAL_64]	default	F754_5304	C10/ty484.c
+elks	TYPE [REAL_64]	out	F754_5305	C10/ty484.c
+elks	TYPE [REAL_64]	runtime_name	F754_5316	C10/ty484.c
+elks	TYPE [REAL_64]	name	F755_5288	C6/ty284.c
+elks	TYPE [REAL_64]	generic_parameter_type	F755_5289	C6/ty284.c
+elks	TYPE [REAL_64]	type_id	F755_5290	C6/ty284.c
+elks	TYPE [REAL_64]	hash_code	F755_5291	C6/ty284.c
+elks	TYPE [REAL_64]	is_attached	F755_5296	C6/ty284.c
+elks	TYPE [REAL_64]	is_equal	F755_5297	C6/ty284.c
+elks	TYPE [REAL_64]	default	F755_5304	C6/ty284.c
+elks	TYPE [REAL_64]	out	F755_5305	C6/ty284.c
+elks	TYPE [REAL_64]	runtime_name	F755_5316	C6/ty284.c
+elks	TYPE [REAL_32]	name	F756_5288	C8/ty375.c
+elks	TYPE [REAL_32]	generic_parameter_type	F756_5289	C8/ty375.c
+elks	TYPE [REAL_32]	type_id	F756_5290	C8/ty375.c
+elks	TYPE [REAL_32]	hash_code	F756_5291	C8/ty375.c
+elks	TYPE [REAL_32]	is_attached	F756_5296	C8/ty375.c
+elks	TYPE [REAL_32]	is_equal	F756_5297	C8/ty375.c
+elks	TYPE [REAL_32]	default	F756_5304	C8/ty375.c
+elks	TYPE [REAL_32]	out	F756_5305	C8/ty375.c
+elks	TYPE [REAL_32]	runtime_name	F756_5316	C8/ty375.c
+elks	TYPE [REAL_32]	name	F757_5288	C6/ty285.c
+elks	TYPE [REAL_32]	generic_parameter_type	F757_5289	C6/ty285.c
+elks	TYPE [REAL_32]	type_id	F757_5290	C6/ty285.c
+elks	TYPE [REAL_32]	hash_code	F757_5291	C6/ty285.c
+elks	TYPE [REAL_32]	is_attached	F757_5296	C6/ty285.c
+elks	TYPE [REAL_32]	is_equal	F757_5297	C6/ty285.c
+elks	TYPE [REAL_32]	default	F757_5304	C6/ty285.c
+elks	TYPE [REAL_32]	out	F757_5305	C6/ty285.c
+elks	TYPE [REAL_32]	runtime_name	F757_5316	C6/ty285.c
+elks	TYPE [NATURAL_8]	name	F758_5288	C12/ty585.c
+elks	TYPE [NATURAL_8]	generic_parameter_type	F758_5289	C12/ty585.c
+elks	TYPE [NATURAL_8]	type_id	F758_5290	C12/ty585.c
+elks	TYPE [NATURAL_8]	hash_code	F758_5291	C12/ty585.c
+elks	TYPE [NATURAL_8]	is_attached	F758_5296	C12/ty585.c
+elks	TYPE [NATURAL_8]	is_equal	F758_5297	C12/ty585.c
+elks	TYPE [NATURAL_8]	default	F758_5304	C12/ty585.c
+elks	TYPE [NATURAL_8]	out	F758_5305	C12/ty585.c
+elks	TYPE [NATURAL_8]	runtime_name	F758_5316	C12/ty585.c
+elks	TYPE [NATURAL_8]	name	F759_5288	C6/ty286.c
+elks	TYPE [NATURAL_8]	generic_parameter_type	F759_5289	C6/ty286.c
+elks	TYPE [NATURAL_8]	type_id	F759_5290	C6/ty286.c
+elks	TYPE [NATURAL_8]	hash_code	F759_5291	C6/ty286.c
+elks	TYPE [NATURAL_8]	is_attached	F759_5296	C6/ty286.c
+elks	TYPE [NATURAL_8]	is_equal	F759_5297	C6/ty286.c
+elks	TYPE [NATURAL_8]	default	F759_5304	C6/ty286.c
+elks	TYPE [NATURAL_8]	out	F759_5305	C6/ty286.c
+elks	TYPE [NATURAL_8]	runtime_name	F759_5316	C6/ty286.c
+elks	TYPE [NATURAL_16]	name	F760_5288	C13/ty621.c
+elks	TYPE [NATURAL_16]	generic_parameter_type	F760_5289	C13/ty621.c
+elks	TYPE [NATURAL_16]	type_id	F760_5290	C13/ty621.c
+elks	TYPE [NATURAL_16]	hash_code	F760_5291	C13/ty621.c
+elks	TYPE [NATURAL_16]	is_attached	F760_5296	C13/ty621.c
+elks	TYPE [NATURAL_16]	is_equal	F760_5297	C13/ty621.c
+elks	TYPE [NATURAL_16]	default	F760_5304	C13/ty621.c
+elks	TYPE [NATURAL_16]	out	F760_5305	C13/ty621.c
+elks	TYPE [NATURAL_16]	runtime_name	F760_5316	C13/ty621.c
+elks	TYPE [NATURAL_16]	name	F761_5288	C6/ty287.c
+elks	TYPE [NATURAL_16]	generic_parameter_type	F761_5289	C6/ty287.c
+elks	TYPE [NATURAL_16]	type_id	F761_5290	C6/ty287.c
+elks	TYPE [NATURAL_16]	hash_code	F761_5291	C6/ty287.c
+elks	TYPE [NATURAL_16]	is_attached	F761_5296	C6/ty287.c
+elks	TYPE [NATURAL_16]	is_equal	F761_5297	C6/ty287.c
+elks	TYPE [NATURAL_16]	default	F761_5304	C6/ty287.c
+elks	TYPE [NATURAL_16]	out	F761_5305	C6/ty287.c
+elks	TYPE [NATURAL_16]	runtime_name	F761_5316	C6/ty287.c
+elks	TYPE [NATURAL_32]	name	F762_5288	C14/ty694.c
+elks	TYPE [NATURAL_32]	generic_parameter_type	F762_5289	C14/ty694.c
+elks	TYPE [NATURAL_32]	type_id	F762_5290	C14/ty694.c
+elks	TYPE [NATURAL_32]	hash_code	F762_5291	C14/ty694.c
+elks	TYPE [NATURAL_32]	is_attached	F762_5296	C14/ty694.c
+elks	TYPE [NATURAL_32]	is_equal	F762_5297	C14/ty694.c
+elks	TYPE [NATURAL_32]	default	F762_5304	C14/ty694.c
+elks	TYPE [NATURAL_32]	out	F762_5305	C14/ty694.c
+elks	TYPE [NATURAL_32]	runtime_name	F762_5316	C14/ty694.c
+elks	TYPE [NATURAL_32]	name	F763_5288	C6/ty288.c
+elks	TYPE [NATURAL_32]	generic_parameter_type	F763_5289	C6/ty288.c
+elks	TYPE [NATURAL_32]	type_id	F763_5290	C6/ty288.c
+elks	TYPE [NATURAL_32]	hash_code	F763_5291	C6/ty288.c
+elks	TYPE [NATURAL_32]	is_attached	F763_5296	C6/ty288.c
+elks	TYPE [NATURAL_32]	is_equal	F763_5297	C6/ty288.c
+elks	TYPE [NATURAL_32]	default	F763_5304	C6/ty288.c
+elks	TYPE [NATURAL_32]	out	F763_5305	C6/ty288.c
+elks	TYPE [NATURAL_32]	runtime_name	F763_5316	C6/ty288.c
+elks	TYPE [NATURAL_64]	name	F764_5288	C15/ty729.c
+elks	TYPE [NATURAL_64]	generic_parameter_type	F764_5289	C15/ty729.c
+elks	TYPE [NATURAL_64]	type_id	F764_5290	C15/ty729.c
+elks	TYPE [NATURAL_64]	hash_code	F764_5291	C15/ty729.c
+elks	TYPE [NATURAL_64]	is_attached	F764_5296	C15/ty729.c
+elks	TYPE [NATURAL_64]	is_equal	F764_5297	C15/ty729.c
+elks	TYPE [NATURAL_64]	default	F764_5304	C15/ty729.c
+elks	TYPE [NATURAL_64]	out	F764_5305	C15/ty729.c
+elks	TYPE [NATURAL_64]	runtime_name	F764_5316	C15/ty729.c
+elks	TYPE [NATURAL_64]	name	F765_5288	C6/ty289.c
+elks	TYPE [NATURAL_64]	generic_parameter_type	F765_5289	C6/ty289.c
+elks	TYPE [NATURAL_64]	type_id	F765_5290	C6/ty289.c
+elks	TYPE [NATURAL_64]	hash_code	F765_5291	C6/ty289.c
+elks	TYPE [NATURAL_64]	is_attached	F765_5296	C6/ty289.c
+elks	TYPE [NATURAL_64]	is_equal	F765_5297	C6/ty289.c
+elks	TYPE [NATURAL_64]	default	F765_5304	C6/ty289.c
+elks	TYPE [NATURAL_64]	out	F765_5305	C6/ty289.c
+elks	TYPE [NATURAL_64]	runtime_name	F765_5316	C6/ty289.c
+elks	TYPE [INTEGER_8]	name	F766_5288	C14/ty657.c
+elks	TYPE [INTEGER_8]	generic_parameter_type	F766_5289	C14/ty657.c
+elks	TYPE [INTEGER_8]	type_id	F766_5290	C14/ty657.c
+elks	TYPE [INTEGER_8]	hash_code	F766_5291	C14/ty657.c
+elks	TYPE [INTEGER_8]	is_attached	F766_5296	C14/ty657.c
+elks	TYPE [INTEGER_8]	is_equal	F766_5297	C14/ty657.c
+elks	TYPE [INTEGER_8]	default	F766_5304	C14/ty657.c
+elks	TYPE [INTEGER_8]	out	F766_5305	C14/ty657.c
+elks	TYPE [INTEGER_8]	runtime_name	F766_5316	C14/ty657.c
+elks	TYPE [INTEGER_8]	name	F767_5288	C6/ty290.c
+elks	TYPE [INTEGER_8]	generic_parameter_type	F767_5289	C6/ty290.c
+elks	TYPE [INTEGER_8]	type_id	F767_5290	C6/ty290.c
+elks	TYPE [INTEGER_8]	hash_code	F767_5291	C6/ty290.c
+elks	TYPE [INTEGER_8]	is_attached	F767_5296	C6/ty290.c
+elks	TYPE [INTEGER_8]	is_equal	F767_5297	C6/ty290.c
+elks	TYPE [INTEGER_8]	default	F767_5304	C6/ty290.c
+elks	TYPE [INTEGER_8]	out	F767_5305	C6/ty290.c
+elks	TYPE [INTEGER_8]	runtime_name	F767_5316	C6/ty290.c
+elks	TYPE [INTEGER_16]	name	F768_5288	C16/ty792.c
+elks	TYPE [INTEGER_16]	generic_parameter_type	F768_5289	C16/ty792.c
+elks	TYPE [INTEGER_16]	type_id	F768_5290	C16/ty792.c
+elks	TYPE [INTEGER_16]	hash_code	F768_5291	C16/ty792.c
+elks	TYPE [INTEGER_16]	is_attached	F768_5296	C16/ty792.c
+elks	TYPE [INTEGER_16]	is_equal	F768_5297	C16/ty792.c
+elks	TYPE [INTEGER_16]	default	F768_5304	C16/ty792.c
+elks	TYPE [INTEGER_16]	out	F768_5305	C16/ty792.c
+elks	TYPE [INTEGER_16]	runtime_name	F768_5316	C16/ty792.c
+elks	TYPE [INTEGER_16]	name	F769_5288	C6/ty291.c
+elks	TYPE [INTEGER_16]	generic_parameter_type	F769_5289	C6/ty291.c
+elks	TYPE [INTEGER_16]	type_id	F769_5290	C6/ty291.c
+elks	TYPE [INTEGER_16]	hash_code	F769_5291	C6/ty291.c
+elks	TYPE [INTEGER_16]	is_attached	F769_5296	C6/ty291.c
+elks	TYPE [INTEGER_16]	is_equal	F769_5297	C6/ty291.c
+elks	TYPE [INTEGER_16]	default	F769_5304	C6/ty291.c
+elks	TYPE [INTEGER_16]	out	F769_5305	C6/ty291.c
+elks	TYPE [INTEGER_16]	runtime_name	F769_5316	C6/ty291.c
+elks	TYPE [INTEGER_32]	name	F770_5288	C12/ty556.c
+elks	TYPE [INTEGER_32]	generic_parameter_type	F770_5289	C12/ty556.c
+elks	TYPE [INTEGER_32]	type_id	F770_5290	C12/ty556.c
+elks	TYPE [INTEGER_32]	hash_code	F770_5291	C12/ty556.c
+elks	TYPE [INTEGER_32]	is_attached	F770_5296	C12/ty556.c
+elks	TYPE [INTEGER_32]	is_equal	F770_5297	C12/ty556.c
+elks	TYPE [INTEGER_32]	default	F770_5304	C12/ty556.c
+elks	TYPE [INTEGER_32]	out	F770_5305	C12/ty556.c
+elks	TYPE [INTEGER_32]	runtime_name	F770_5316	C12/ty556.c
+elks	TYPE [INTEGER_32]	name	F771_5288	C6/ty292.c
+elks	TYPE [INTEGER_32]	generic_parameter_type	F771_5289	C6/ty292.c
+elks	TYPE [INTEGER_32]	type_id	F771_5290	C6/ty292.c
+elks	TYPE [INTEGER_32]	hash_code	F771_5291	C6/ty292.c
+elks	TYPE [INTEGER_32]	is_attached	F771_5296	C6/ty292.c
+elks	TYPE [INTEGER_32]	is_equal	F771_5297	C6/ty292.c
+elks	TYPE [INTEGER_32]	default	F771_5304	C6/ty292.c
+elks	TYPE [INTEGER_32]	out	F771_5305	C6/ty292.c
+elks	TYPE [INTEGER_32]	runtime_name	F771_5316	C6/ty292.c
+elks	TYPE [INTEGER_64]	name	F772_5288	C16/ty765.c
+elks	TYPE [INTEGER_64]	generic_parameter_type	F772_5289	C16/ty765.c
+elks	TYPE [INTEGER_64]	type_id	F772_5290	C16/ty765.c
+elks	TYPE [INTEGER_64]	hash_code	F772_5291	C16/ty765.c
+elks	TYPE [INTEGER_64]	is_attached	F772_5296	C16/ty765.c
+elks	TYPE [INTEGER_64]	is_equal	F772_5297	C16/ty765.c
+elks	TYPE [INTEGER_64]	default	F772_5304	C16/ty765.c
+elks	TYPE [INTEGER_64]	out	F772_5305	C16/ty765.c
+elks	TYPE [INTEGER_64]	runtime_name	F772_5316	C16/ty765.c
+elks	TYPE [INTEGER_64]	name	F773_5288	C6/ty293.c
+elks	TYPE [INTEGER_64]	generic_parameter_type	F773_5289	C6/ty293.c
+elks	TYPE [INTEGER_64]	type_id	F773_5290	C6/ty293.c
+elks	TYPE [INTEGER_64]	hash_code	F773_5291	C6/ty293.c
+elks	TYPE [INTEGER_64]	is_attached	F773_5296	C6/ty293.c
+elks	TYPE [INTEGER_64]	is_equal	F773_5297	C6/ty293.c
+elks	TYPE [INTEGER_64]	default	F773_5304	C6/ty293.c
+elks	TYPE [INTEGER_64]	out	F773_5305	C6/ty293.c
+elks	TYPE [INTEGER_64]	runtime_name	F773_5316	C6/ty293.c
+elks	TYPE [CHARACTER_8]	name	F774_5288	C9/ty405.c
+elks	TYPE [CHARACTER_8]	generic_parameter_type	F774_5289	C9/ty405.c
+elks	TYPE [CHARACTER_8]	type_id	F774_5290	C9/ty405.c
+elks	TYPE [CHARACTER_8]	hash_code	F774_5291	C9/ty405.c
+elks	TYPE [CHARACTER_8]	is_attached	F774_5296	C9/ty405.c
+elks	TYPE [CHARACTER_8]	is_equal	F774_5297	C9/ty405.c
+elks	TYPE [CHARACTER_8]	default	F774_5304	C9/ty405.c
+elks	TYPE [CHARACTER_8]	out	F774_5305	C9/ty405.c
+elks	TYPE [CHARACTER_8]	runtime_name	F774_5316	C9/ty405.c
+elks	TYPE [CHARACTER_8]	name	F775_5288	C6/ty294.c
+elks	TYPE [CHARACTER_8]	generic_parameter_type	F775_5289	C6/ty294.c
+elks	TYPE [CHARACTER_8]	type_id	F775_5290	C6/ty294.c
+elks	TYPE [CHARACTER_8]	hash_code	F775_5291	C6/ty294.c
+elks	TYPE [CHARACTER_8]	is_attached	F775_5296	C6/ty294.c
+elks	TYPE [CHARACTER_8]	is_equal	F775_5297	C6/ty294.c
+elks	TYPE [CHARACTER_8]	default	F775_5304	C6/ty294.c
+elks	TYPE [CHARACTER_8]	out	F775_5305	C6/ty294.c
+elks	TYPE [CHARACTER_8]	runtime_name	F775_5316	C6/ty294.c
+elks	TYPE [CHARACTER_32]	name	F776_5288	C17/ty835.c
+elks	TYPE [CHARACTER_32]	generic_parameter_type	F776_5289	C17/ty835.c
+elks	TYPE [CHARACTER_32]	type_id	F776_5290	C17/ty835.c
+elks	TYPE [CHARACTER_32]	hash_code	F776_5291	C17/ty835.c
+elks	TYPE [CHARACTER_32]	is_attached	F776_5296	C17/ty835.c
+elks	TYPE [CHARACTER_32]	is_equal	F776_5297	C17/ty835.c
+elks	TYPE [CHARACTER_32]	default	F776_5304	C17/ty835.c
+elks	TYPE [CHARACTER_32]	out	F776_5305	C17/ty835.c
+elks	TYPE [CHARACTER_32]	runtime_name	F776_5316	C17/ty835.c
+elks	TYPE [CHARACTER_32]	name	F777_5288	C6/ty295.c
+elks	TYPE [CHARACTER_32]	generic_parameter_type	F777_5289	C6/ty295.c
+elks	TYPE [CHARACTER_32]	type_id	F777_5290	C6/ty295.c
+elks	TYPE [CHARACTER_32]	hash_code	F777_5291	C6/ty295.c
+elks	TYPE [CHARACTER_32]	is_attached	F777_5296	C6/ty295.c
+elks	TYPE [CHARACTER_32]	is_equal	F777_5297	C6/ty295.c
+elks	TYPE [CHARACTER_32]	default	F777_5304	C6/ty295.c
+elks	TYPE [CHARACTER_32]	out	F777_5305	C6/ty295.c
+elks	TYPE [CHARACTER_32]	runtime_name	F777_5316	C6/ty295.c
+elks	TYPE [BOOLEAN]	name	F778_5288	C17/ty802.c
+elks	TYPE [BOOLEAN]	generic_parameter_type	F778_5289	C17/ty802.c
+elks	TYPE [BOOLEAN]	type_id	F778_5290	C17/ty802.c
+elks	TYPE [BOOLEAN]	hash_code	F778_5291	C17/ty802.c
+elks	TYPE [BOOLEAN]	is_attached	F778_5296	C17/ty802.c
+elks	TYPE [BOOLEAN]	is_equal	F778_5297	C17/ty802.c
+elks	TYPE [BOOLEAN]	default	F778_5304	C17/ty802.c
+elks	TYPE [BOOLEAN]	out	F778_5305	C17/ty802.c
+elks	TYPE [BOOLEAN]	runtime_name	F778_5316	C17/ty802.c
+elks	TYPE [BOOLEAN]	name	F779_5288	C6/ty296.c
+elks	TYPE [BOOLEAN]	generic_parameter_type	F779_5289	C6/ty296.c
+elks	TYPE [BOOLEAN]	type_id	F779_5290	C6/ty296.c
+elks	TYPE [BOOLEAN]	hash_code	F779_5291	C6/ty296.c
+elks	TYPE [BOOLEAN]	is_attached	F779_5296	C6/ty296.c
+elks	TYPE [BOOLEAN]	is_equal	F779_5297	C6/ty296.c
+elks	TYPE [BOOLEAN]	default	F779_5304	C6/ty296.c
+elks	TYPE [BOOLEAN]	out	F779_5305	C6/ty296.c
+elks	TYPE [BOOLEAN]	runtime_name	F779_5316	C6/ty296.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	name	F780_5288	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	generic_parameter_type	F780_5289	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	type_id	F780_5290	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	hash_code	F780_5291	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	is_attached	F780_5296	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	is_equal	F780_5297	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	default	F780_5304	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	out	F780_5305	C8/ty361.c
+elks	TYPE [TYPED_POINTER [REAL_64]]	runtime_name	F780_5316	C8/ty361.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	name	F781_5288	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	generic_parameter_type	F781_5289	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	type_id	F781_5290	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	hash_code	F781_5291	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	is_attached	F781_5296	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	is_equal	F781_5297	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	default	F781_5304	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	out	F781_5305	C9/ty435.c
+elks	TYPE [TYPED_POINTER [INTEGER_64]]	runtime_name	F781_5316	C9/ty435.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	name	F782_5288	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	generic_parameter_type	F782_5289	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	type_id	F782_5290	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	hash_code	F782_5291	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	is_attached	F782_5296	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	is_equal	F782_5297	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	default	F782_5304	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	out	F782_5305	C9/ty439.c
+elks	TYPE [TYPED_POINTER [NATURAL_32]]	runtime_name	F782_5316	C9/ty439.c
+elks	TYPE [UTF_CONVERTER]	name	F783_5288	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	generic_parameter_type	F783_5289	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	type_id	F783_5290	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	hash_code	F783_5291	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	is_attached	F783_5296	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	is_equal	F783_5297	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	default	F783_5304	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	out	F783_5305	C9/ty440.c
+elks	TYPE [UTF_CONVERTER]	runtime_name	F783_5316	C9/ty440.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	name	F784_5288	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	generic_parameter_type	F784_5289	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	type_id	F784_5290	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	hash_code	F784_5291	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	is_attached	F784_5296	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	is_equal	F784_5297	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	default	F784_5304	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	out	F784_5305	C9/ty448.c
+elks	TYPE [TYPED_POINTER [INTEGER_8]]	runtime_name	F784_5316	C9/ty448.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	name	F785_5288	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	generic_parameter_type	F785_5289	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	type_id	F785_5290	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	hash_code	F785_5291	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	is_attached	F785_5296	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	is_equal	F785_5297	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	default	F785_5304	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	out	F785_5305	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_8]]	runtime_name	F785_5316	C10/ty452.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	name	F786_5288	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	generic_parameter_type	F786_5289	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	type_id	F786_5290	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	hash_code	F786_5291	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	is_attached	F786_5296	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	is_equal	F786_5297	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	default	F786_5304	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	out	F786_5305	C10/ty456.c
+elks	TYPE [TYPED_POINTER [NATURAL_16]]	runtime_name	F786_5316	C10/ty456.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	name	F787_5288	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	generic_parameter_type	F787_5289	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	type_id	F787_5290	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	hash_code	F787_5291	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	is_attached	F787_5296	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	is_equal	F787_5297	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	default	F787_5304	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	out	F787_5305	C10/ty473.c
+elks	TYPE [TYPED_POINTER [REAL_32]]	runtime_name	F787_5316	C10/ty473.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	name	F788_5288	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	generic_parameter_type	F788_5289	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	type_id	F788_5290	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	hash_code	F788_5291	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	is_attached	F788_5296	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	is_equal	F788_5297	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	default	F788_5304	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	out	F788_5305	C11/ty548.c
+elks	TYPE [TYPED_POINTER [INTEGER_32]]	runtime_name	F788_5316	C11/ty548.c
+elks	TYPE [TYPED_POINTER [POINTER]]	name	F789_5288	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	generic_parameter_type	F789_5289	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	type_id	F789_5290	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	hash_code	F789_5291	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	is_attached	F789_5296	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	is_equal	F789_5297	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	default	F789_5304	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	out	F789_5305	C12/ty575.c
+elks	TYPE [TYPED_POINTER [POINTER]]	runtime_name	F789_5316	C12/ty575.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	name	F790_5288	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	generic_parameter_type	F790_5289	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	type_id	F790_5290	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	hash_code	F790_5291	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	is_attached	F790_5296	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	is_equal	F790_5297	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	default	F790_5304	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	out	F790_5305	C18/ty864.c
+elks	TYPE [TYPED_POINTER [BOOLEAN]]	runtime_name	F790_5316	C18/ty864.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	name	F791_5288	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	generic_parameter_type	F791_5289	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	type_id	F791_5290	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	hash_code	F791_5291	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	is_attached	F791_5296	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	is_equal	F791_5297	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	default	F791_5304	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	out	F791_5305	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_8]]	runtime_name	F791_5316	C18/ty869.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	name	F792_5288	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	generic_parameter_type	F792_5289	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	type_id	F792_5290	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	hash_code	F792_5291	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	is_attached	F792_5296	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	is_equal	F792_5297	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	default	F792_5304	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	out	F792_5305	C18/ty884.c
+elks	TYPE [TYPED_POINTER [CHARACTER_32]]	runtime_name	F792_5316	C18/ty884.c
+elks	STRING_8	character_32_item	F874_6698	C5/st233.c
+elks	STRING_8	code	F874_6699	C5/st233.c
+elks	STRING_8	put	F874_6718	C5/st233.c
+elks	STRING_8	put_code	F874_6719	C5/st233.c
+elks	STRING_8	append_string_general	F874_6730	C5/st233.c
+elks	STRING_8	append	F874_6731	C5/st233.c
+elks	STRING_8	plus	F874_6733	C5/st233.c
+elks	STRING_8	append_string	F874_6734	C5/st233.c
+elks	STRING_8	append_integer	F874_6735	C5/st233.c
+elks	STRING_8	append_integer_8	F874_6736	C5/st233.c
+elks	STRING_8	append_integer_16	F874_6737	C5/st233.c
+elks	STRING_8	append_integer_64	F874_6738	C5/st233.c
+elks	STRING_8	append_natural_8	F874_6739	C5/st233.c
+elks	STRING_8	append_natural_16	F874_6740	C5/st233.c
+elks	STRING_8	append_natural_32	F874_6741	C5/st233.c
+elks	STRING_8	append_natural_64	F874_6742	C5/st233.c
+elks	STRING_8	append_character	F874_6745	C5/st233.c
+elks	STRING_8	extend	F874_6746	C5/st233.c
+elks	STRING_8	resize	F874_6762	C5/st233.c
+elks	STRING_8	grow	F874_6763	C5/st233.c
+elks	STRING_8	substring	F874_6777	C5/st233.c
+elks	STRING_8	set_count	F874_6779	C5/st233.c
+elks	STRING_8	correct_mismatch	F874_6780	C5/st233.c
+elks	STRING_8	new_string	F874_6781	C5/st233.c
+elks	STRING_32	item	F876_6904	C5/st239.c
+elks	STRING_32	code	F876_6906	C5/st239.c
+elks	STRING_32	put_code	F876_6926	C5/st239.c
+elks	STRING_32	append_string_general	F876_6937	C5/st239.c
+elks	STRING_32	append	F876_6938	C5/st239.c
+elks	STRING_32	append_character	F876_6952	C5/st239.c
+elks	STRING_32	extend	F876_6953	C5/st239.c
+elks	STRING_32	resize	F876_6969	C5/st239.c
+elks	STRING_32	grow	F876_6970	C5/st239.c
+elks	STRING_32	substring	F876_6984	C5/st239.c
+elks	STRING_32	set_count	F876_6986	C5/st239.c
+elks	STRING_32	new_string	F876_6987	C5/st239.c
+elks	STRING_32	correct_mismatch	F876_6988	C5/st239.c
+elks	reference REAL_64	is_less	F810_5783	C5/re205.c
+elks	reference REAL_64	truncated_to_integer	F810_5787	C5/re205.c
+elks	reference REAL_64	plus	F810_5792	C5/re205.c
+elks	reference REAL_64	minus	F810_5793	C5/re205.c
+elks	reference REAL_64	product	F810_5794	C5/re205.c
+elks	reference REAL_64	quotient	F810_5795	C5/re205.c
+elks	reference REAL_64	out	F810_5806	C5/re205.c
+elks	REAL_64	is_less	F811_5783	C5/re204.c
+elks	REAL_64	truncated_to_integer	F811_5787	C5/re204.c
+elks	REAL_64	plus	F811_5792	C5/re204.c
+elks	REAL_64	minus	F811_5793	C5/re204.c
+elks	REAL_64	product	F811_5794	C5/re204.c
+elks	REAL_64	quotient	F811_5795	C5/re204.c
+elks	REAL_64	out	F811_5806	C5/re204.c
+elks	reference REAL_32	is_less	F816_5940	C5/re211.c
+elks	reference REAL_32	truncated_to_integer	F816_5944	C5/re211.c
+elks	reference REAL_32	out	F816_5963	C5/re211.c
+elks	REAL_32	is_less	F817_5940	C5/re210.c
+elks	REAL_32	truncated_to_integer	F817_5944	C5/re210.c
+elks	REAL_32	out	F817_5963	C5/re210.c
+elks	reference NATURAL_8	is_less	F813_5871	C5/na208.c
+elks	reference NATURAL_8	plus	F813_5872	C5/na208.c
+elks	reference NATURAL_8	integer_quotient	F813_5877	C5/na208.c
+elks	reference NATURAL_8	integer_remainder	F813_5878	C5/na208.c
+elks	reference NATURAL_8	as_natural_16	F813_5881	C5/na208.c
+elks	reference NATURAL_8	as_natural_32	F813_5882	C5/na208.c
+elks	reference NATURAL_8	as_natural_64	F813_5883	C5/na208.c
+elks	reference NATURAL_8	as_integer_32	F813_5886	C5/na208.c
+elks	reference NATURAL_8	to_character_8	F813_5890	C5/na208.c
+elks	reference NATURAL_8	to_character_32	F813_5891	C5/na208.c
+elks	reference NATURAL_8	bit_and	F813_5892	C5/na208.c
+elks	reference NATURAL_8	bit_or	F813_5893	C5/na208.c
+elks	NATURAL_8	is_less	F814_5871	C5/na207.c
+elks	NATURAL_8	plus	F814_5872	C5/na207.c
+elks	NATURAL_8	integer_quotient	F814_5877	C5/na207.c
+elks	NATURAL_8	integer_remainder	F814_5878	C5/na207.c
+elks	NATURAL_8	as_natural_16	F814_5881	C5/na207.c
+elks	NATURAL_8	as_natural_32	F814_5882	C5/na207.c
+elks	NATURAL_8	as_natural_64	F814_5883	C5/na207.c
+elks	NATURAL_8	as_integer_32	F814_5886	C5/na207.c
+elks	NATURAL_8	to_character_8	F814_5890	C5/na207.c
+elks	NATURAL_8	to_character_32	F814_5891	C5/na207.c
+elks	NATURAL_8	bit_and	F814_5892	C5/na207.c
+elks	NATURAL_8	bit_or	F814_5893	C5/na207.c
+elks	reference NATURAL_16	is_less	F825_6213	C5/na220.c
+elks	reference NATURAL_16	plus	F825_6214	C5/na220.c
+elks	reference NATURAL_16	integer_quotient	F825_6219	C5/na220.c
+elks	reference NATURAL_16	integer_remainder	F825_6220	C5/na220.c
+elks	reference NATURAL_16	as_natural_8	F825_6222	C5/na220.c
+elks	reference NATURAL_16	as_natural_32	F825_6224	C5/na220.c
+elks	reference NATURAL_16	as_natural_64	F825_6225	C5/na220.c
+elks	reference NATURAL_16	as_integer_32	F825_6228	C5/na220.c
+elks	reference NATURAL_16	to_character_8	F825_6232	C5/na220.c
+elks	reference NATURAL_16	to_character_32	F825_6233	C5/na220.c
+elks	NATURAL_16	is_less	F826_6213	C5/na219.c
+elks	NATURAL_16	plus	F826_6214	C5/na219.c
+elks	NATURAL_16	integer_quotient	F826_6219	C5/na219.c
+elks	NATURAL_16	integer_remainder	F826_6220	C5/na219.c
+elks	NATURAL_16	as_natural_8	F826_6222	C5/na219.c
+elks	NATURAL_16	as_natural_32	F826_6224	C5/na219.c
+elks	NATURAL_16	as_natural_64	F826_6225	C5/na219.c
+elks	NATURAL_16	as_integer_32	F826_6228	C5/na219.c
+elks	NATURAL_16	to_character_8	F826_6232	C5/na219.c
+elks	NATURAL_16	to_character_32	F826_6233	C5/na219.c
+elks	reference NATURAL_32	is_less	F822_6122	C5/na217.c
+elks	reference NATURAL_32	plus	F822_6123	C5/na217.c
+elks	reference NATURAL_32	minus	F822_6124	C5/na217.c
+elks	reference NATURAL_32	integer_quotient	F822_6128	C5/na217.c
+elks	reference NATURAL_32	integer_remainder	F822_6129	C5/na217.c
+elks	reference NATURAL_32	as_natural_8	F822_6131	C5/na217.c
+elks	reference NATURAL_32	as_natural_16	F822_6132	C5/na217.c
+elks	reference NATURAL_32	as_natural_64	F822_6134	C5/na217.c
+elks	reference NATURAL_32	as_integer_32	F822_6137	C5/na217.c
+elks	reference NATURAL_32	as_integer_64	F822_6138	C5/na217.c
+elks	reference NATURAL_32	to_character_8	F822_6141	C5/na217.c
+elks	reference NATURAL_32	to_character_32	F822_6142	C5/na217.c
+elks	reference NATURAL_32	bit_and	F822_6143	C5/na217.c
+elks	reference NATURAL_32	bit_or	F822_6144	C5/na217.c
+elks	reference NATURAL_32	bit_shift_left	F822_6147	C5/na217.c
+elks	reference NATURAL_32	bit_shift_right	F822_6148	C5/na217.c
+elks	NATURAL_32	is_less	F823_6122	C5/na216.c
+elks	NATURAL_32	plus	F823_6123	C5/na216.c
+elks	NATURAL_32	minus	F823_6124	C5/na216.c
+elks	NATURAL_32	integer_quotient	F823_6128	C5/na216.c
+elks	NATURAL_32	integer_remainder	F823_6129	C5/na216.c
+elks	NATURAL_32	as_natural_8	F823_6131	C5/na216.c
+elks	NATURAL_32	as_natural_16	F823_6132	C5/na216.c
+elks	NATURAL_32	as_natural_64	F823_6134	C5/na216.c
+elks	NATURAL_32	as_integer_32	F823_6137	C5/na216.c
+elks	NATURAL_32	as_integer_64	F823_6138	C5/na216.c
+elks	NATURAL_32	to_character_8	F823_6141	C5/na216.c
+elks	NATURAL_32	to_character_32	F823_6142	C5/na216.c
+elks	NATURAL_32	bit_and	F823_6143	C5/na216.c
+elks	NATURAL_32	bit_or	F823_6144	C5/na216.c
+elks	NATURAL_32	bit_shift_left	F823_6147	C5/na216.c
+elks	NATURAL_32	bit_shift_right	F823_6148	C5/na216.c
+elks	reference NATURAL_64	is_less	F831_6398	C5/na226.c
+elks	reference NATURAL_64	plus	F831_6399	C5/na226.c
+elks	reference NATURAL_64	product	F831_6401	C5/na226.c
+elks	reference NATURAL_64	integer_quotient	F831_6404	C5/na226.c
+elks	reference NATURAL_64	integer_remainder	F831_6405	C5/na226.c
+elks	reference NATURAL_64	as_natural_32	F831_6409	C5/na226.c
+elks	reference NATURAL_64	as_integer_32	F831_6413	C5/na226.c
+elks	reference NATURAL_64	to_character_8	F831_6417	C5/na226.c
+elks	reference NATURAL_64	bit_and	F831_6419	C5/na226.c
+elks	NATURAL_64	is_less	F832_6398	C5/na225.c
+elks	NATURAL_64	plus	F832_6399	C5/na225.c
+elks	NATURAL_64	product	F832_6401	C5/na225.c
+elks	NATURAL_64	integer_quotient	F832_6404	C5/na225.c
+elks	NATURAL_64	integer_remainder	F832_6405	C5/na225.c
+elks	NATURAL_64	as_natural_32	F832_6409	C5/na225.c
+elks	NATURAL_64	as_integer_32	F832_6413	C5/na225.c
+elks	NATURAL_64	to_character_8	F832_6417	C5/na225.c
+elks	NATURAL_64	bit_and	F832_6419	C5/na225.c
+elks	reference INTEGER_8	is_less	F795_5512	C4/in190.c
+elks	reference INTEGER_8	plus	F795_5513	C4/in190.c
+elks	reference INTEGER_8	opposite	F795_5518	C4/in190.c
+elks	reference INTEGER_8	integer_quotient	F795_5519	C4/in190.c
+elks	reference INTEGER_8	integer_remainder	F795_5520	C4/in190.c
+elks	reference INTEGER_8	as_natural_64	F795_5525	C4/in190.c
+elks	reference INTEGER_8	as_integer_32	F795_5528	C4/in190.c
+elks	reference INTEGER_8	to_character_8	F795_5532	C4/in190.c
+elks	INTEGER_8	is_less	F796_5512	C4/in189.c
+elks	INTEGER_8	plus	F796_5513	C4/in189.c
+elks	INTEGER_8	opposite	F796_5518	C4/in189.c
+elks	INTEGER_8	integer_quotient	F796_5519	C4/in189.c
+elks	INTEGER_8	integer_remainder	F796_5520	C4/in189.c
+elks	INTEGER_8	as_natural_64	F796_5525	C4/in189.c
+elks	INTEGER_8	as_integer_32	F796_5528	C4/in189.c
+elks	INTEGER_8	to_character_8	F796_5532	C4/in189.c
+elks	reference INTEGER_16	is_less	F819_6031	C5/in214.c
+elks	reference INTEGER_16	plus	F819_6032	C5/in214.c
+elks	reference INTEGER_16	opposite	F819_6037	C5/in214.c
+elks	reference INTEGER_16	integer_quotient	F819_6038	C5/in214.c
+elks	reference INTEGER_16	integer_remainder	F819_6039	C5/in214.c
+elks	reference INTEGER_16	as_natural_64	F819_6044	C5/in214.c
+elks	reference INTEGER_16	as_integer_32	F819_6047	C5/in214.c
+elks	reference INTEGER_16	to_character_8	F819_6051	C5/in214.c
+elks	INTEGER_16	is_less	F820_6031	C5/in213.c
+elks	INTEGER_16	plus	F820_6032	C5/in213.c
+elks	INTEGER_16	opposite	F820_6037	C5/in213.c
+elks	INTEGER_16	integer_quotient	F820_6038	C5/in213.c
+elks	INTEGER_16	integer_remainder	F820_6039	C5/in213.c
+elks	INTEGER_16	as_natural_64	F820_6044	C5/in213.c
+elks	INTEGER_16	as_integer_32	F820_6047	C5/in213.c
+elks	INTEGER_16	to_character_8	F820_6051	C5/in213.c
+elks	reference INTEGER_32	is_less	F828_6307	C5/in223.c
+elks	reference INTEGER_32	plus	F828_6308	C5/in223.c
+elks	reference INTEGER_32	minus	F828_6309	C5/in223.c
+elks	reference INTEGER_32	product	F828_6310	C5/in223.c
+elks	reference INTEGER_32	opposite	F828_6313	C5/in223.c
+elks	reference INTEGER_32	integer_quotient	F828_6314	C5/in223.c
+elks	reference INTEGER_32	integer_remainder	F828_6315	C5/in223.c
+elks	reference INTEGER_32	as_natural_32	F828_6319	C5/in223.c
+elks	reference INTEGER_32	as_natural_64	F828_6320	C5/in223.c
+elks	reference INTEGER_32	as_integer_64	F828_6324	C5/in223.c
+elks	reference INTEGER_32	to_double	F828_6326	C5/in223.c
+elks	reference INTEGER_32	to_character_8	F828_6327	C5/in223.c
+elks	reference INTEGER_32	bit_and	F828_6329	C5/in223.c
+elks	reference INTEGER_32	bit_xor	F828_6331	C5/in223.c
+elks	reference INTEGER_32	bit_shift_left	F828_6333	C5/in223.c
+elks	reference INTEGER_32	bit_shift_right	F828_6334	C5/in223.c
+elks	INTEGER_32	is_less	F829_6307	C5/in222.c
+elks	INTEGER_32	plus	F829_6308	C5/in222.c
+elks	INTEGER_32	minus	F829_6309	C5/in222.c
+elks	INTEGER_32	product	F829_6310	C5/in222.c
+elks	INTEGER_32	opposite	F829_6313	C5/in222.c
+elks	INTEGER_32	integer_quotient	F829_6314	C5/in222.c
+elks	INTEGER_32	integer_remainder	F829_6315	C5/in222.c
+elks	INTEGER_32	as_natural_32	F829_6319	C5/in222.c
+elks	INTEGER_32	as_natural_64	F829_6320	C5/in222.c
+elks	INTEGER_32	as_integer_64	F829_6324	C5/in222.c
+elks	INTEGER_32	to_double	F829_6326	C5/in222.c
+elks	INTEGER_32	to_character_8	F829_6327	C5/in222.c
+elks	INTEGER_32	bit_and	F829_6329	C5/in222.c
+elks	INTEGER_32	bit_xor	F829_6331	C5/in222.c
+elks	INTEGER_32	bit_shift_left	F829_6333	C5/in222.c
+elks	INTEGER_32	bit_shift_right	F829_6334	C5/in222.c
+elks	reference INTEGER_64	is_less	F804_5692	C4/in199.c
+elks	reference INTEGER_64	plus	F804_5693	C4/in199.c
+elks	reference INTEGER_64	opposite	F804_5698	C4/in199.c
+elks	reference INTEGER_64	integer_quotient	F804_5699	C4/in199.c
+elks	reference INTEGER_64	integer_remainder	F804_5700	C4/in199.c
+elks	reference INTEGER_64	as_natural_64	F804_5705	C4/in199.c
+elks	reference INTEGER_64	as_integer_32	F804_5708	C4/in199.c
+elks	reference INTEGER_64	to_character_8	F804_5712	C4/in199.c
+elks	reference INTEGER_64	bit_and	F804_5714	C4/in199.c
+elks	INTEGER_64	is_less	F805_5692	C4/in198.c
+elks	INTEGER_64	plus	F805_5693	C4/in198.c
+elks	INTEGER_64	opposite	F805_5698	C4/in198.c
+elks	INTEGER_64	integer_quotient	F805_5699	C4/in198.c
+elks	INTEGER_64	integer_remainder	F805_5700	C4/in198.c
+elks	INTEGER_64	as_natural_64	F805_5705	C4/in198.c
+elks	INTEGER_64	as_integer_32	F805_5708	C4/in198.c
+elks	INTEGER_64	to_character_8	F805_5712	C4/in198.c
+elks	INTEGER_64	bit_and	F805_5714	C4/in198.c
+elks	reference CHARACTER_8	code	F801_5624	C4/ch196.c
+elks	reference CHARACTER_8	to_character_32	F801_5625	C4/ch196.c
+elks	CHARACTER_8	code	F802_5624	C4/ch195.c
+elks	CHARACTER_8	to_character_32	F802_5625	C4/ch195.c
+elks	reference CHARACTER_32	code	F798_5576	C4/ch193.c
+elks	reference CHARACTER_32	natural_32_code	F798_5577	C4/ch193.c
+elks	reference CHARACTER_32	to_character_8	F798_5578	C4/ch193.c
+elks	CHARACTER_32	code	F799_5576	C4/ch192.c
+elks	CHARACTER_32	natural_32_code	F799_5577	C4/ch192.c
+elks	CHARACTER_32	to_character_8	F799_5578	C4/ch192.c
+elks	reference BOOLEAN	conjuncted	F807_5734	C5/bo202.c
+elks	reference BOOLEAN	conjuncted_semistrict	F807_5735	C5/bo202.c
+elks	reference BOOLEAN	implication	F807_5736	C5/bo202.c
+elks	reference BOOLEAN	negated	F807_5737	C5/bo202.c
+elks	reference BOOLEAN	disjuncted	F807_5738	C5/bo202.c
+elks	reference BOOLEAN	disjuncted_semistrict	F807_5739	C5/bo202.c
+elks	BOOLEAN	conjuncted	F808_5734	C5/bo201.c
+elks	BOOLEAN	conjuncted_semistrict	F808_5735	C5/bo201.c
+elks	BOOLEAN	implication	F808_5736	C5/bo201.c
+elks	BOOLEAN	negated	F808_5737	C5/bo201.c
+elks	BOOLEAN	disjuncted	F808_5738	C5/bo201.c
+elks	BOOLEAN	disjuncted_semistrict	F808_5739	C5/bo201.c
+ise	ISE_EXCEPTION_MANAGER	last_exception	F94_1603	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	raise	F94_1604	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	is_ignored	F94_1610	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	type_of_code	F94_1612	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	exception_from_code	F94_1613	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	exception_data	F94_1614	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	set_last_exception	F94_1615	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	set_exception_data	F94_1616	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	ignored_exceptions	F94_1617	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	unignorable_exceptions	F94_1618	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	unraisable_exceptions	F94_1619	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	exception_data_cell	F94_1620	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	last_exception_cell	F94_1621	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	no_memory_exception_object_cell	F94_1622	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	is_code_ignored	F94_1623	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	exception_from_data	F94_1624	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	once_raise	F94_1625	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	init_exception_manager	F94_1626	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	free_preallocated_trace	F94_1627	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	developer_raise	F94_1628	C3/is113.c
+ise	ISE_EXCEPTION_MANAGER	in_rescue	F94_1629	C3/is113.c
+elks	EXCEPTION	raise	F49_1379	C2/ex63.c
+elks	EXCEPTION	trace	F49_1385	C2/ex63.c
+elks	EXCEPTION	code	F49_1386	C2/ex63.c
+elks	EXCEPTION	original	F49_1387	C2/ex63.c
+elks	EXCEPTION	set_description	F49_1394	C2/ex63.c
+elks	EXCEPTION	is_ignored	F49_1397	C2/ex63.c
+elks	EXCEPTION	out	F49_1399	C2/ex63.c
+elks	EXCEPTION	set_throwing_exception	F49_1401	C2/ex63.c
+elks	EXCEPTION	set_recipient_name	F49_1402	C2/ex63.c
+elks	EXCEPTION	set_type_name	F49_1406	C2/ex63.c
+elks	EXCEPTION	set_exception_trace	F49_1408	C2/ex63.c
+elks	NATURAL_64_REF	hash_code	F830_6336	C5/na224.c
+elks	NATURAL_64_REF	is_less	F830_6343	C5/na224.c
+elks	NATURAL_64_REF	is_equal	F830_6344	C5/na224.c
+elks	NATURAL_64_REF	set_item	F830_6345	C5/na224.c
+elks	NATURAL_64_REF	plus	F830_6352	C5/na224.c
+elks	NATURAL_64_REF	product	F830_6354	C5/na224.c
+elks	NATURAL_64_REF	integer_quotient	F830_6358	C5/na224.c
+elks	NATURAL_64_REF	integer_remainder	F830_6359	C5/na224.c
+elks	NATURAL_64_REF	as_natural_32	F830_6366	C5/na224.c
+elks	NATURAL_64_REF	as_integer_32	F830_6370	C5/na224.c
+elks	NATURAL_64_REF	to_natural_64	F830_6375	C5/na224.c
+elks	NATURAL_64_REF	to_integer_32	F830_6378	C5/na224.c
+elks	NATURAL_64_REF	to_character_8	F830_6385	C5/na224.c
+elks	NATURAL_64_REF	bit_and	F830_6387	C5/na224.c
+elks	NATURAL_64_REF	out	F830_6397	C5/na224.c
+ise	IO_FAILURE	code	F72_1463	C2/io86.c
+ise	IO_FAILURE	set_error_code	F72_1466	C2/io86.c
+ise	IO_FAILURE	set_code	F72_1467	C2/io86.c
+elks	ARRAYED_LIST [G#1]	item	F585_4078	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	i_th	F585_4079	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	index	F585_4083	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	cursor	F585_4084	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	count	F585_4094	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	capacity	F585_4095	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	upper	F585_4096	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	is_equal	F585_4097	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	valid_index	F585_4100	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	start	F585_4104	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	forth	F585_4106	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	go_to	F585_4109	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	copy	F585_4124	C7/ar342.c
+elks	ARRAYED_LIST [G#1]	correct_mismatch	F585_4133	C7/ar342.c
+elks	ARRAYED_LIST [POINTER]	item	F586_4078	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	i_th	F586_4079	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	index	F586_4083	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	cursor	F586_4084	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	count	F586_4094	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	capacity	F586_4095	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	upper	F586_4096	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	is_equal	F586_4097	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	valid_index	F586_4100	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	start	F586_4104	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	forth	F586_4106	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	go_to	F586_4109	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	copy	F586_4124	C6/ar298.c
+elks	ARRAYED_LIST [POINTER]	correct_mismatch	F586_4133	C6/ar298.c
+elks	ARRAYED_LIST [REAL_32]	item	F587_4078	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	i_th	F587_4079	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	index	F587_4083	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	cursor	F587_4084	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	count	F587_4094	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	capacity	F587_4095	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	upper	F587_4096	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	is_equal	F587_4097	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	valid_index	F587_4100	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	start	F587_4104	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	forth	F587_4106	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	go_to	F587_4109	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	copy	F587_4124	C8/ar364.c
+elks	ARRAYED_LIST [REAL_32]	correct_mismatch	F587_4133	C8/ar364.c
+elks	ARRAYED_LIST [CHARACTER_8]	item	F588_4078	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	i_th	F588_4079	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	index	F588_4083	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	cursor	F588_4084	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	count	F588_4094	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	capacity	F588_4095	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	upper	F588_4096	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	is_equal	F588_4097	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	valid_index	F588_4100	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	start	F588_4104	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	forth	F588_4106	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	go_to	F588_4109	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	copy	F588_4124	C9/ar400.c
+elks	ARRAYED_LIST [CHARACTER_8]	correct_mismatch	F588_4133	C9/ar400.c
+elks	ARRAYED_LIST [REAL_64]	item	F589_4078	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	i_th	F589_4079	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	index	F589_4083	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	cursor	F589_4084	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	count	F589_4094	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	capacity	F589_4095	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	upper	F589_4096	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	is_equal	F589_4097	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	valid_index	F589_4100	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	start	F589_4104	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	forth	F589_4106	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	go_to	F589_4109	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	copy	F589_4124	C10/ar486.c
+elks	ARRAYED_LIST [REAL_64]	correct_mismatch	F589_4133	C10/ar486.c
+elks	ARRAYED_LIST [INTEGER_32]	item	F590_4078	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	i_th	F590_4079	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	index	F590_4083	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	cursor	F590_4084	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	count	F590_4094	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	capacity	F590_4095	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	upper	F590_4096	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	is_equal	F590_4097	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	valid_index	F590_4100	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	start	F590_4104	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	forth	F590_4106	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	go_to	F590_4109	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	copy	F590_4124	C12/ar558.c
+elks	ARRAYED_LIST [INTEGER_32]	correct_mismatch	F590_4133	C12/ar558.c
+elks	ARRAYED_LIST [NATURAL_8]	item	F591_4078	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	i_th	F591_4079	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	index	F591_4083	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	cursor	F591_4084	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	count	F591_4094	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	capacity	F591_4095	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	upper	F591_4096	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	is_equal	F591_4097	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	valid_index	F591_4100	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	start	F591_4104	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	forth	F591_4106	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	go_to	F591_4109	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	copy	F591_4124	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_8]	correct_mismatch	F591_4133	C12/ar587.c
+elks	ARRAYED_LIST [NATURAL_16]	item	F592_4078	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	i_th	F592_4079	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	index	F592_4083	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	cursor	F592_4084	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	count	F592_4094	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	capacity	F592_4095	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	upper	F592_4096	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	is_equal	F592_4097	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	valid_index	F592_4100	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	start	F592_4104	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	forth	F592_4106	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	go_to	F592_4109	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	copy	F592_4124	C13/ar623.c
+elks	ARRAYED_LIST [NATURAL_16]	correct_mismatch	F592_4133	C13/ar623.c
+elks	ARRAYED_LIST [INTEGER_8]	item	F593_4078	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	i_th	F593_4079	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	index	F593_4083	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	cursor	F593_4084	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	count	F593_4094	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	capacity	F593_4095	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	upper	F593_4096	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	is_equal	F593_4097	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	valid_index	F593_4100	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	start	F593_4104	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	forth	F593_4106	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	go_to	F593_4109	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	copy	F593_4124	C14/ar659.c
+elks	ARRAYED_LIST [INTEGER_8]	correct_mismatch	F593_4133	C14/ar659.c
+elks	ARRAYED_LIST [NATURAL_32]	item	F594_4078	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	i_th	F594_4079	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	index	F594_4083	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	cursor	F594_4084	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	count	F594_4094	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	capacity	F594_4095	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	upper	F594_4096	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	is_equal	F594_4097	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	valid_index	F594_4100	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	start	F594_4104	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	forth	F594_4106	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	go_to	F594_4109	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	copy	F594_4124	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_32]	correct_mismatch	F594_4133	C14/ar696.c
+elks	ARRAYED_LIST [NATURAL_64]	item	F595_4078	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	i_th	F595_4079	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	index	F595_4083	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	cursor	F595_4084	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	count	F595_4094	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	capacity	F595_4095	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	upper	F595_4096	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	is_equal	F595_4097	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	valid_index	F595_4100	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	start	F595_4104	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	forth	F595_4106	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	go_to	F595_4109	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	copy	F595_4124	C15/ar731.c
+elks	ARRAYED_LIST [NATURAL_64]	correct_mismatch	F595_4133	C15/ar731.c
+elks	ARRAYED_LIST [INTEGER_64]	item	F596_4078	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	i_th	F596_4079	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	index	F596_4083	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	cursor	F596_4084	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	count	F596_4094	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	capacity	F596_4095	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	upper	F596_4096	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	is_equal	F596_4097	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	valid_index	F596_4100	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	start	F596_4104	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	forth	F596_4106	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	go_to	F596_4109	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	copy	F596_4124	C16/ar767.c
+elks	ARRAYED_LIST [INTEGER_64]	correct_mismatch	F596_4133	C16/ar767.c
+elks	ARRAYED_LIST [BOOLEAN]	item	F597_4078	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	i_th	F597_4079	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	index	F597_4083	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	cursor	F597_4084	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	count	F597_4094	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	capacity	F597_4095	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	upper	F597_4096	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	is_equal	F597_4097	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	valid_index	F597_4100	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	start	F597_4104	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	forth	F597_4106	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	go_to	F597_4109	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	copy	F597_4124	C17/ar804.c
+elks	ARRAYED_LIST [BOOLEAN]	correct_mismatch	F597_4133	C17/ar804.c
+elks	ARRAYED_LIST [CHARACTER_32]	item	F598_4078	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	i_th	F598_4079	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	index	F598_4083	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	cursor	F598_4084	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	count	F598_4094	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	capacity	F598_4095	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	upper	F598_4096	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	is_equal	F598_4097	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	valid_index	F598_4100	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	start	F598_4104	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	forth	F598_4106	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	go_to	F598_4109	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	copy	F598_4124	C17/ar837.c
+elks	ARRAYED_LIST [CHARACTER_32]	correct_mismatch	F598_4133	C17/ar837.c
+elks	ARRAYED_LIST [INTEGER_16]	item	F599_4078	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	i_th	F599_4079	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	index	F599_4083	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	cursor	F599_4084	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	count	F599_4094	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	capacity	F599_4095	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	upper	F599_4096	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	is_equal	F599_4097	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	valid_index	F599_4100	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	start	F599_4104	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	forth	F599_4106	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	go_to	F599_4109	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	copy	F599_4124	C19/ar902.c
+elks	ARRAYED_LIST [INTEGER_16]	correct_mismatch	F599_4133	C19/ar902.c
+elks	LINKED_LIST [G#1]	item	F572_3637	C7/li333.c
+elks	LINKED_LIST [G#1]	index	F572_3640	C7/li333.c
+elks	LINKED_LIST [G#1]	cursor	F572_3641	C7/li333.c
+elks	LINKED_LIST [G#1]	count	F572_3644	C7/li333.c
+elks	LINKED_LIST [G#1]	after	F572_3646	C7/li333.c
+elks	LINKED_LIST [G#1]	before	F572_3647	C7/li333.c
+elks	LINKED_LIST [G#1]	off	F572_3648	C7/li333.c
+elks	LINKED_LIST [G#1]	start	F572_3654	C7/li333.c
+elks	LINKED_LIST [G#1]	finish	F572_3655	C7/li333.c
+elks	LINKED_LIST [G#1]	forth	F572_3656	C7/li333.c
+elks	LINKED_LIST [G#1]	go_to	F572_3660	C7/li333.c
+elks	LINKED_LIST [G#1]	extend	F572_3662	C7/li333.c
+elks	LINKED_LIST [G#1]	copy	F572_3672	C7/li333.c
+elks	LINKED_LIST [G#1]	new_cell	F572_3674	C7/li333.c
+elks	LINKED_LIST [G#1]	last_element	F572_3678	C7/li333.c
+elks	LINKED_LIST [G#1]	internal_wipe_out	F572_3680	C7/li333.c
+elks	LINKED_LIST [INTEGER_32]	item	F573_3637	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	index	F573_3640	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	cursor	F573_3641	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	count	F573_3644	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	after	F573_3646	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	before	F573_3647	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	off	F573_3648	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	start	F573_3654	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	finish	F573_3655	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	forth	F573_3656	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	go_to	F573_3660	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	extend	F573_3662	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	copy	F573_3672	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	new_cell	F573_3674	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	last_element	F573_3678	C19/li928.c
+elks	LINKED_LIST [INTEGER_32]	internal_wipe_out	F573_3680	C19/li928.c
+elks	LINKED_LIST [BOOLEAN]	item	F574_3637	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	index	F574_3640	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	cursor	F574_3641	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	count	F574_3644	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	after	F574_3646	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	before	F574_3647	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	off	F574_3648	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	start	F574_3654	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	finish	F574_3655	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	forth	F574_3656	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	go_to	F574_3660	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	extend	F574_3662	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	copy	F574_3672	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	new_cell	F574_3674	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	last_element	F574_3678	C19/li946.c
+elks	LINKED_LIST [BOOLEAN]	internal_wipe_out	F574_3680	C19/li946.c
+elks	INTEGER_32_REF	hash_code	F827_6241	C5/in221.c
+elks	INTEGER_32_REF	is_less	F827_6248	C5/in221.c
+elks	INTEGER_32_REF	is_equal	F827_6249	C5/in221.c
+elks	INTEGER_32_REF	set_item	F827_6250	C5/in221.c
+elks	INTEGER_32_REF	plus	F827_6258	C5/in221.c
+elks	INTEGER_32_REF	minus	F827_6259	C5/in221.c
+elks	INTEGER_32_REF	product	F827_6260	C5/in221.c
+elks	INTEGER_32_REF	opposite	F827_6263	C5/in221.c
+elks	INTEGER_32_REF	integer_quotient	F827_6264	C5/in221.c
+elks	INTEGER_32_REF	integer_remainder	F827_6265	C5/in221.c
+elks	INTEGER_32_REF	as_natural_32	F827_6273	C5/in221.c
+elks	INTEGER_32_REF	as_natural_64	F827_6274	C5/in221.c
+elks	INTEGER_32_REF	as_integer_64	F827_6278	C5/in221.c
+elks	INTEGER_32_REF	to_natural_32	F827_6281	C5/in221.c
+elks	INTEGER_32_REF	to_natural_64	F827_6282	C5/in221.c
+elks	INTEGER_32_REF	to_integer_64	F827_6287	C5/in221.c
+elks	INTEGER_32_REF	to_double	F827_6289	C5/in221.c
+elks	INTEGER_32_REF	to_hex_string	F827_6290	C5/in221.c
+elks	INTEGER_32_REF	to_hex_character	F827_6291	C5/in221.c
+elks	INTEGER_32_REF	to_character_8	F827_6293	C5/in221.c
+elks	INTEGER_32_REF	bit_and	F827_6295	C5/in221.c
+elks	INTEGER_32_REF	bit_xor	F827_6297	C5/in221.c
+elks	INTEGER_32_REF	bit_shift_left	F827_6300	C5/in221.c
+elks	INTEGER_32_REF	bit_shift_right	F827_6301	C5/in221.c
+elks	INTEGER_32_REF	out	F827_6305	C5/in221.c
+elks	FINITE [G#1]	is_empty	F326_2657	C6/fi270.c
+elks	FINITE [POINTER]	is_empty	F327_2657	C7/fi316.c
+elks	FINITE [REAL_32]	is_empty	F328_2657	C8/fi382.c
+elks	FINITE [CHARACTER_8]	is_empty	F329_2657	C9/fi412.c
+elks	FINITE [REAL_64]	is_empty	F330_2657	C10/fi494.c
+elks	FINITE [INTEGER_32]	is_empty	F331_2657	C11/fi513.c
+elks	FINITE [CHARACTER_32]	is_empty	F332_2657	C11/fi527.c
+elks	FINITE [NATURAL_8]	is_empty	F333_2657	C12/fi595.c
+elks	FINITE [NATURAL_16]	is_empty	F334_2657	C13/fi631.c
+elks	FINITE [INTEGER_8]	is_empty	F335_2657	C14/fi667.c
+elks	FINITE [NATURAL_32]	is_empty	F336_2657	C15/fi703.c
+elks	FINITE [NATURAL_64]	is_empty	F337_2657	C15/fi739.c
+elks	FINITE [INTEGER_64]	is_empty	F338_2657	C16/fi775.c
+elks	FINITE [BOOLEAN]	is_empty	F339_2657	C17/fi812.c
+elks	FINITE [INTEGER_16]	is_empty	F340_2657	C19/fi910.c
+ise	MISMATCH_FAILURE	code	F71_1461	C2/mi85.c
+elks	INTEGER_INTERVAL	lower	F496_3260	C4/in155.c
+elks	INTEGER_INTERVAL	upper	F496_3262	C4/in155.c
+elks	INTEGER_INTERVAL	valid_index	F496_3266	C4/in155.c
+elks	INTEGER_INTERVAL	capacity	F496_3268	C4/in155.c
+elks	INTEGER_INTERVAL	count	F496_3269	C4/in155.c
+elks	INTEGER_INTERVAL	is_equal	F496_3271	C4/in155.c
+elks	INTEGER_INTERVAL	copy	F496_3285	C4/in155.c
+elks	MISMATCH_INFORMATION	default_create	F584_4056	C4/mi160.c
+elks	MISMATCH_INFORMATION	class_name	F584_4057	C4/mi160.c
+elks	MISMATCH_INFORMATION	type_name_key	F584_4060	C4/mi160.c
+elks	MISMATCH_INFORMATION	out	F584_4063	C4/mi160.c
+elks	MISMATCH_INFORMATION	internal_put	F584_4064	C4/mi160.c
+elks	MISMATCH_INFORMATION	set_string_versions	F584_4065	C4/mi160.c
+elks	MISMATCH_INFORMATION	set_callback_pointers	F584_4066	C4/mi160.c
+elks	MISMATCH_INFORMATION	set_mismatch_information_access	F584_4067	C4/mi160.c
+elks	OPERATING_ENVIRONMENT	case_sensitive_path_names	F29_572	C1/op26.c
+elks	FILE_INFO	make	F190_2474	C4/fi151.c
+elks	FILE_INFO	size	F190_2478	C4/fi151.c
+elks	FILE_INFO	file_name_to_pointer	F190_2491	C4/fi151.c
+elks	FILE_INFO	is_equal	F190_2516	C4/fi151.c
+elks	FILE_INFO	copy	F190_2517	C4/fi151.c
+elks	FILE_INFO	fast_update	F190_2521	C4/fi151.c
+elks	FILE_INFO	stat_size	F190_2524	C4/fi151.c
+elks	FILE_INFO	eif_file_stat	F190_2525	C4/fi151.c
+elks	FILE_INFO	file_info	F190_2528	C4/fi151.c
+elks	FILE_INFO	multi_byte_to_utf_16	F190_2531	C4/fi151.c
+elks	FILE	make_with_name	F742_4901	C4/fi182.c
+elks	FILE	descriptor_available	F742_4916	C4/fi182.c
+elks	FILE	count	F742_4931	C4/fi182.c
+elks	FILE	exists	F742_4936	C4/fi182.c
+elks	FILE	is_closed	F742_4960	C4/fi182.c
+elks	FILE	is_open_write	F742_4962	C4/fi182.c
+elks	FILE	close	F742_4988	C4/fi182.c
+elks	FILE	put_string	F742_5010	C4/fi182.c
+elks	FILE	file_close	F742_5058	C4/fi182.c
+elks	FILE	internal_name_pointer	F742_5060	C4/fi182.c
+elks	FILE	set_name	F742_5062	C4/fi182.c
+elks	FILE	buffered_file_info	F742_5068	C4/fi182.c
+elks	FILE	set_buffer	F742_5070	C4/fi182.c
+elks	FILE	file_size	F742_5085	C4/fi182.c
+elks	FILE	file_ps	F742_5097	C4/fi182.c
+elks	FILE	file_exists	F742_5103	C4/fi182.c
+elks	FILE	set_write_mode	F742_5126	C4/fi182.c
+ise	NO_MORE_MEMORY	code	F68_1455	C2/no82.c
+ise	NO_MORE_MEMORY	set_code	F68_1457	C2/no82.c
+elks	C_STRING	make	F99_1828	C3/c_125.c
+elks	C_STRING	make_empty	F99_1829	C3/c_125.c
+elks	C_STRING	make_shared_from_pointer_and_count	F99_1833	C3/c_125.c
+elks	C_STRING	set_shared_from_pointer	F99_1836	C3/c_125.c
+elks	C_STRING	set_shared_from_pointer_and_count	F99_1837	C3/c_125.c
+elks	C_STRING	read_substring_into_character_8_area	F99_1845	C3/c_125.c
+elks	C_STRING	item	F99_1847	C3/c_125.c
+elks	C_STRING	set_string	F99_1853	C3/c_125.c
+elks	C_STRING	set_substring	F99_1854	C3/c_125.c
+elks	C_STRING	set_count	F99_1855	C3/c_125.c
+elks	C_STRING	c_strlen	F99_1858	C3/c_125.c
+elks	CONTAINER [G#1]	compare_objects	F215_2585	C6/co269.c
+elks	CONTAINER [POINTER]	compare_objects	F216_2585	C7/co315.c
+elks	CONTAINER [REAL_32]	compare_objects	F217_2585	C8/co381.c
+elks	CONTAINER [CHARACTER_8]	compare_objects	F218_2585	C9/co411.c
+elks	CONTAINER [REAL_64]	compare_objects	F219_2585	C10/co493.c
+elks	CONTAINER [INTEGER_32]	compare_objects	F220_2585	C11/co512.c
+elks	CONTAINER [CHARACTER_32]	compare_objects	F221_2585	C11/co526.c
+elks	CONTAINER [NATURAL_8]	compare_objects	F222_2585	C12/co594.c
+elks	CONTAINER [NATURAL_16]	compare_objects	F223_2585	C13/co630.c
+elks	CONTAINER [INTEGER_8]	compare_objects	F224_2585	C14/co666.c
+elks	CONTAINER [NATURAL_32]	compare_objects	F225_2585	C15/co702.c
+elks	CONTAINER [NATURAL_64]	compare_objects	F226_2585	C15/co738.c
+elks	CONTAINER [INTEGER_64]	compare_objects	F227_2585	C16/co774.c
+elks	CONTAINER [BOOLEAN]	compare_objects	F228_2585	C17/co811.c
+elks	CONTAINER [INTEGER_16]	compare_objects	F229_2585	C19/co909.c
+elks	BAD_INSPECT_VALUE	code	F77_1479	C2/ba91.c
+elks	TO_SPECIAL [G#1]	make_empty_area	F172_2405	C7/to344.c
+elks	TO_SPECIAL [G#1]	make_filled_area	F172_2406	C7/to344.c
+elks	TO_SPECIAL [G#1]	set_area	F172_2412	C7/to344.c
+elks	TO_SPECIAL [POINTER]	make_empty_area	F173_2405	C7/to329.c
+elks	TO_SPECIAL [POINTER]	make_filled_area	F173_2406	C7/to329.c
+elks	TO_SPECIAL [POINTER]	set_area	F173_2412	C7/to329.c
+elks	TO_SPECIAL [REAL_32]	make_empty_area	F174_2405	C8/to395.c
+elks	TO_SPECIAL [REAL_32]	make_filled_area	F174_2406	C8/to395.c
+elks	TO_SPECIAL [REAL_32]	set_area	F174_2412	C8/to395.c
+elks	TO_SPECIAL [CHARACTER_8]	make_empty_area	F175_2405	C9/to425.c
+elks	TO_SPECIAL [CHARACTER_8]	make_filled_area	F175_2406	C9/to425.c
+elks	TO_SPECIAL [CHARACTER_8]	set_area	F175_2412	C9/to425.c
+elks	TO_SPECIAL [REAL_64]	make_empty_area	F176_2405	C11/to507.c
+elks	TO_SPECIAL [REAL_64]	make_filled_area	F176_2406	C11/to507.c
+elks	TO_SPECIAL [REAL_64]	set_area	F176_2412	C11/to507.c
+elks	TO_SPECIAL [INTEGER_32]	make_empty_area	F177_2405	C12/to567.c
+elks	TO_SPECIAL [INTEGER_32]	make_filled_area	F177_2406	C12/to567.c
+elks	TO_SPECIAL [INTEGER_32]	set_area	F177_2412	C12/to567.c
+elks	TO_SPECIAL [NATURAL_8]	make_empty_area	F178_2405	C13/to608.c
+elks	TO_SPECIAL [NATURAL_8]	make_filled_area	F178_2406	C13/to608.c
+elks	TO_SPECIAL [NATURAL_8]	set_area	F178_2412	C13/to608.c
+elks	TO_SPECIAL [NATURAL_16]	make_empty_area	F179_2405	C13/to644.c
+elks	TO_SPECIAL [NATURAL_16]	make_filled_area	F179_2406	C13/to644.c
+elks	TO_SPECIAL [NATURAL_16]	set_area	F179_2412	C13/to644.c
+elks	TO_SPECIAL [INTEGER_8]	make_empty_area	F180_2405	C14/to680.c
+elks	TO_SPECIAL [INTEGER_8]	make_filled_area	F180_2406	C14/to680.c
+elks	TO_SPECIAL [INTEGER_8]	set_area	F180_2412	C14/to680.c
+elks	TO_SPECIAL [NATURAL_32]	make_empty_area	F181_2405	C15/to716.c
+elks	TO_SPECIAL [NATURAL_32]	make_filled_area	F181_2406	C15/to716.c
+elks	TO_SPECIAL [NATURAL_32]	set_area	F181_2412	C15/to716.c
+elks	TO_SPECIAL [NATURAL_64]	make_empty_area	F182_2405	C16/to752.c
+elks	TO_SPECIAL [NATURAL_64]	make_filled_area	F182_2406	C16/to752.c
+elks	TO_SPECIAL [NATURAL_64]	set_area	F182_2412	C16/to752.c
+elks	TO_SPECIAL [INTEGER_64]	make_empty_area	F183_2405	C16/to788.c
+elks	TO_SPECIAL [INTEGER_64]	make_filled_area	F183_2406	C16/to788.c
+elks	TO_SPECIAL [INTEGER_64]	set_area	F183_2412	C16/to788.c
+elks	TO_SPECIAL [BOOLEAN]	make_empty_area	F184_2405	C17/to825.c
+elks	TO_SPECIAL [BOOLEAN]	make_filled_area	F184_2406	C17/to825.c
+elks	TO_SPECIAL [BOOLEAN]	set_area	F184_2412	C17/to825.c
+elks	TO_SPECIAL [CHARACTER_32]	make_empty_area	F185_2405	C17/to830.c
+elks	TO_SPECIAL [CHARACTER_32]	make_filled_area	F185_2406	C17/to830.c
+elks	TO_SPECIAL [CHARACTER_32]	set_area	F185_2412	C17/to830.c
+elks	TO_SPECIAL [INTEGER_16]	make_empty_area	F186_2405	C19/to923.c
+elks	TO_SPECIAL [INTEGER_16]	make_filled_area	F186_2406	C19/to923.c
+elks	TO_SPECIAL [INTEGER_16]	set_area	F186_2412	C19/to923.c
+elks	reference UTF_CONVERTER	utf_8_bytes_count	F27_492	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_16_bytes_count	F27_494	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_32_string_to_utf_8_string_8	F27_498	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_32_string_into_utf_8_string_8	F27_499	C1/ut23.c
+elks	reference UTF_CONVERTER	escaped_utf_32_substring_into_utf_8_0_pointer	F27_500	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_32_string_into_utf_8_0_pointer	F27_504	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_8_string_8_to_string_32	F27_511	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_8_string_8_into_string_32	F27_512	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_8_string_8_to_escaped_string_32	F27_513	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_8_string_8_into_escaped_string_32	F27_514	C1/ut23.c
+elks	reference UTF_CONVERTER	escaped_utf_32_substring_into_utf_16_0_pointer	F27_525	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_16le_string_8_to_escaped_string_32	F27_540	C1/ut23.c
+elks	reference UTF_CONVERTER	utf_16le_string_8_into_escaped_string_32	F27_541	C1/ut23.c
+elks	reference UTF_CONVERTER	escape_code_into	F27_553	C1/ut23.c
+elks	reference UTF_CONVERTER	is_hexa_decimal	F27_554	C1/ut23.c
+elks	reference UTF_CONVERTER	to_natural_32	F27_555	C1/ut23.c
+elks	reference UTF_CONVERTER	ctoi_convertor	F27_556	C1/ut23.c
+elks	UTF_CONVERTER	utf_8_bytes_count	F28_492	C1/ut22.c
+elks	UTF_CONVERTER	utf_16_bytes_count	F28_494	C1/ut22.c
+elks	UTF_CONVERTER	utf_32_string_to_utf_8_string_8	F28_498	C1/ut22.c
+elks	UTF_CONVERTER	utf_32_string_into_utf_8_string_8	F28_499	C1/ut22.c
+elks	UTF_CONVERTER	escaped_utf_32_substring_into_utf_8_0_pointer	F28_500	C1/ut22.c
+elks	UTF_CONVERTER	utf_32_string_into_utf_8_0_pointer	F28_504	C1/ut22.c
+elks	UTF_CONVERTER	utf_8_string_8_to_string_32	F28_511	C1/ut22.c
+elks	UTF_CONVERTER	utf_8_string_8_into_string_32	F28_512	C1/ut22.c
+elks	UTF_CONVERTER	utf_8_string_8_to_escaped_string_32	F28_513	C1/ut22.c
+elks	UTF_CONVERTER	utf_8_string_8_into_escaped_string_32	F28_514	C1/ut22.c
+elks	UTF_CONVERTER	escaped_utf_32_substring_into_utf_16_0_pointer	F28_525	C1/ut22.c
+elks	UTF_CONVERTER	utf_16le_string_8_to_escaped_string_32	F28_540	C1/ut22.c
+elks	UTF_CONVERTER	utf_16le_string_8_into_escaped_string_32	F28_541	C1/ut22.c
+elks	UTF_CONVERTER	escape_code_into	F28_553	C1/ut22.c
+elks	UTF_CONVERTER	is_hexa_decimal	F28_554	C1/ut22.c
+elks	UTF_CONVERTER	to_natural_32	F28_555	C1/ut22.c
+elks	UTF_CONVERTER	ctoi_convertor	F28_556	C1/ut22.c
+elks	INVARIANT_VIOLATION	code	F87_1495	C3/in101.c
+elks	INVARIANT_VIOLATION	set_is_entry	F87_1496	C3/in101.c
+elks	COMPARABLE	is_less_equal	F92_1524	C3/co106.c
+elks	COMPARABLE	is_greater	F92_1525	C3/co106.c
+elks	COMPARABLE	is_greater_equal	F92_1526	C3/co106.c
+elks	COMPARABLE	max	F92_1529	C3/co106.c
+elks	COMPARABLE	min	F92_1530	C3/co106.c
+elks	ISE_RUNTIME	type_conforms_to	F26_391	C1/is21.c
+elks	ISE_RUNTIME	dynamic_type	F26_393	C1/is21.c
+elks	ISE_RUNTIME	detachable_type	F26_397	C1/is21.c
+elks	HASH_TABLE [G#1, G#2]	make	F577_3924	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	accommodate	F577_3926	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	found_item	F577_3927	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	item	F577_3929	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	has	F577_3931	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	item_for_iteration	F577_3935	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	key_for_iteration	F577_3936	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	new_cursor	F577_3938	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	hash_code_of	F577_3940	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	count	F577_3941	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	iteration_lower	F577_3944	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	iteration_upper	F577_3945	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	is_equal	F577_3946	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	same_keys	F577_3947	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	found	F577_3956	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	not_found	F577_3957	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	after	F577_3958	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	valid_iteration_index	F577_3962	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	start	F577_3963	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	forth	F577_3964	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	search	F577_3966	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	next_iteration_position	F577_3968	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	previous_iteration_position	F577_3969	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	put	F577_3970	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	force	F577_3971	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	wipe_out	F577_3978	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	copy	F577_3981	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	empty_duplicate	F577_3982	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	correct_mismatch	F577_3983	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	position	F577_3992	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	soon_full	F577_3993	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	ht_deleted_item	F577_4000	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	ht_deleted_key	F577_4001	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	deleted_position	F577_4002	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	occupied	F577_4003	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	truly_occupied	F577_4004	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	is_off_position	F577_4005	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	set_content	F577_4006	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	set_keys	F577_4008	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	set_deleted_marks	F577_4009	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	set_indexes_map	F577_4010	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	internal_search	F577_4014	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	set_conflict	F577_4020	C10/ha465.c
+elks	HASH_TABLE [G#1, G#2]	add_space	F577_4033	C10/ha465.c
+elks	HASH_TABLE [G#1, INTEGER_32]	make	F578_3924	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	accommodate	F578_3926	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	found_item	F578_3927	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	item	F578_3929	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	has	F578_3931	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	item_for_iteration	F578_3935	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	key_for_iteration	F578_3936	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	new_cursor	F578_3938	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	hash_code_of	F578_3940	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	count	F578_3941	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	iteration_lower	F578_3944	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	iteration_upper	F578_3945	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	is_equal	F578_3946	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	same_keys	F578_3947	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	found	F578_3956	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	not_found	F578_3957	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	after	F578_3958	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	valid_iteration_index	F578_3962	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	start	F578_3963	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	forth	F578_3964	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	search	F578_3966	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	next_iteration_position	F578_3968	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	previous_iteration_position	F578_3969	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	put	F578_3970	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	force	F578_3971	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	wipe_out	F578_3978	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	copy	F578_3981	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	empty_duplicate	F578_3982	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	correct_mismatch	F578_3983	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	position	F578_3992	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	soon_full	F578_3993	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	ht_deleted_item	F578_4000	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	ht_deleted_key	F578_4001	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	deleted_position	F578_4002	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	occupied	F578_4003	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	truly_occupied	F578_4004	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	is_off_position	F578_4005	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	set_content	F578_4006	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	set_keys	F578_4008	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	set_deleted_marks	F578_4009	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	set_indexes_map	F578_4010	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	internal_search	F578_4014	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	set_conflict	F578_4020	C11/ha549.c
+elks	HASH_TABLE [G#1, INTEGER_32]	add_space	F578_4033	C11/ha549.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	make	F579_3924	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	accommodate	F579_3926	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	found_item	F579_3927	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	item	F579_3929	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	has	F579_3931	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	item_for_iteration	F579_3935	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	key_for_iteration	F579_3936	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	new_cursor	F579_3938	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	hash_code_of	F579_3940	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	count	F579_3941	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	iteration_lower	F579_3944	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	iteration_upper	F579_3945	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	is_equal	F579_3946	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	same_keys	F579_3947	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	found	F579_3956	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	not_found	F579_3957	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	after	F579_3958	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	valid_iteration_index	F579_3962	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	start	F579_3963	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	forth	F579_3964	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	search	F579_3966	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	next_iteration_position	F579_3968	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	previous_iteration_position	F579_3969	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	put	F579_3970	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	force	F579_3971	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	wipe_out	F579_3978	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	copy	F579_3981	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	empty_duplicate	F579_3982	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	correct_mismatch	F579_3983	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	position	F579_3992	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	soon_full	F579_3993	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	ht_deleted_item	F579_4000	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	ht_deleted_key	F579_4001	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	deleted_position	F579_4002	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	occupied	F579_4003	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	truly_occupied	F579_4004	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	is_off_position	F579_4005	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	set_content	F579_4006	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	set_keys	F579_4008	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	set_deleted_marks	F579_4009	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	set_indexes_map	F579_4010	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	internal_search	F579_4014	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	set_conflict	F579_4020	C18/ha850.c
+elks	HASH_TABLE [NATURAL_32, POINTER]	add_space	F579_4033	C18/ha850.c
+elks	HASH_TABLE [INTEGER_32, G#2]	make	F580_3924	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	accommodate	F580_3926	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	found_item	F580_3927	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	item	F580_3929	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	has	F580_3931	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	item_for_iteration	F580_3935	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	key_for_iteration	F580_3936	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	new_cursor	F580_3938	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	hash_code_of	F580_3940	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	count	F580_3941	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	iteration_lower	F580_3944	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	iteration_upper	F580_3945	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	is_equal	F580_3946	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	same_keys	F580_3947	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	found	F580_3956	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	not_found	F580_3957	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	after	F580_3958	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	valid_iteration_index	F580_3962	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	start	F580_3963	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	forth	F580_3964	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	search	F580_3966	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	next_iteration_position	F580_3968	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	previous_iteration_position	F580_3969	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	put	F580_3970	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	force	F580_3971	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	wipe_out	F580_3978	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	copy	F580_3981	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	empty_duplicate	F580_3982	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	correct_mismatch	F580_3983	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	position	F580_3992	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	soon_full	F580_3993	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	ht_deleted_item	F580_4000	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	ht_deleted_key	F580_4001	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	deleted_position	F580_4002	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	occupied	F580_4003	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	truly_occupied	F580_4004	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	is_off_position	F580_4005	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	set_content	F580_4006	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	set_keys	F580_4008	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	set_deleted_marks	F580_4009	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	set_indexes_map	F580_4010	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	internal_search	F580_4014	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	set_conflict	F580_4020	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, G#2]	add_space	F580_4033	C18/ha857.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	make	F581_3924	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	accommodate	F581_3926	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	found_item	F581_3927	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	item	F581_3929	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	has	F581_3931	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	item_for_iteration	F581_3935	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	key_for_iteration	F581_3936	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	new_cursor	F581_3938	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	hash_code_of	F581_3940	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	count	F581_3941	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	iteration_lower	F581_3944	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	iteration_upper	F581_3945	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	is_equal	F581_3946	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	same_keys	F581_3947	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	found	F581_3956	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	not_found	F581_3957	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	after	F581_3958	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	valid_iteration_index	F581_3962	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	start	F581_3963	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	forth	F581_3964	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	search	F581_3966	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	next_iteration_position	F581_3968	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	previous_iteration_position	F581_3969	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	put	F581_3970	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	force	F581_3971	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	wipe_out	F581_3978	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	copy	F581_3981	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	empty_duplicate	F581_3982	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	correct_mismatch	F581_3983	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	position	F581_3992	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	soon_full	F581_3993	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	ht_deleted_item	F581_4000	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	ht_deleted_key	F581_4001	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	deleted_position	F581_4002	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	occupied	F581_4003	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	truly_occupied	F581_4004	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	is_off_position	F581_4005	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	set_content	F581_4006	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	set_keys	F581_4008	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	set_deleted_marks	F581_4009	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	set_indexes_map	F581_4010	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	internal_search	F581_4014	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	set_conflict	F581_4020	C18/ha874.c
+elks	HASH_TABLE [INTEGER_32, INTEGER_32]	add_space	F581_4033	C18/ha874.c
+elks	STRING_TO_NUMERIC_CONVERTOR	set_trailing_separators_acceptable	F43_1261	C2/st56.c
+elks	STRING_TO_NUMERIC_CONVERTOR	set_leading_separators_acceptable	F43_1262	C2/st56.c
+elks	EXCEPTIONS	raise	F48_1362	C2/ex61.c
+elks	EXCEPTIONS	raise_retrieval_exception	F48_1363	C2/ex61.c
+elks	OLD_VIOLATION	code	F64_1451	C2/ol78.c
+elks	POINTER_REF	hash_code	F833_6426	C5/po227.c
+elks	POINTER_REF	set_item	F833_6427	C5/po227.c
+elks	POINTER_REF	is_equal	F833_6428	C5/po227.c
+elks	POINTER_REF	memory_compare	F833_6429	C5/po227.c
+elks	POINTER_REF	plus	F833_6432	C5/po227.c
+elks	POINTER_REF	memory_copy	F833_6436	C5/po227.c
+elks	POINTER_REF	memory_set	F833_6438	C5/po227.c
+elks	POINTER_REF	memory_alloc	F833_6439	C5/po227.c
+elks	POINTER_REF	memory_calloc	F833_6440	C5/po227.c
+elks	POINTER_REF	memory_realloc	F833_6441	C5/po227.c
+elks	POINTER_REF	memory_free	F833_6442	C5/po227.c
+elks	POINTER_REF	out	F833_6443	C5/po227.c
+elks	POINTER_REF	c_memcpy	F833_6444	C5/po227.c
+elks	POINTER_REF	c_memset	F833_6446	C5/po227.c
+elks	POINTER_REF	c_memcmp	F833_6447	C5/po227.c
+elks	POINTER_REF	c_malloc	F833_6448	C5/po227.c
+elks	POINTER_REF	c_calloc	F833_6449	C5/po227.c
+elks	POINTER_REF	c_realloc	F833_6450	C5/po227.c
+elks	POINTER_REF	c_free	F833_6451	C5/po227.c
+elks	NATURAL_16_REF	hash_code	F824_6150	C5/na218.c
+elks	NATURAL_16_REF	is_less	F824_6157	C5/na218.c
+elks	NATURAL_16_REF	is_equal	F824_6158	C5/na218.c
+elks	NATURAL_16_REF	set_item	F824_6159	C5/na218.c
+elks	NATURAL_16_REF	plus	F824_6166	C5/na218.c
+elks	NATURAL_16_REF	integer_quotient	F824_6172	C5/na218.c
+elks	NATURAL_16_REF	integer_remainder	F824_6173	C5/na218.c
+elks	NATURAL_16_REF	as_natural_8	F824_6179	C5/na218.c
+elks	NATURAL_16_REF	as_natural_32	F824_6181	C5/na218.c
+elks	NATURAL_16_REF	as_natural_64	F824_6182	C5/na218.c
+elks	NATURAL_16_REF	as_integer_32	F824_6185	C5/na218.c
+elks	NATURAL_16_REF	to_natural_32	F824_6189	C5/na218.c
+elks	NATURAL_16_REF	to_natural_64	F824_6190	C5/na218.c
+elks	NATURAL_16_REF	to_integer_32	F824_6193	C5/na218.c
+elks	NATURAL_16_REF	to_hex_string	F824_6197	C5/na218.c
+elks	NATURAL_16_REF	to_character_8	F824_6200	C5/na218.c
+elks	NATURAL_16_REF	to_character_32	F824_6201	C5/na218.c
+elks	NATURAL_16_REF	out	F824_6212	C5/na218.c
+elks	CHECK_VIOLATION	code	F86_1493	C3/ch100.c
+elks	DEVELOPER_EXCEPTION	code	F50_1410	C2/de64.c
+elks	ARRAYED_LIST_CURSOR	make	F168_2396	C3/ar146.c
+elks	NATURAL_32_REF	hash_code	F821_6060	C5/na215.c
+elks	NATURAL_32_REF	is_less	F821_6067	C5/na215.c
+elks	NATURAL_32_REF	is_equal	F821_6068	C5/na215.c
+elks	NATURAL_32_REF	set_item	F821_6069	C5/na215.c
+elks	NATURAL_32_REF	is_valid_character_8_code	F821_6074	C5/na215.c
+elks	NATURAL_32_REF	plus	F821_6076	C5/na215.c
+elks	NATURAL_32_REF	minus	F821_6077	C5/na215.c
+elks	NATURAL_32_REF	integer_quotient	F821_6082	C5/na215.c
+elks	NATURAL_32_REF	integer_remainder	F821_6083	C5/na215.c
+elks	NATURAL_32_REF	as_natural_8	F821_6088	C5/na215.c
+elks	NATURAL_32_REF	as_natural_16	F821_6089	C5/na215.c
+elks	NATURAL_32_REF	as_natural_64	F821_6091	C5/na215.c
+elks	NATURAL_32_REF	as_integer_32	F821_6094	C5/na215.c
+elks	NATURAL_32_REF	as_integer_64	F821_6095	C5/na215.c
+elks	NATURAL_32_REF	to_natural_8	F821_6096	C5/na215.c
+elks	NATURAL_32_REF	to_natural_16	F821_6097	C5/na215.c
+elks	NATURAL_32_REF	to_natural_64	F821_6099	C5/na215.c
+elks	NATURAL_32_REF	to_integer_32	F821_6102	C5/na215.c
+elks	NATURAL_32_REF	to_integer_64	F821_6103	C5/na215.c
+elks	NATURAL_32_REF	to_hex_string	F821_6106	C5/na215.c
+elks	NATURAL_32_REF	to_hex_character	F821_6107	C5/na215.c
+elks	NATURAL_32_REF	to_character_8	F821_6109	C5/na215.c
+elks	NATURAL_32_REF	to_character_32	F821_6110	C5/na215.c
+elks	NATURAL_32_REF	bit_and	F821_6111	C5/na215.c
+elks	NATURAL_32_REF	bit_or	F821_6112	C5/na215.c
+elks	NATURAL_32_REF	bit_shift_left	F821_6116	C5/na215.c
+elks	NATURAL_32_REF	bit_shift_right	F821_6117	C5/na215.c
+elks	NATURAL_32_REF	out	F821_6121	C5/na215.c
+ise	EXCEPTION_IN_SIGNAL_HANDLER_FAILURE	code	F61_1445	C2/ex75.c
+elks	INTEGER_16_REF	hash_code	F818_5965	C5/in212.c
+elks	INTEGER_16_REF	is_less	F818_5972	C5/in212.c
+elks	INTEGER_16_REF	is_equal	F818_5973	C5/in212.c
+elks	INTEGER_16_REF	set_item	F818_5974	C5/in212.c
+elks	INTEGER_16_REF	plus	F818_5982	C5/in212.c
+elks	INTEGER_16_REF	opposite	F818_5987	C5/in212.c
+elks	INTEGER_16_REF	integer_quotient	F818_5988	C5/in212.c
+elks	INTEGER_16_REF	integer_remainder	F818_5989	C5/in212.c
+elks	INTEGER_16_REF	as_natural_64	F818_5998	C5/in212.c
+elks	INTEGER_16_REF	as_integer_32	F818_6001	C5/in212.c
+elks	INTEGER_16_REF	to_natural_64	F818_6006	C5/in212.c
+elks	INTEGER_16_REF	to_integer	F818_6008	C5/in212.c
+elks	INTEGER_16_REF	to_character_8	F818_6017	C5/in212.c
+elks	INTEGER_16_REF	out	F818_6029	C5/in212.c
+elks	OPERATING_SYSTEM_SIGNAL_FAILURE	code	F57_1437	C2/op71.c
+elks	OPERATING_SYSTEM_SIGNAL_FAILURE	set_signal_code	F57_1440	C2/op71.c
+elks	RESIZABLE [G#1]	additional_space	F375_2676	C7/re349.c
+elks	RESIZABLE [POINTER]	additional_space	F376_2676	C7/re330.c
+elks	RESIZABLE [REAL_32]	additional_space	F377_2676	C8/re396.c
+elks	RESIZABLE [CHARACTER_8]	additional_space	F378_2676	C9/re426.c
+elks	RESIZABLE [REAL_64]	additional_space	F379_2676	C11/re508.c
+elks	RESIZABLE [INTEGER_32]	additional_space	F380_2676	C12/re568.c
+elks	RESIZABLE [NATURAL_8]	additional_space	F381_2676	C13/re609.c
+elks	RESIZABLE [NATURAL_16]	additional_space	F382_2676	C13/re645.c
+elks	RESIZABLE [INTEGER_8]	additional_space	F383_2676	C14/re681.c
+elks	RESIZABLE [NATURAL_32]	additional_space	F384_2676	C15/re717.c
+elks	RESIZABLE [NATURAL_64]	additional_space	F385_2676	C16/re753.c
+elks	RESIZABLE [INTEGER_64]	additional_space	F386_2676	C16/re789.c
+elks	RESIZABLE [BOOLEAN]	additional_space	F387_2676	C17/re826.c
+elks	RESIZABLE [CHARACTER_32]	additional_space	F388_2676	C17/re846.c
+elks	RESIZABLE [INTEGER_16]	additional_space	F389_2676	C19/re924.c
+elks	EXCEPTION_MANAGER	raise	F93_1593	C3/ex112.c
+elks	EXCEPTION_MANAGER	is_ignored	F93_1599	C3/ex112.c
+elks	EXCEPTION_MANAGER	exception_from_code	F93_1602	C3/ex112.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [G#1, G#2]	after	F676_4380	C7/ge347.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [G#1, G#2]	forth	F676_4386	C7/ge347.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [POINTER, G#2]	after	F677_4380	C7/ge307.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [POINTER, G#2]	forth	F677_4386	C7/ge307.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [REAL_32, G#2]	after	F678_4380	C8/ge373.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [REAL_32, G#2]	forth	F678_4386	C8/ge373.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [CHARACTER_8, G#2]	after	F679_4380	C9/ge403.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [CHARACTER_8, G#2]	forth	F679_4386	C9/ge403.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [REAL_64, G#2]	after	F680_4380	C10/ge488.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [REAL_64, G#2]	forth	F680_4386	C10/ge488.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_32, G#2]	after	F681_4380	C12/ge554.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_32, G#2]	forth	F681_4386	C12/ge554.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_8, G#2]	after	F682_4380	C12/ge589.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_8, G#2]	forth	F682_4386	C12/ge589.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_16, G#2]	after	F683_4380	C13/ge625.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_16, G#2]	forth	F683_4386	C13/ge625.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_8, G#2]	after	F684_4380	C14/ge661.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_8, G#2]	forth	F684_4386	C14/ge661.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_32, G#2]	after	F685_4380	C14/ge692.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_32, G#2]	forth	F685_4386	C14/ge692.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_64, G#2]	after	F686_4380	C15/ge733.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [NATURAL_64, G#2]	forth	F686_4386	C15/ge733.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_64, G#2]	after	F687_4380	C16/ge769.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_64, G#2]	forth	F687_4386	C16/ge769.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [BOOLEAN, G#2]	after	F688_4380	C17/ge806.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [BOOLEAN, G#2]	forth	F688_4386	C17/ge806.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [CHARACTER_32, G#2]	after	F689_4380	C17/ge833.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [CHARACTER_32, G#2]	forth	F689_4386	C17/ge833.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_16, G#2]	after	F690_4380	C19/ge904.c
+elks	GENERAL_SPECIAL_ITERATION_CURSOR [INTEGER_16, G#2]	forth	F690_4386	C19/ge904.c
+ise	RESCUE_FAILURE	code	F60_1443	C2/re74.c
+elks	VARIANT_VIOLATION	code	F85_1491	C2/va99.c
+elks	IMMUTABLE_STRING_32	make_from_area_and_bounds	F879_7012	C5/im242.c
+elks	IMMUTABLE_STRING_32	copy	F879_7014	C5/im242.c
+elks	IMMUTABLE_STRING_32	item	F879_7015	C5/im242.c
+elks	IMMUTABLE_STRING_32	code	F879_7017	C5/im242.c
+elks	IMMUTABLE_STRING_32	as_lower	F879_7021	C5/im242.c
+elks	IMMUTABLE_STRING_32	substring	F879_7023	C5/im242.c
+elks	IMMUTABLE_STRING_32	empty_string	F879_7028	C5/im242.c
+elks	IMMUTABLE_STRING_32	area_lower	F879_7029	C5/im242.c
+elks	IMMUTABLE_STRING_32	correct_mismatch	F879_7030	C5/im242.c
+elks	READABLE_STRING_32	make	F875_6847	C5/re238.c
+elks	READABLE_STRING_32	make_from_string	F875_6849	C5/re238.c
+elks	READABLE_STRING_32	capacity	F875_6866	C5/re238.c
+elks	READABLE_STRING_32	count	F875_6867	C5/re238.c
+elks	READABLE_STRING_32	lower	F875_6869	C5/re238.c
+elks	READABLE_STRING_32	is_equal	F875_6870	C5/re238.c
+elks	READABLE_STRING_32	is_case_insensitive_equal	F875_6871	C5/re238.c
+elks	READABLE_STRING_32	same_caseless_characters	F875_6872	C5/re238.c
+elks	READABLE_STRING_32	is_less	F875_6875	C5/re238.c
+elks	READABLE_STRING_32	copy	F875_6885	C5/re238.c
+elks	READABLE_STRING_32	out	F875_6889	C5/re238.c
+elks	READABLE_STRING_32	str_strict_cmp	F875_6891	C5/re238.c
+elks	READABLE_STRING_32	to_lower_area	F875_6892	C5/re238.c
+elks	READABLE_STRING_32	area_lower	F875_6896	C5/re238.c
+ise	EXTERNAL_FAILURE	code	F67_1453	C2/ex81.c
+elks	COUNTABLE_SEQUENCE [INTEGER_32]	index	F450_2876	C19/co938.c
+elks	COUNTABLE_SEQUENCE [INTEGER_32]	after	F450_2878	C19/co938.c
+elks	COUNTABLE_SEQUENCE [INTEGER_32]	forth	F450_2884	C19/co938.c
+elks	LINKED_LIST_ITERATION_CURSOR [G#1]	after	F673_4360	C7/li334.c
+elks	LINKED_LIST_ITERATION_CURSOR [G#1]	forth	F673_4362	C7/li334.c
+elks	LINKED_LIST_ITERATION_CURSOR [G#1]	target	F673_4363	C7/li334.c
+elks	LINKED_LIST_ITERATION_CURSOR [INTEGER_32]	after	F674_4360	C19/li929.c
+elks	LINKED_LIST_ITERATION_CURSOR [INTEGER_32]	forth	F674_4362	C19/li929.c
+elks	LINKED_LIST_ITERATION_CURSOR [INTEGER_32]	target	F674_4363	C19/li929.c
+elks	LINKED_LIST_ITERATION_CURSOR [BOOLEAN]	after	F675_4360	C19/li947.c
+elks	LINKED_LIST_ITERATION_CURSOR [BOOLEAN]	forth	F675_4362	C19/li947.c
+elks	LINKED_LIST_ITERATION_CURSOR [BOOLEAN]	target	F675_4363	C19/li947.c
+elks	CELL [G#1]	item	F100_1933	C7/ce336.c
+elks	CELL [G#1]	put	F100_1934	C7/ce336.c
+elks	CELL [NATURAL_64]	item	F101_1933	C9/ce442.c
+elks	CELL [NATURAL_64]	put	F101_1934	C9/ce442.c
+elks	CELL [CHARACTER_32]	item	F102_1933	C9/ce443.c
+elks	CELL [CHARACTER_32]	put	F102_1934	C9/ce443.c
+elks	CELL [INTEGER_32]	item	F103_1933	C9/ce444.c
+elks	CELL [INTEGER_32]	put	F103_1934	C9/ce444.c
+elks	CELL [BOOLEAN]	item	F104_1933	C19/ce949.c
+elks	CELL [BOOLEAN]	put	F104_1934	C19/ce949.c
+ise	RESUMPTION_FAILURE	code	F59_1441	C2/re73.c
+elks	ROUTINE_FAILURE	code	F76_1475	C2/ro90.c
+elks	ROUTINE_FAILURE	set_routine_name	F76_1477	C2/ro90.c
+elks	ROUTINE_FAILURE	set_class_name	F76_1478	C2/ro90.c
+ise	ADDRESS_APPLIED_TO_MELTED_FEATURE	code	F80_1483	C2/ad94.c
+elks	DOUBLE_MATH	log	F96_1720	C3/do119.c
+ise	SERIALIZATION_FAILURE	code	F70_1459	C2/se84.c
+elks	STD_FILES	output	F24_243	C1/st16.c
+elks	STD_FILES	standard_default	F24_246	C1/st16.c
+elks	STD_FILES	set_output_default	F24_268	C1/st16.c
+elks	STD_FILES	put_string	F24_271	C1/st16.c
+elks	ARRAYED_QUEUE_ITERATION_CURSOR [G#1]	after	F617_4285	C18/ar871.c
+elks	ARRAYED_QUEUE_ITERATION_CURSOR [G#1]	forth	F617_4286	C18/ar871.c
+elks	IO_MEDIUM	dispose	F741_4766	C4/io180.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	make	F44_1269	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	overflowed	F44_1271	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	reset	F44_1274	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	parse_string_with_type	F44_1275	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	parse_character	F44_1276	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	is_integral_integer	F44_1279	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	parsed_natural_32	F44_1287	C2/he57.c
+elks	HEXADECIMAL_STRING_TO_INTEGER_CONVERTER	overflow_checker	F44_1292	C2/he57.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, G#2]	item	F668_4353	C10/ha469.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, G#2]	key	F668_4354	C10/ha469.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, G#2]	after	F668_4356	C10/ha469.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, G#2]	forth	F668_4357	C10/ha469.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, G#2]	target	F668_4358	C10/ha469.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, INTEGER_32]	item	F669_4353	C12/ha571.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, INTEGER_32]	key	F669_4354	C12/ha571.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, INTEGER_32]	after	F669_4356	C12/ha571.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, INTEGER_32]	forth	F669_4357	C12/ha571.c
+elks	HASH_TABLE_ITERATION_CURSOR [G#1, INTEGER_32]	target	F669_4358	C12/ha571.c
+elks	HASH_TABLE_ITERATION_CURSOR [NATURAL_32, POINTER]	item	F670_4353	C17/ha849.c
+elks	HASH_TABLE_ITERATION_CURSOR [NATURAL_32, POINTER]	key	F670_4354	C17/ha849.c
+elks	HASH_TABLE_ITERATION_CURSOR [NATURAL_32, POINTER]	after	F670_4356	C17/ha849.c
+elks	HASH_TABLE_ITERATION_CURSOR [NATURAL_32, POINTER]	forth	F670_4357	C17/ha849.c
+elks	HASH_TABLE_ITERATION_CURSOR [NATURAL_32, POINTER]	target	F670_4358	C17/ha849.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, G#2]	item	F671_4353	C18/ha856.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, G#2]	key	F671_4354	C18/ha856.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, G#2]	after	F671_4356	C18/ha856.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, G#2]	forth	F671_4357	C18/ha856.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, G#2]	target	F671_4358	C18/ha856.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, INTEGER_32]	item	F672_4353	C18/ha877.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, INTEGER_32]	key	F672_4354	C18/ha877.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, INTEGER_32]	after	F672_4356	C18/ha877.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, INTEGER_32]	forth	F672_4357	C18/ha877.c
+elks	HASH_TABLE_ITERATION_CURSOR [INTEGER_32, INTEGER_32]	target	F672_4358	C18/ha877.c
+elks	REAL_32_REF	hash_code	F815_5899	C5/re209.c
+elks	REAL_32_REF	is_less	F815_5910	C5/re209.c
+elks	REAL_32_REF	is_equal	F815_5911	C5/re209.c
+elks	REAL_32_REF	set_item	F815_5912	C5/re209.c
+elks	REAL_32_REF	truncated_to_integer	F815_5921	C5/re209.c
+elks	REAL_32_REF	out	F815_5938	C5/re209.c
+elks	NATURAL_8_REF	hash_code	F812_5808	C5/na206.c
+elks	NATURAL_8_REF	is_less	F812_5815	C5/na206.c
+elks	NATURAL_8_REF	is_equal	F812_5816	C5/na206.c
+elks	NATURAL_8_REF	set_item	F812_5817	C5/na206.c
+elks	NATURAL_8_REF	plus	F812_5824	C5/na206.c
+elks	NATURAL_8_REF	integer_quotient	F812_5830	C5/na206.c
+elks	NATURAL_8_REF	integer_remainder	F812_5831	C5/na206.c
+elks	NATURAL_8_REF	as_natural_16	F812_5838	C5/na206.c
+elks	NATURAL_8_REF	as_natural_32	F812_5839	C5/na206.c
+elks	NATURAL_8_REF	as_natural_64	F812_5840	C5/na206.c
+elks	NATURAL_8_REF	as_integer_32	F812_5843	C5/na206.c
+elks	NATURAL_8_REF	to_natural_16	F812_5846	C5/na206.c
+elks	NATURAL_8_REF	to_natural_32	F812_5847	C5/na206.c
+elks	NATURAL_8_REF	to_natural_64	F812_5848	C5/na206.c
+elks	NATURAL_8_REF	to_integer_32	F812_5851	C5/na206.c
+elks	NATURAL_8_REF	to_hex_string	F812_5855	C5/na206.c
+elks	NATURAL_8_REF	to_character_8	F812_5858	C5/na206.c
+elks	NATURAL_8_REF	to_character_32	F812_5859	C5/na206.c
+elks	NATURAL_8_REF	bit_and	F812_5860	C5/na206.c
+elks	NATURAL_8_REF	bit_or	F812_5861	C5/na206.c
+elks	NATURAL_8_REF	out	F812_5870	C5/na206.c
+elks	PRIMES	higher_prime	F616_4274	C4/pr164.c
+elks	PRIMES	all_lower_primes	F616_4276	C4/pr164.c
+elks	PRIMES	is_prime	F616_4277	C4/pr164.c
+elks	PRIMES	i_th	F616_4278	C4/pr164.c
+elks	PRIMES	internal_precomputed_primes	F616_4281	C4/pr164.c
+elks	PRIMES	approximated_i_th	F616_4282	C4/pr164.c
+elks	REAL_64_REF	hash_code	F809_5742	C5/re203.c
+elks	REAL_64_REF	is_less	F809_5753	C5/re203.c
+elks	REAL_64_REF	is_equal	F809_5754	C5/re203.c
+elks	REAL_64_REF	set_item	F809_5755	C5/re203.c
+elks	REAL_64_REF	truncated_to_integer	F809_5764	C5/re203.c
+elks	REAL_64_REF	plus	F809_5774	C5/re203.c
+elks	REAL_64_REF	minus	F809_5775	C5/re203.c
+elks	REAL_64_REF	product	F809_5776	C5/re203.c
+elks	REAL_64_REF	quotient	F809_5777	C5/re203.c
+elks	REAL_64_REF	out	F809_5781	C5/re203.c
+elks	OPERATING_SYSTEM_FAILURE	code	F56_1433	C2/op70.c
+elks	OPERATING_SYSTEM_FAILURE	set_error_code	F56_1436	C2/op70.c
+elks	POSTCONDITION_VIOLATION	code	F84_1489	C2/po98.c
+elks	EXCEPTION_MANAGER_FACTORY	exception_manager	F47_1343	C2/ex60.c
+elks	LIST [G#1]	is_equal	F542_3451	C6/li257.c
+elks	LIST [G#1]	after	F542_3452	C6/li257.c
+elks	LIST [POINTER]	is_equal	F543_3451	C7/li328.c
+elks	LIST [POINTER]	after	F543_3452	C7/li328.c
+elks	LIST [REAL_32]	is_equal	F544_3451	C8/li394.c
+elks	LIST [REAL_32]	after	F544_3452	C8/li394.c
+elks	LIST [CHARACTER_8]	is_equal	F545_3451	C9/li424.c
+elks	LIST [CHARACTER_8]	after	F545_3452	C9/li424.c
+elks	LIST [REAL_64]	is_equal	F546_3451	C11/li506.c
+elks	LIST [REAL_64]	after	F546_3452	C11/li506.c
+elks	LIST [INTEGER_32]	is_equal	F547_3451	C12/li566.c
+elks	LIST [INTEGER_32]	after	F547_3452	C12/li566.c
+elks	LIST [NATURAL_8]	is_equal	F548_3451	C13/li607.c
+elks	LIST [NATURAL_8]	after	F548_3452	C13/li607.c
+elks	LIST [NATURAL_16]	is_equal	F549_3451	C13/li643.c
+elks	LIST [NATURAL_16]	after	F549_3452	C13/li643.c
+elks	LIST [INTEGER_8]	is_equal	F550_3451	C14/li679.c
+elks	LIST [INTEGER_8]	after	F550_3452	C14/li679.c
+elks	LIST [NATURAL_32]	is_equal	F551_3451	C15/li715.c
+elks	LIST [NATURAL_32]	after	F551_3452	C15/li715.c
+elks	LIST [NATURAL_64]	is_equal	F552_3451	C16/li751.c
+elks	LIST [NATURAL_64]	after	F552_3452	C16/li751.c
+elks	LIST [INTEGER_64]	is_equal	F553_3451	C16/li787.c
+elks	LIST [INTEGER_64]	after	F553_3452	C16/li787.c
+elks	LIST [BOOLEAN]	is_equal	F554_3451	C17/li824.c
+elks	LIST [BOOLEAN]	after	F554_3452	C17/li824.c
+elks	LIST [CHARACTER_32]	is_equal	F555_3451	C17/li845.c
+elks	LIST [CHARACTER_32]	after	F555_3452	C17/li845.c
+elks	LIST [INTEGER_16]	is_equal	F556_3451	C19/li922.c
+elks	LIST [INTEGER_16]	after	F556_3452	C19/li922.c
+ise	EIFFEL_RUNTIME_PANIC	code	F63_1447	C2/ei77.c
+ise	EIFFEL_RUNTIME_PANIC	set_code	F63_1449	C2/ei77.c
+elks	CHARACTER_PROPERTY	make	F23_116	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower	F23_129	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_1	F23_141	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_2	F23_142	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_3	F23_143	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_4	F23_144	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_5	F23_145	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_6	F23_146	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_7	F23_147	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_8	F23_148	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_9	F23_149	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_10	F23_150	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_11	F23_151	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_12	F23_152	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_13	F23_153	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_14	F23_154	C1/ch15.c
+elks	CHARACTER_PROPERTY	to_lower_table_15	F23_155	C1/ch15.c
+elks	RAW_FILE	file_fread	F743_5164	C4/ra183.c
+elks	ARRAYED_QUEUE [G#1]	is_equal	F576_3894	C18/ar870.c
+elks	ARRAYED_QUEUE [G#1]	count	F576_3895	C18/ar870.c
+elks	ARRAYED_QUEUE [G#1]	capacity	F576_3896	C18/ar870.c
+elks	ARRAYED_QUEUE [G#1]	copy	F576_3907	C18/ar870.c
+elks	ARRAYED_QUEUE [G#1]	correct_mismatch	F576_3914	C18/ar870.c
+elks	BOOLEAN_REF	hash_code	F806_5721	C5/bo200.c
+elks	BOOLEAN_REF	make_from_reference	F806_5722	C5/bo200.c
+elks	BOOLEAN_REF	set_item	F806_5725	C5/bo200.c
+elks	BOOLEAN_REF	conjuncted	F806_5726	C5/bo200.c
+elks	BOOLEAN_REF	conjuncted_semistrict	F806_5727	C5/bo200.c
+elks	BOOLEAN_REF	implication	F806_5728	C5/bo200.c
+elks	BOOLEAN_REF	negated	F806_5729	C5/bo200.c
+elks	BOOLEAN_REF	disjuncted	F806_5730	C5/bo200.c
+elks	BOOLEAN_REF	disjuncted_semistrict	F806_5731	C5/bo200.c
+elks	BOOLEAN_REF	out	F806_5733	C5/bo200.c
+ise	CREATE_ON_DEFERRED	code	F79_1481	C2/cr93.c
+elks	VOID_ASSIGNED_TO_EXPANDED	code	F75_1471	C2/vo89.c
+elks	STRING_TABLE [G#1]	make_caseless	F582_4036	C17/st829.c
+elks	STRING_TABLE [G#1]	hash_code_of	F582_4038	C17/st829.c
+elks	STRING_TABLE [G#1]	same_keys	F582_4040	C17/st829.c
+elks	STRING_TABLE [G#1]	is_equal	F582_4041	C17/st829.c
+elks	STRING_TABLE [G#1]	empty_duplicate	F582_4042	C17/st829.c
+elks	STRING_TABLE [INTEGER_32]	make_caseless	F583_4036	C18/st855.c
+elks	STRING_TABLE [INTEGER_32]	hash_code_of	F583_4038	C18/st855.c
+elks	STRING_TABLE [INTEGER_32]	same_keys	F583_4040	C18/st855.c
+elks	STRING_TABLE [INTEGER_32]	is_equal	F583_4041	C18/st855.c
+elks	STRING_TABLE [INTEGER_32]	empty_duplicate	F583_4042	C18/st855.c
+elks	MANAGED_POINTER	make	F740_4468	C4/ma172.c
+elks	MANAGED_POINTER	make_from_pointer	F740_4470	C4/ma172.c
+elks	MANAGED_POINTER	share_from_pointer	F740_4471	C4/ma172.c
+elks	MANAGED_POINTER	set_from_pointer	F740_4473	C4/ma172.c
+elks	MANAGED_POINTER	is_equal	F740_4477	C4/ma172.c
+elks	MANAGED_POINTER	copy	F740_4478	C4/ma172.c
+elks	MANAGED_POINTER	read_into_special_character_8	F740_4498	C4/ma172.c
+elks	MANAGED_POINTER	put_natural_8	F740_4499	C4/ma172.c
+elks	MANAGED_POINTER	put_natural_16	F740_4500	C4/ma172.c
+elks	MANAGED_POINTER	resize	F740_4558	C4/ma172.c
+elks	MANAGED_POINTER	dispose	F740_4559	C4/ma172.c
+elks	MANAGED_POINTER	allocation_counter	F740_4560	C4/ma172.c
+elks	MANAGED_POINTER	increment_counter	F740_4562	C4/ma172.c
+elks	REFLECTOR	field_conforms_to	F109_1974	C3/re130.c
+elks	NUMERIC_INFORMATION	max_natural_type	F41_1222	C2/nu54.c
+elks	INTEGER_64_REF	hash_code	F803_5627	C4/in197.c
+elks	INTEGER_64_REF	is_less	F803_5634	C4/in197.c
+elks	INTEGER_64_REF	is_equal	F803_5635	C4/in197.c
+elks	INTEGER_64_REF	set_item	F803_5636	C4/in197.c
+elks	INTEGER_64_REF	plus	F803_5644	C4/in197.c
+elks	INTEGER_64_REF	opposite	F803_5649	C4/in197.c
+elks	INTEGER_64_REF	integer_quotient	F803_5650	C4/in197.c
+elks	INTEGER_64_REF	integer_remainder	F803_5651	C4/in197.c
+elks	INTEGER_64_REF	as_natural_64	F803_5659	C4/in197.c
+elks	INTEGER_64_REF	as_integer_32	F803_5662	C4/in197.c
+elks	INTEGER_64_REF	to_natural_64	F803_5667	C4/in197.c
+elks	INTEGER_64_REF	to_integer_32	F803_5671	C4/in197.c
+elks	INTEGER_64_REF	to_character_8	F803_5678	C4/in197.c
+elks	INTEGER_64_REF	bit_and	F803_5680	C4/in197.c
+elks	INTEGER_64_REF	out	F803_5690	C4/in197.c
+elks	COM_FAILURE	code	F55_1416	C2/co69.c
+elks	COM_FAILURE	set_hresult_code	F55_1418	C2/co69.c
+elks	COM_FAILURE	set_exception_information	F55_1423	C2/co69.c
+elks	COM_FAILURE	ccom_hresult_to_string	F55_1424	C2/co69.c
+elks	COM_FAILURE	ccom_hresult	F55_1425	C2/co69.c
+elks	COM_FAILURE	ccom_hresult_code	F55_1426	C2/co69.c
+elks	PRECONDITION_VIOLATION	code	F83_1487	C2/pr97.c
+elks	STRING_ITERATION_CURSOR	after	F615_4263	C4/st163.c
+elks	STRING_ITERATION_CURSOR	forth	F615_4265	C4/st163.c
+elks	NATIVE_STRING	item	F188_2422	C3/na148.c
+elks	NATIVE_STRING	is_equal	F188_2429	C3/na148.c
+elks	LOOP_INVARIANT_VIOLATION	code	F82_1485	C2/lo96.c
+elks	LINKED_LIST_CURSOR [G#1]	make	F169_2398	C7/li340.c
+elks	LINKED_LIST_CURSOR [INTEGER_32]	make	F170_2398	C19/li931.c
+elks	LINKED_LIST_CURSOR [BOOLEAN]	make	F171_2398	C20/li950.c
+elks	STRING_GENERAL	reset_hash_codes	F873_6659	C5/st232.c
+elks	STRING_GENERAL	append_code	F873_6661	C5/st232.c
+elks	STRING_GENERAL	append	F873_6672	C5/st232.c
+elks	MISMATCH_CORRECTOR	correct_mismatch	F575_3856	C4/mi157.c
+elks	MISMATCH_CORRECTOR	mismatch_information	F575_3857	C4/mi157.c
+elks	FILE_ITERATION_CURSOR	after	F739_4448	C4/fi170.c
+elks	FILE_ITERATION_CURSOR	forth	F739_4449	C4/fi170.c
+elks	FILE_ITERATION_CURSOR	close	F739_4450	C4/fi170.c
+elks	PATH	hash_code	F746_5249	C4/pa186.c
+elks	PATH	same_as	F746_5258	C4/pa186.c
+elks	PATH	is_less	F746_5259	C4/pa186.c
+elks	PATH	is_equal	F746_5260	C4/pa186.c
+elks	PATH	is_case_sensitive_equal	F746_5261	C4/pa186.c
+elks	PATH	is_case_insensitive_equal	F746_5262	C4/pa186.c
+elks	PATH	copy	F746_5263	C4/pa186.c
+elks	PATH	out	F746_5264	C4/pa186.c
+elks	PATH	utf_8_name	F746_5265	C4/pa186.c
+elks	PATH	name	F746_5266	C4/pa186.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	make	F653_4331	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	target_index	F653_4333	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	first_index	F653_4334	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	last_index	F653_4335	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	step	F653_4336	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	after	F653_4343	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	is_reversed	F653_4344	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	is_valid	F653_4345	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	start	F653_4350	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	forth	F653_4351	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [G#1]	target	F653_4352	C6/re279.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	make	F654_4331	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	target_index	F654_4333	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	first_index	F654_4334	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	last_index	F654_4335	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	step	F654_4336	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	after	F654_4343	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	is_reversed	F654_4344	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	is_valid	F654_4345	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	start	F654_4350	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	forth	F654_4351	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [POINTER]	target	F654_4352	C7/re302.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	make	F655_4331	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	target_index	F655_4333	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	first_index	F655_4334	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	last_index	F655_4335	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	step	F655_4336	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	after	F655_4343	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	is_reversed	F655_4344	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	is_valid	F655_4345	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	start	F655_4350	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	forth	F655_4351	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_8]	target	F655_4352	C8/re356.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	make	F656_4331	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	target_index	F656_4333	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	first_index	F656_4334	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	last_index	F656_4335	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	step	F656_4336	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	after	F656_4343	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	is_reversed	F656_4344	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	is_valid	F656_4345	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	start	F656_4350	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	forth	F656_4351	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_32]	target	F656_4352	C8/re368.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	make	F657_4331	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	target_index	F657_4333	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	first_index	F657_4334	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	last_index	F657_4335	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	step	F657_4336	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	after	F657_4343	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	is_reversed	F657_4344	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	is_valid	F657_4345	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	start	F657_4350	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	forth	F657_4351	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [CHARACTER_32]	target	F657_4352	C10/re463.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	make	F658_4331	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	target_index	F658_4333	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	first_index	F658_4334	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	last_index	F658_4335	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	step	F658_4336	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	after	F658_4343	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	is_reversed	F658_4344	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	is_valid	F658_4345	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	start	F658_4350	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	forth	F658_4351	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [REAL_64]	target	F658_4352	C10/re477.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	make	F659_4331	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	target_index	F659_4333	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	first_index	F659_4334	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	last_index	F659_4335	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	step	F659_4336	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	after	F659_4343	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	is_reversed	F659_4344	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	is_valid	F659_4345	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	start	F659_4350	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	forth	F659_4351	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_32]	target	F659_4352	C11/re522.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	make	F660_4331	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	target_index	F660_4333	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	first_index	F660_4334	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	last_index	F660_4335	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	step	F660_4336	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	after	F660_4343	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	is_reversed	F660_4344	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	is_valid	F660_4345	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	start	F660_4350	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	forth	F660_4351	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_8]	target	F660_4352	C12/re578.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	make	F661_4331	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	target_index	F661_4333	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	first_index	F661_4334	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	last_index	F661_4335	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	step	F661_4336	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	after	F661_4343	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	is_reversed	F661_4344	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	is_valid	F661_4345	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	start	F661_4350	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	forth	F661_4351	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_16]	target	F661_4352	C13/re614.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	make	F662_4331	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	target_index	F662_4333	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	first_index	F662_4334	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	last_index	F662_4335	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	step	F662_4336	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	after	F662_4343	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	is_reversed	F662_4344	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	is_valid	F662_4345	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	start	F662_4350	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	forth	F662_4351	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_8]	target	F662_4352	C14/re650.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	make	F663_4331	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	target_index	F663_4333	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	first_index	F663_4334	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	last_index	F663_4335	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	step	F663_4336	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	after	F663_4343	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	is_reversed	F663_4344	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	is_valid	F663_4345	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	start	F663_4350	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	forth	F663_4351	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_32]	target	F663_4352	C14/re686.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	make	F664_4331	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	target_index	F664_4333	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	first_index	F664_4334	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	last_index	F664_4335	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	step	F664_4336	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	after	F664_4343	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	is_reversed	F664_4344	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	is_valid	F664_4345	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	start	F664_4350	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	forth	F664_4351	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [NATURAL_64]	target	F664_4352	C15/re722.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	make	F665_4331	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	target_index	F665_4333	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	first_index	F665_4334	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	last_index	F665_4335	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	step	F665_4336	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	after	F665_4343	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	is_reversed	F665_4344	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	is_valid	F665_4345	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	start	F665_4350	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	forth	F665_4351	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_64]	target	F665_4352	C16/re758.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	make	F666_4331	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	target_index	F666_4333	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	first_index	F666_4334	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	last_index	F666_4335	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	step	F666_4336	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	after	F666_4343	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	is_reversed	F666_4344	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	is_valid	F666_4345	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	start	F666_4350	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	forth	F666_4351	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [BOOLEAN]	target	F666_4352	C16/re795.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	make	F667_4331	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	target_index	F667_4333	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	first_index	F667_4334	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	last_index	F667_4335	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	step	F667_4336	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	after	F667_4343	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	is_reversed	F667_4344	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	is_valid	F667_4345	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	start	F667_4350	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	forth	F667_4351	C18/re894.c
+elks	READABLE_INDEXABLE_ITERATION_CURSOR [INTEGER_16]	target	F667_4352	C18/re894.c
+elks	CHARACTER_8_REF	natural_32_code	F800_5581	C4/ch194.c
+elks	CHARACTER_8_REF	hash_code	F800_5582	C4/ch194.c
+elks	CHARACTER_8_REF	is_less	F800_5586	C4/ch194.c
+elks	CHARACTER_8_REF	is_equal	F800_5587	C4/ch194.c
+elks	CHARACTER_8_REF	plus	F800_5588	C4/ch194.c
+elks	CHARACTER_8_REF	minus	F800_5589	C4/ch194.c
+elks	CHARACTER_8_REF	set_item	F800_5593	C4/ch194.c
+elks	CHARACTER_8_REF	out	F800_5594	C4/ch194.c
+elks	CHARACTER_8_REF	to_character_32	F800_5598	C4/ch194.c
+elks	CHARACTER_8_REF	is_hexa_digit	F800_5607	C4/ch194.c
+elks	CHARACTER_8_REF	character_types	F800_5614	C4/ch194.c
+elks	CHARACTER_8_REF	internal_character_types	F800_5615	C4/ch194.c
+elks	CONSOLE	make_open_stdout	F880_7032	C5/co243.c
+elks	CONSOLE	exists	F880_7035	C5/co243.c
+elks	CONSOLE	count	F880_7036	C5/co243.c
+elks	CONSOLE	dispose	F880_7037	C5/co243.c
+elks	CONSOLE	put_string	F880_7058	C5/co243.c
+elks	CONSOLE	console_def	F880_7069	C5/co243.c
+elks	CONSOLE	console_ps	F880_7076	C5/co243.c
+elks	CONSOLE	file_close	F880_7090	C5/co243.c
+elks	LINKABLE [G#1]	put_right	F105_1937	C7/li335.c
+elks	LINKABLE [INTEGER_32]	put_right	F106_1937	C19/li930.c
+elks	LINKABLE [BOOLEAN]	put_right	F107_1937	C19/li948.c
+elks	FLOATING_POINT_FAILURE	code	F53_1412	C2/fl67.c
+elks	CHARACTER_32_REF	hash_code	F797_5542	C4/ch191.c
+elks	CHARACTER_32_REF	natural_32_code	F797_5543	C4/ch191.c
+elks	CHARACTER_32_REF	is_less	F797_5547	C4/ch191.c
+elks	CHARACTER_32_REF	is_equal	F797_5548	C4/ch191.c
+elks	CHARACTER_32_REF	plus	F797_5549	C4/ch191.c
+elks	CHARACTER_32_REF	set_item	F797_5554	C4/ch191.c
+elks	CHARACTER_32_REF	out	F797_5555	C4/ch191.c
+elks	CHARACTER_32_REF	to_character_8	F797_5558	C4/ch191.c
+elks	CHARACTER_32_REF	is_character_8	F797_5564	C4/ch191.c
+elks	IMMUTABLE_STRING_8	make_from_area_and_bounds	F878_6990	C5/im241.c
+elks	IMMUTABLE_STRING_8	copy	F878_6992	C5/im241.c
+elks	IMMUTABLE_STRING_8	character_32_item	F878_6995	C5/im241.c
+elks	IMMUTABLE_STRING_8	code	F878_6996	C5/im241.c
+elks	IMMUTABLE_STRING_8	substring	F878_7002	C5/im241.c
+elks	IMMUTABLE_STRING_8	is_empty	F878_7004	C5/im241.c
+elks	IMMUTABLE_STRING_8	empty_string	F878_7007	C5/im241.c
+elks	IMMUTABLE_STRING_8	area_lower	F878_7008	C5/im241.c
+elks	PLATFORM	is_windows	F97_1749	C3/pl121.c
+elks	VOID_TARGET	code	F74_1469	C2/vo88.c
+elks	CHAIN [G#1]	lower	F512_3382	C6/ch263.c
+elks	CHAIN [G#1]	valid_index	F512_3387	C6/ch263.c
+elks	CHAIN [POINTER]	lower	F513_3382	C7/ch313.c
+elks	CHAIN [POINTER]	valid_index	F513_3387	C7/ch313.c
+elks	CHAIN [REAL_32]	lower	F514_3382	C8/ch379.c
+elks	CHAIN [REAL_32]	valid_index	F514_3387	C8/ch379.c
+elks	CHAIN [CHARACTER_8]	lower	F515_3382	C9/ch409.c
+elks	CHAIN [CHARACTER_8]	valid_index	F515_3387	C9/ch409.c
+elks	CHAIN [REAL_64]	lower	F516_3382	C10/ch491.c
+elks	CHAIN [REAL_64]	valid_index	F516_3387	C10/ch491.c
+elks	CHAIN [INTEGER_32]	lower	F517_3382	C12/ch562.c
+elks	CHAIN [INTEGER_32]	valid_index	F517_3387	C12/ch562.c
+elks	CHAIN [NATURAL_8]	lower	F518_3382	C12/ch592.c
+elks	CHAIN [NATURAL_8]	valid_index	F518_3387	C12/ch592.c
+elks	CHAIN [NATURAL_16]	lower	F519_3382	C13/ch628.c
+elks	CHAIN [NATURAL_16]	valid_index	F519_3387	C13/ch628.c
+elks	CHAIN [INTEGER_8]	lower	F520_3382	C14/ch664.c
+elks	CHAIN [INTEGER_8]	valid_index	F520_3387	C14/ch664.c
+elks	CHAIN [NATURAL_32]	lower	F521_3382	C15/ch700.c
+elks	CHAIN [NATURAL_32]	valid_index	F521_3387	C15/ch700.c
+elks	CHAIN [NATURAL_64]	lower	F522_3382	C15/ch736.c
+elks	CHAIN [NATURAL_64]	valid_index	F522_3387	C15/ch736.c
+elks	CHAIN [INTEGER_64]	lower	F523_3382	C16/ch772.c
+elks	CHAIN [INTEGER_64]	valid_index	F523_3387	C16/ch772.c
+elks	CHAIN [BOOLEAN]	lower	F524_3382	C17/ch809.c
+elks	CHAIN [BOOLEAN]	valid_index	F524_3387	C17/ch809.c
+elks	CHAIN [CHARACTER_32]	lower	F525_3382	C17/ch841.c
+elks	CHAIN [CHARACTER_32]	valid_index	F525_3387	C17/ch841.c
+elks	CHAIN [INTEGER_16]	lower	F526_3382	C19/ch907.c
+elks	CHAIN [INTEGER_16]	valid_index	F526_3387	C19/ch907.c
+elks	INTEGER_OVERFLOW_CHECKER	make	F42_1244	C2/in55.c
+elks	INTEGER_OVERFLOW_CHECKER	will_overflow	F42_1245	C2/in55.c
+elks	READABLE_STRING_GENERAL	make_empty	F871_6510	C5/re230.c
+elks	READABLE_STRING_GENERAL	hash_code	F871_6519	C5/re230.c
+elks	READABLE_STRING_GENERAL	case_insensitive_hash_code	F871_6520	C5/re230.c
+elks	READABLE_STRING_GENERAL	valid_index	F871_6522	C5/re230.c
+elks	READABLE_STRING_GENERAL	is_case_insensitive_equal	F871_6552	C5/re230.c
+elks	READABLE_STRING_GENERAL	same_caseless_characters	F871_6553	C5/re230.c
+elks	READABLE_STRING_GENERAL	same_string	F871_6555	C5/re230.c
+elks	READABLE_STRING_GENERAL	same_characters	F871_6556	C5/re230.c
+elks	READABLE_STRING_GENERAL	as_string_8	F871_6566	C5/re230.c
+elks	READABLE_STRING_GENERAL	c_string_provider	F871_6597	C5/re230.c
+elks	READABLE_STRING_GENERAL	character_properties	F871_6601	C5/re230.c
+elks	READABLE_STRING_8	make	F872_6605	C5/re231.c
+elks	READABLE_STRING_8	make_filled	F872_6606	C5/re231.c
+elks	READABLE_STRING_8	make_from_string	F872_6607	C5/re231.c
+elks	READABLE_STRING_8	make_from_c	F872_6608	C5/re231.c
+elks	READABLE_STRING_8	capacity	F872_6625	C5/re231.c
+elks	READABLE_STRING_8	count	F872_6626	C5/re231.c
+elks	READABLE_STRING_8	lower	F872_6628	C5/re231.c
+elks	READABLE_STRING_8	is_equal	F872_6629	C5/re231.c
+elks	READABLE_STRING_8	is_less	F872_6634	C5/re231.c
+elks	READABLE_STRING_8	has	F872_6639	C5/re231.c
+elks	READABLE_STRING_8	valid_code	F872_6642	C5/re231.c
+elks	READABLE_STRING_8	copy	F872_6644	C5/re231.c
+elks	READABLE_STRING_8	fill_character	F872_6645	C5/re231.c
+elks	READABLE_STRING_8	out	F872_6648	C5/re231.c
+elks	READABLE_STRING_8	str_strict_cmp	F872_6650	C5/re231.c
+elks	READABLE_STRING_8	area_lower	F872_6655	C5/re231.c
+elks	INTEGER_8_REF	hash_code	F794_5446	C4/in188.c
+elks	INTEGER_8_REF	is_less	F794_5453	C4/in188.c
+elks	INTEGER_8_REF	is_equal	F794_5454	C4/in188.c
+elks	INTEGER_8_REF	set_item	F794_5455	C4/in188.c
+elks	INTEGER_8_REF	plus	F794_5463	C4/in188.c
+elks	INTEGER_8_REF	opposite	F794_5468	C4/in188.c
+elks	INTEGER_8_REF	integer_quotient	F794_5469	C4/in188.c
+elks	INTEGER_8_REF	integer_remainder	F794_5470	C4/in188.c
+elks	INTEGER_8_REF	as_natural_64	F794_5479	C4/in188.c
+elks	INTEGER_8_REF	as_integer_32	F794_5482	C4/in188.c
+elks	INTEGER_8_REF	to_natural_64	F794_5487	C4/in188.c
+elks	INTEGER_8_REF	to_integer	F794_5490	C4/in188.c
+elks	INTEGER_8_REF	to_character_8	F794_5498	C4/in188.c
+elks	INTEGER_8_REF	out	F794_5510	C4/in188.c
+root	APPLICATION	make	F214_9430	C23/ap1125.c

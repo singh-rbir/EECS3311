@@ -1,0 +1,22 @@
+
+#ifndef _C4_in155_
+#define _C4_in155_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern EIF_INTEGER_32 F496_3260(EIF_REFERENCE);
+extern EIF_INTEGER_32 F496_3262(EIF_REFERENCE);
+extern EIF_BOOLEAN F496_3266(EIF_REFERENCE, EIF_INTEGER_32);
+extern EIF_INTEGER_32 F496_3268(EIF_REFERENCE);
+extern EIF_INTEGER_32 F496_3269(EIF_REFERENCE);
+extern EIF_BOOLEAN F496_3271(EIF_REFERENCE, EIF_REFERENCE);
+extern void F496_3285(EIF_REFERENCE, EIF_REFERENCE);
+extern void EIF_Minit155(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif

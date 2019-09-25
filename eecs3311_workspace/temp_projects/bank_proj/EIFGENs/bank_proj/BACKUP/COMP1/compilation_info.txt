@@ -1,0 +1,5 @@
+Compiler version: 19.05.10.3187 GPL Edition - macosx-x86-64
+Type: Quick_melt
+batch mode: False
+new session: True
+starting date: 09/12/2019 12:16:58.253 PM
