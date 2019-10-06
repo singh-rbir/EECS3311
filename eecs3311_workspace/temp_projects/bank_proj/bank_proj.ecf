@@ -19,6 +19,7 @@
 		<precompile name="base_pre" location="$ISE_PRECOMP\base-scoop-safe.ecf"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
 		<library name="espec" location="$ISE_LIBRARY\contrib\library\testing\framework\espec\library\espec.ecf"/>
+		<library name="time" location="$ISE_LIBRARY\library\time\time.ecf"/>
 		<cluster name="bank" location=".\bank\" recursive="true"/>
 		<cluster name="root" location=".\root\" recursive="true"/>
 		<cluster name="tests" location=".\tests\" recursive="true"/>
