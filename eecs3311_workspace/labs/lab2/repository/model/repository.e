@@ -22,6 +22,9 @@ class
 	-- as long as it is a descendant of HASHABLE (i.e., so it can be used as a key in hash table).
 	REPOSITORY[KEY -> HASHABLE, DATA1, DATA2]
 
+inherit
+	ITERABLE[TUPLE[DATA1, DATA2, KEY]]
+
 create
 	make
 
@@ -38,6 +41,14 @@ feature -- feature(s) required by ITERABLE
 	-- See test_iterable_repository and test_iteration_cursor in EXAMPLE_REPOSITORY_TESTS.
 	-- As soon as you make the current class iterable,
 	-- define the necessary feature(s) here.
+    new_cursor: ITERATION_CURSOR[TUPLE[DATA1, DATA2, KEY]]
+	local
+		rp_cursor: TUPLE_ITERATION_CURSOR[KEY, DATA1, DATA2]
+		do
+			create rp_cursor.make(data_items_1, data_items_2, keys)
+			Result := rp_cursor
+		end
+
 
 feature -- alternative iteration cursor
 	-- TODO:

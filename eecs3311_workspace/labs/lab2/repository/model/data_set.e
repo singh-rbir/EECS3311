@@ -6,7 +6,7 @@ note
 
 class
 	DATA_SET[V1, V2, K]
-	
+
 inherit
 	ANY
 	redefine
@@ -36,6 +36,7 @@ feature -- Equality
 			-- are equal.
 		do
 			-- TODO:
+			Result := ((other.data_item_1 ~ data_item_1) and (other.data_item_2 ~ data_item_2) and (other.key ~ key))
 		ensure then
 			-- No postcondition needed.
 		end
