@@ -1,35 +1,64 @@
 note
 	description: "Summary description for {DATA_SET_ITERATION_CURSOR}."
-	author: ""
-	date: "$Date$"
+	author: "Rajanbir (Raj) Singh"
+	date: "$Oct 11, 2019$"
 	revision: "$Revision$"
 
 class
-	DATA_SET_ITERATION_CURSOR[KEY, ITEM_1, ITEM_2]
+	DATA_SET_ITERATION_CURSOR[ITEM_1, ITEM_2, KEY -> HASHABLE]
 
 inherit
-	ITERATION_CURSOR[TUPLE[KEY, ITEM_1, ITEM_2]]
+	ITERATION_CURSOR[DATA_SET[ITEM_1, ITEM_2, KEY]]
+create
+	make
+
+feature {NONE} -- Implementation
+	key: LINKED_LIST[KEY]
+	item_1: ARRAY[ITEM_1]
+	item_2: HASH_TABLE[ITEM_2, KEY]
+
+	cursor_pos: INTEGER
+
+feature
+	make(new_key: LINKED_LIST[KEY]; new_item1: ARRAY[ITEM_1]; new_item2: HASH_TABLE[ITEM_2, KEY] )
+		do
+			key := new_key
+			item_1 := new_item1
+			item_2 := new_item2
+
+			cursor_pos := new_item1.lower
+		end
 
 feature -- Access
 
-	item: TUPLE[KEY, ITEM_1, ITEM_2]
+	item: DATA_SET[ITEM_1, ITEM_2, KEY]
 			-- Item at current cursor position.
+		local
+			k: KEY
+			i_1: ITEM_1
+			i_2: ITEM_2
 		do
+			k := key.at (cursor_pos)
+			i_1 := item_1.at (cursor_pos)
+			i_2 := item_2.at (k)
 
+			--create Result
+			check attached i_2 as copy_val then
+				item_2.put (copy_val, k)
+			end
+
+			create Result.make(i_1, i_2, k)
 		end
 
 	after: BOOLEAN
 			-- Are there no more items to iterate over?
 		do
-
+			Result := (cursor_pos > item_1.upper)
 		end
 
 	forth
 			-- Move to next position.
 		do
-
+			cursor_pos := cursor_pos + 1
 		end
-
-
-
 end

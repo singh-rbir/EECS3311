@@ -1,7 +1,7 @@
 note
 	description: "A data set consists of two data items and their associated key."
-	author: "Jackie and You"
-	date: "$Date$"
+	author: "Jackie and Raj"
+	date: "$Oct 11, 2019$"
 	revision: "$Revision$"
 
 class
