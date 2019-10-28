@@ -59,7 +59,7 @@
   +..+
   +.+.
   ++..
-  Q++.
+  Q+++
 ->move_and_capture(4,1,4,3)
   # of chess pieces on board: 2
   Game Over: You Lose!
@@ -157,7 +157,7 @@
   +...
   +...
   +...
-  R++.
+  R+++
 ->move_and_capture(4,1,2,1)
   # of chess pieces on board: 1
   Game Over: You Win!

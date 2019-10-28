@@ -1,5 +1,0 @@
-new("id1")
-new("id2")
-deposit("id1", 200)
-man
-transfer("id1", "id2", 34)

@@ -1,0 +1,14 @@
+-- create a new account with id "id1"
+new("id1")
+
+-- create a new account with id "id1"
+new("id2")
+
+-- deposit into the account with id "id1" an amount of 234
+deposit("id1", 234)
+
+deposit("id2", 108)
+
+withdraw("id2", 8)
+
+transfer("id1", "id2", 34)
