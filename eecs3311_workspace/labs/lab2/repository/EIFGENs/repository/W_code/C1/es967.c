@@ -77,12 +77,12 @@ void F967_7314 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU (SK_REF, &Current);
 	RTLU(SK_REF, &loc1);
 	
-	RTEAA(l_feature_name, 966, Current, 1, 1, 13612);
+	RTEAA(l_feature_name, 966, Current, 1, 1, 13607);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13612);
+	RTDBGEAA(966, Current, 13607);
 	RTCC(arg1, 966, l_feature_name, 1, eif_new_type(968, 0x01), 0x01);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
@@ -178,12 +178,12 @@ void F967_7315 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_REF, &loc1);
 	RTLU(SK_REF, &loc2);
 	
-	RTEAA(l_feature_name, 966, Current, 2, 1, 13613);
+	RTEAA(l_feature_name, 966, Current, 2, 1, 13608);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13613);
+	RTDBGEAA(966, Current, 13608);
 	RTCC(arg1, 966, l_feature_name, 1, eif_new_type(966, 0x01), 0x01);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
@@ -274,12 +274,12 @@ void F967_7316 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_REF, &loc2);
 	RTLU(SK_REF, &loc3);
 	
-	RTEAA(l_feature_name, 966, Current, 3, 1, 13603);
+	RTEAA(l_feature_name, 966, Current, 3, 1, 13598);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13603);
+	RTDBGEAA(966, Current, 13598);
 	RTCC(arg1, 966, l_feature_name, 1, eif_new_type(232, 0x01), 0x01);
 	RTIV(Current, RTAL);
 	if ((RTAL & CK_REQUIRE) || RTAC) {
@@ -374,12 +374,12 @@ void F967_7317 (EIF_REFERENCE Current)
 	RTLU(SK_REF, &loc1);
 	RTLU(SK_REF, &loc2);
 	
-	RTEAA(l_feature_name, 966, Current, 2, 0, 13604);
+	RTEAA(l_feature_name, 966, Current, 2, 0, 13599);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13604);
+	RTDBGEAA(966, Current, 13599);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(5102, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
@@ -491,12 +491,12 @@ EIF_TYPED_VALUE F967_7318 (EIF_REFERENCE Current)
 	RTLU(SK_REF, &loc1);
 	RTLU(SK_REF, &loc2);
 	
-	RTEAA(l_feature_name, 966, Current, 2, 0, 13605);
+	RTEAA(l_feature_name, 966, Current, 2, 0, 13600);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13605);
+	RTDBGEAA(966, Current, 13600);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTDBGAL(0, 0xF8000100, 0,0); /* Result */
@@ -585,12 +585,12 @@ EIF_TYPED_VALUE F967_7319 (EIF_REFERENCE Current)
 	RTLU(SK_REF, &loc1);
 	RTLU(SK_REF, &loc2);
 	
-	RTEAA(l_feature_name, 966, Current, 2, 0, 13606);
+	RTEAA(l_feature_name, 966, Current, 2, 0, 13601);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13606);
+	RTDBGEAA(966, Current, 13601);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTDBGAL(0, 0xF8000100, 0,0); /* Result */
@@ -663,12 +663,12 @@ void F967_7320 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x)
 	RTLU(SK_BOOL,&arg1);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 966, Current, 0, 1, 13607);
+	RTEAA(l_feature_name, 966, Current, 0, 1, 13602);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13607);
+	RTDBGEAA(966, Current, 13602);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTDBGAA(Current, dtype, 5093, 0x04000000, 1); /* show_err */
@@ -717,12 +717,12 @@ EIF_TYPED_VALUE F967_7321 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Current);
 	RTLU(SK_REF, &loc1);
 	
-	RTEAA(l_feature_name, 966, Current, 1, 0, 13608);
+	RTEAA(l_feature_name, 966, Current, 1, 0, 13603);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13608);
+	RTDBGEAA(966, Current, 13603);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTCT0("attached classes as classes1", EX_CHECK);
@@ -778,12 +778,12 @@ void F967_7322 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE ar
 	RTLU(SK_REF,&arg3);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 966, Current, 0, 3, 13609);
+	RTEAA(l_feature_name, 966, Current, 0, 3, 13604);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(966, Current, 13609);
+	RTDBGEAA(966, Current, 13604);
 	RTCC(arg3, 966, l_feature_name, 3, RTWCT(5101, dtype, Dftype(Current)), 0x00);
 	RTIV(Current, RTAL);
 	RTHOOK(1);

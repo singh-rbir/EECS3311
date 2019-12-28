@@ -54,12 +54,12 @@ void F968_7325 (EIF_REFERENCE Current)
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 967, Current, 0, 0, 13614);
+	RTEAA(l_feature_name, 967, Current, 0, 0, 13609);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(967, Current, 13614);
+	RTDBGEAA(967, Current, 13609);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tr1 = RTLN(eif_new_type(969, 0x01).id);

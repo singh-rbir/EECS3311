@@ -1,0 +1,12 @@
+setup_chess(K, 2, 2)
+setup_chess(B, 4, 4)
+setup_chess(B, 1, 1)
+setup_chess(B, 4, 1)
+start_game
+moves(2, 2)
+start_game
+moves(1, 1)
+start_game
+moves(4, 4)
+moves(4, 1)
+moves(4, 4)

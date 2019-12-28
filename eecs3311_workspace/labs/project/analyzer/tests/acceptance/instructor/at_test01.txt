@@ -1,0 +1,4 @@
+add_class("A")
+add_command("A", "ac1", <<["x", "INTEGER"], ["y", "BOOLEAN"], ["z", "A"]>>)
+add_query("A", "aq1", <<["x", "INTEGER"]>>, "BOOLEAN")
+

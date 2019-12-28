@@ -1,0 +1,7 @@
+-- create a new account
+new("id1")
+
+-- create same account to test duplicate acc creation
+new("id2")
+
+new("id1")

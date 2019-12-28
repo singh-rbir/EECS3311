@@ -46,7 +46,7 @@ RTOID (F962_7249)
 EIF_TYPED_VALUE F962_7249 (EIF_REFERENCE Current)
 {
 	GTCX
-	RTOTC (F962_7249,13551,RTMS_EX_H("English",7,257590376));
+	RTOTC (F962_7249,13546,RTMS_EX_H("English",7,257590376));
 }
 
 /* {DATE_TIME_TOOLS}.days_text */
@@ -79,12 +79,12 @@ EIF_TYPED_VALUE F962_7250 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 961, Current, 0, 0, 13551);
+	RTEAA(l_feature_name, 961, Current, 0, 0, 13546);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(961, Current, 13551);
+	RTDBGEAA(961, Current, 13546);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -169,12 +169,12 @@ EIF_TYPED_VALUE F962_7251 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 961, Current, 0, 0, 13552);
+	RTEAA(l_feature_name, 961, Current, 0, 0, 13547);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(961, Current, 13552);
+	RTDBGEAA(961, Current, 13547);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -274,12 +274,12 @@ EIF_TYPED_VALUE F962_7252 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 961, Current, 0, 0, 13553);
+	RTEAA(l_feature_name, 961, Current, 0, 0, 13548);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(961, Current, 13553);
+	RTDBGEAA(961, Current, 13548);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -364,12 +364,12 @@ EIF_TYPED_VALUE F962_7253 (EIF_REFERENCE Current)
 	RTLU (SK_REF, &Result);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 961, Current, 0, 0, 13554);
+	RTEAA(l_feature_name, 961, Current, 0, 0, 13549);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(961, Current, 13554);
+	RTDBGEAA(961, Current, 13549);
 	RTIV(Current, RTAL);
 	RTOTP;
 	RTHOOK(1);
@@ -446,7 +446,7 @@ RTOID (F962_7254)
 EIF_TYPED_VALUE F962_7254 (EIF_REFERENCE Current)
 {
 	GTCX
-	RTOTC (F962_7254,13548,RTMS_EX_H("[0]mm/[0]dd/yyyy",16,1621628025));
+	RTOTC (F962_7254,13543,RTMS_EX_H("[0]mm/[0]dd/yyyy",16,1621628025));
 }
 
 /* {DATE_TIME_TOOLS}.time_default_format_string */
@@ -456,7 +456,7 @@ RTOID (F962_7255)
 EIF_TYPED_VALUE F962_7255 (EIF_REFERENCE Current)
 {
 	GTCX
-	RTOTC (F962_7255,13549,RTMS_EX_H("hh12:[0]mi:[0]ss.ff3 AM",23,629041741));
+	RTOTC (F962_7255,13544,RTMS_EX_H("hh12:[0]mi:[0]ss.ff3 AM",23,629041741));
 }
 
 /* {DATE_TIME_TOOLS}.default_format_string */
@@ -466,7 +466,7 @@ RTOID (F962_7256)
 EIF_TYPED_VALUE F962_7256 (EIF_REFERENCE Current)
 {
 	GTCX
-	RTOTC (F962_7256,13550,RTMS_EX_H("[0]mm/[0]dd/yyyy hh12:[0]mi:[0]ss.ff3 AM",40,2104244301));
+	RTOTC (F962_7256,13545,RTMS_EX_H("[0]mm/[0]dd/yyyy hh12:[0]mi:[0]ss.ff3 AM",40,2104244301));
 }
 
 void EIF_Minit962 (void)

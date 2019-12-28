@@ -117,7 +117,7 @@ void egc_init_plug (void)
 	egc_compiler_tag = 38;
 	egc_project_version = 1567604689;
 	egc_has_old_special_semantic = 0;
-	scount = 1016;
+	scount = 1004;
 
 	egc_rcount = 1;
 	egc_ridx = 0;

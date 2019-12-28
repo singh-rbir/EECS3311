@@ -76,12 +76,12 @@ void F965_7290 (EIF_REFERENCE Current, EIF_TYPED_VALUE arg1x, EIF_TYPED_VALUE ar
 	RTLU(SK_BOOL,&arg4);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 964, Current, 0, 4, 13582);
+	RTEAA(l_feature_name, 964, Current, 0, 4, 13577);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(964, Current, 13582);
+	RTDBGEAA(964, Current, 13577);
 	RTCC(arg1, 964, l_feature_name, 1, eif_new_type(232, 0x01), 0x01);
 	RTCC(arg2, 964, l_feature_name, 2, eif_new_type(232, 0x01), 0x01);
 	{
@@ -146,12 +146,12 @@ void F965_7291 (EIF_REFERENCE Current)
 	RTLU (SK_VOID, NULL);
 	RTLU (SK_REF, &Current);
 	
-	RTEAA(l_feature_name, 964, Current, 0, 0, 13583);
+	RTEAA(l_feature_name, 964, Current, 0, 0, 13578);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(964, Current, 13583);
+	RTDBGEAA(964, Current, 13578);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(5065, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);
@@ -207,12 +207,12 @@ void F965_7292 (EIF_REFERENCE Current)
 	RTLU(SK_REF, &loc3);
 	RTLU(SK_REF, &loc4);
 	
-	RTEAA(l_feature_name, 964, Current, 4, 0, 13584);
+	RTEAA(l_feature_name, 964, Current, 4, 0, 13579);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(964, Current, 13584);
+	RTDBGEAA(964, Current, 13579);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	RTCT0("attached test_classes as tc", EX_CHECK);
@@ -278,10 +278,10 @@ void F965_7292 (EIF_REFERENCE Current)
 					RTCF0;
 				}
 				RTHOOK(16);
-				tb3 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5240, "is_violation_case", loc4))(loc4)).it_b);
+				tb3 = (((FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5241, "is_violation_case", loc4))(loc4)).it_b);
 				if (tb3) {
 					RTHOOK(17);
-					tb3 = *(EIF_BOOLEAN *)(loc4 + RTVA(5243, "passed", loc4));
+					tb3 = *(EIF_BOOLEAN *)(loc4 + RTVA(5244, "passed", loc4));
 					if (tb3) {
 						RTHOOK(18);
 						RTDBGAA(Current, dtype, 5070, 0x10000000, 1); /* number_passed_violation */
@@ -295,7 +295,7 @@ void F965_7292 (EIF_REFERENCE Current)
 					(*(EIF_INTEGER_32 *)(Current + RTWA(5069, dtype)))++;
 				} else {
 					RTHOOK(21);
-					tb3 = *(EIF_BOOLEAN *)(loc4 + RTVA(5243, "passed", loc4));
+					tb3 = *(EIF_BOOLEAN *)(loc4 + RTVA(5244, "passed", loc4));
 					if (tb3) {
 						RTHOOK(22);
 						RTDBGAA(Current, dtype, 5068, 0x10000000, 1); /* number_passed_boolean */
@@ -380,12 +380,12 @@ void F965_7293 (EIF_REFERENCE Current)
 	RTLU(SK_REF, &loc6);
 	RTLU(SK_REF, &loc7);
 	
-	RTEAA(l_feature_name, 964, Current, 7, 0, 13585);
+	RTEAA(l_feature_name, 964, Current, 7, 0, 13580);
 	RTSA(dtype);
 	RTSC;
 	RTME(dtype, 0);
 	RTGC;
-	RTDBGEAA(964, Current, 13585);
+	RTDBGEAA(964, Current, 13580);
 	RTIV(Current, RTAL);
 	RTHOOK(1);
 	tr1 = ((up1x = (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTWF(5075, dtype))(Current)), (((up1x.type & SK_HEAD) == SK_REF)? (EIF_REFERENCE) 0: (up1x.it_r = RTBU(up1x))), (up1x.type = SK_POINTER), up1x.it_r);

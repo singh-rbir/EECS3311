@@ -100,74 +100,74 @@ EIF_TYPED_VALUE _A970_85 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VA
 	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5137, "test_another_cursor", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t1 */
-EIF_TYPED_VALUE _A971_77 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
-{
-	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5139, "t1", closed [1].it_r))(closed [1].it_r);
-}
-
-	/* STUDENT_TESTS t2 */
+	/* STUDENT_TESTS t1_test_hashtable_system */
 EIF_TYPED_VALUE _A971_78 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5140, "t2", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5140, "t1_test_hashtable_system", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t3 */
+	/* STUDENT_TESTS t2_setup_testing */
 EIF_TYPED_VALUE _A971_79 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5141, "t3", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5141, "t2_setup_testing", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t4 */
+	/* STUDENT_TESTS t3_testing_repos_check_in */
 EIF_TYPED_VALUE _A971_80 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5142, "t4", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5142, "t3_testing_repos_check_in", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t5 */
+	/* STUDENT_TESTS t4_testing_repos_check_in_data1 */
 EIF_TYPED_VALUE _A971_81 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5143, "t5", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5143, "t4_testing_repos_check_in_data1", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t6 */
+	/* STUDENT_TESTS t5_testing_repos_check_in_data2 */
 EIF_TYPED_VALUE _A971_82 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5144, "t6", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5144, "t5_testing_repos_check_in_data2", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t7 */
+	/* STUDENT_TESTS t6_testing_repos_check_out_feature */
 EIF_TYPED_VALUE _A971_83 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5145, "t7", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5145, "t6_testing_repos_check_out_feature", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t8 */
+	/* STUDENT_TESTS t7_testing_repos_all_data_exists */
 EIF_TYPED_VALUE _A971_84 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5146, "t8", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5146, "t7_testing_repos_all_data_exists", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t9 */
+	/* STUDENT_TESTS t8_test_iterable */
 EIF_TYPED_VALUE _A971_85 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5147, "t9", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5147, "t8_test_iterable", closed [1].it_r))(closed [1].it_r);
 }
 
-	/* STUDENT_TESTS t10 */
+	/* STUDENT_TESTS t9_test_another_cursor */
 EIF_TYPED_VALUE _A971_86 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
 {
 	GTCX
-	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5148, "t10", closed [1].it_r))(closed [1].it_r);
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5148, "t9_test_another_cursor", closed [1].it_r))(closed [1].it_r);
+}
+
+	/* STUDENT_TESTS t10_testing_repos_check_out_feature */
+EIF_TYPED_VALUE _A971_87 ( EIF_TYPED_VALUE(*f_ptr) (EIF_REFERENCE), EIF_TYPED_VALUE * closed, EIF_TYPED_VALUE * open)
+{
+	GTCX
+	return (FUNCTION_CAST(EIF_TYPED_VALUE, (EIF_REFERENCE)) RTVF(5149, "t10_testing_repos_check_out_feature", closed [1].it_r))(closed [1].it_r);
 }
 
 

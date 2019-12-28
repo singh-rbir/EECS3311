@@ -25,16 +25,11 @@ time	C_DATE	get_tm_mday	F960_7232	C1/c_960.c
 time	C_DATE	get_tm_hour	F960_7233	C1/c_960.c
 time	C_DATE	get_tm_min	F960_7234	C1/c_960.c
 time	C_DATE	get_tm_sec	F960_7235	C1/c_960.c
-model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	data_item_1	F1002_7236	C2/da1002.c
-model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	data_item_2	F1002_7237	C2/da1002.c
-model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	key	F1002_7238	C2/da1002.c
-model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	make	F1002_7239	C2/da1002.c
-model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	is_equal	F1002_7240	C2/da1002.c
-model	DATA_SET [G#1, CHARACTER_8, INTEGER_32]	data_item_1	F1016_7236	C2/da1016.c
-model	DATA_SET [G#1, CHARACTER_8, INTEGER_32]	data_item_2	F1016_7237	C2/da1016.c
-model	DATA_SET [G#1, CHARACTER_8, INTEGER_32]	key	F1016_7238	C2/da1016.c
-model	DATA_SET [G#1, CHARACTER_8, INTEGER_32]	make	F1016_7239	C2/da1016.c
-model	DATA_SET [G#1, CHARACTER_8, INTEGER_32]	is_equal	F1016_7240	C2/da1016.c
+model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	data_item_1	F1000_7236	C2/da1000.c
+model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	data_item_2	F1000_7237	C2/da1000.c
+model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	key	F1000_7238	C2/da1000.c
+model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	make	F1000_7239	C2/da1000.c
+model	DATA_SET [CHARACTER_8, INTEGER_32, G#3]	is_equal	F1000_7240	C2/da1000.c
 time	DATE_TIME_TOOLS	name	F962_7249	C1/da962.c
 time	DATE_TIME_TOOLS	days_text	F962_7250	C1/da962.c
 time	DATE_TIME_TOOLS	months_text	F962_7251	C1/da962.c
@@ -144,683 +139,497 @@ tests	EXAMPLE_REPOSITORY_TESTS	test_iterable_repository	F970_7362	C1/ex970.c
 tests	EXAMPLE_REPOSITORY_TESTS	test_iteration_cursor	F970_7363	C1/ex970.c
 tests	EXAMPLE_REPOSITORY_TESTS	test_another_cursor	F970_7364	C1/ex970.c
 tests	STUDENT_TESTS	make	F971_7365	C1/st971.c
-tests	STUDENT_TESTS	t1	F971_7366	C1/st971.c
-tests	STUDENT_TESTS	t2	F971_7367	C1/st971.c
-tests	STUDENT_TESTS	t3	F971_7368	C1/st971.c
-tests	STUDENT_TESTS	t4	F971_7369	C1/st971.c
-tests	STUDENT_TESTS	t5	F971_7370	C1/st971.c
-tests	STUDENT_TESTS	t6	F971_7371	C1/st971.c
-tests	STUDENT_TESTS	t7	F971_7372	C1/st971.c
-tests	STUDENT_TESTS	t8	F971_7373	C1/st971.c
-tests	STUDENT_TESTS	t9	F971_7374	C1/st971.c
-tests	STUDENT_TESTS	t10	F971_7375	C1/st971.c
-time	CODE_VALIDITY_CHECKER	is_code	F972_7376	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_day	F972_7377	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_day0	F972_7378	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_day_text	F972_7379	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_year4	F972_7380	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_year2	F972_7381	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_month	F972_7382	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_month0	F972_7383	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_month_text	F972_7384	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_hour	F972_7385	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_hour0	F972_7386	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_hour12	F972_7387	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_hour12_0	F972_7388	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_minute	F972_7389	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_minute0	F972_7390	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_second	F972_7391	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_second0	F972_7392	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_fractional_second	F972_7393	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_colon	F972_7394	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_slash	F972_7395	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_minus	F972_7396	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_comma	F972_7397	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_space	F972_7398	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_dot	F972_7399	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_separator	F972_7400	C1/co972.c
-time	CODE_VALIDITY_CHECKER	is_meridiem	F972_7401	C1/co972.c
-time	TIME_UTILITY	mod	F973_7402	C1/ti973.c
-time	TIME_UTILITY	div	F973_7403	C1/ti973.c
-time	TIME_UTILITY	date_time_tools	F973_7404	C1/ti973.c
-time	TIME_UTILITY	default_format_string	F973_7405	C1/ti973.c
-time	TIME_CONSTANTS	seconds_in_minute	F974_7406	C1/ti974.c
-time	TIME_CONSTANTS	seconds_in_hour	F974_7407	C1/ti974.c
-time	TIME_CONSTANTS	seconds_in_day	F974_7408	C1/ti974.c
-time	TIME_CONSTANTS	minutes_in_hour	F974_7409	C1/ti974.c
-time	TIME_CONSTANTS	hours_in_day	F974_7410	C1/ti974.c
-time	TIME_CONSTANTS	time_default_format_string	F974_7411	C1/ti974.c
-time	TIME_VALUE	hour	F976_7421	C1/ti976.c
-time	TIME_VALUE	minute	F976_7422	C1/ti976.c
-time	TIME_VALUE	second	F976_7423	C1/ti976.c
-time	TIME_VALUE	fractional_second	F976_7424	C1/ti976.c
-time	TIME_VALUE	compact_time	F976_7425	C1/ti976.c
-time	TIME_VALUE	fine_second	F976_7426	C1/ti976.c
-time	TIME_VALUE	milli_second	F976_7427	C1/ti976.c
-time	TIME_VALUE	micro_second	F976_7428	C1/ti976.c
-time	TIME_VALUE	nano_second	F976_7429	C1/ti976.c
-time	TIME_VALUE	set_hour	F976_7430	C1/ti976.c
-time	TIME_VALUE	set_minute	F976_7431	C1/ti976.c
-time	TIME_VALUE	set_second	F976_7432	C1/ti976.c
-time	TIME_VALUE	set_fine_second	F976_7433	C1/ti976.c
-time	TIME_VALUE	set_fractionals	F976_7434	C1/ti976.c
-time	TIME_VALUE	hour_mask	F976_7435	C1/ti976.c
-time	TIME_VALUE	minute_mask	F976_7436	C1/ti976.c
-time	TIME_VALUE	second_mask	F976_7437	C1/ti976.c
-time	TIME_VALUE	hour_shift	F976_7438	C1/ti976.c
-time	TIME_VALUE	minute_shift	F976_7439	C1/ti976.c
-time	DATE_CONSTANTS	days_in_week	F977_7440	C1/da977.c
-time	DATE_CONSTANTS	max_weeks_in_year	F977_7441	C1/da977.c
-time	DATE_CONSTANTS	months_in_year	F977_7442	C1/da977.c
-time	DATE_CONSTANTS	days_in_leap_year	F977_7443	C1/da977.c
-time	DATE_CONSTANTS	days_in_non_leap_year	F977_7444	C1/da977.c
-time	DATE_CONSTANTS	days_in_i_th_month	F977_7445	C1/da977.c
-time	DATE_CONSTANTS	date_default_format_string	F977_7446	C1/da977.c
-time	DATE_CONSTANTS	days_text	F977_7447	C1/da977.c
-time	DATE_CONSTANTS	months_text	F977_7448	C1/da977.c
-time	DATE_CONSTANTS	long_days_text	F977_7449	C1/da977.c
-time	DATE_CONSTANTS	long_months_text	F977_7450	C1/da977.c
-time	DATE_CONSTANTS	i_th_leap_year	F977_7451	C1/da977.c
-time	DATE_CONSTANTS	is_leap_year	F977_7452	C1/da977.c
-time	DATE_CONSTANTS	days_in_months	F977_7453	C1/da977.c
-time	DATE_TIME_MEASUREMENT	year	F978_7456	C1/da978.c
-time	DATE_TIME_MEASUREMENT	month	F978_7457	C1/da978.c
-time	DATE_TIME_MEASUREMENT	day	F978_7458	C1/da978.c
-time	DATE_TIME_MEASUREMENT	hour	F978_7459	C1/da978.c
-time	DATE_TIME_MEASUREMENT	minute	F978_7460	C1/da978.c
-time	DATE_TIME_MEASUREMENT	second	F978_7461	C1/da978.c
-time	DATE_TIME_MEASUREMENT	fine_second	F978_7462	C1/da978.c
-time	DATE_TIME_VALUE	date	F979_7463	C1/da979.c
-time	DATE_TIME_VALUE	time	F979_7464	C1/da979.c
-time	DATE_TIME_VALUE	fractional_second	F979_7465	C1/da979.c
-time	DATE_MEASUREMENT	days_in_month	F980_7473	C1/da980.c
-espec	ES_TEST_CASE	set_bookmark_name	F981_7477	C1/es981.c
-espec	ES_TEST_CASE	set_case_name	F981_7478	C1/es981.c
-espec	ES_TEST_CASE	passed	F981_7479	C1/es981.c
-espec	ES_TEST_CASE	contract_violated	F981_7480	C1/es981.c
-espec	ES_TEST_CASE	case_name	F981_7481	C1/es981.c
-espec	ES_TEST_CASE	bookmark_name	F981_7482	C1/es981.c
-espec	ES_TEST_CASE	violation_tag	F981_7483	C1/es981.c
-espec	ES_TEST_CASE	violation_type	F981_7484	C1/es981.c
-espec	ES_TEST_CASE	case	F981_7485	C1/es981.c
-espec	ES_BOOLEAN_TEST_CASE	make	F982_7486	C1/es982.c
-espec	ES_BOOLEAN_TEST_CASE	run	F982_7487	C1/es982.c
-espec	ES_BOOLEAN_TEST_CASE	is_violation_case	F982_7488	C1/es982.c
-espec	ES_BOOLEAN_TEST_CASE	case	F982_7489	C1/es982.c
-espec	ES_VIOLATION_CASE	make	F983_7490	C1/es983.c
-espec	ES_VIOLATION_CASE	make_with_tag	F983_7491	C1/es983.c
-espec	ES_VIOLATION_CASE	run	F983_7492	C1/es983.c
-espec	ES_VIOLATION_CASE	is_violation_case	F983_7493	C1/es983.c
-espec	ES_VIOLATION_CASE	expected_tag_name	F983_7494	C1/es983.c
-time	INTERVAL [G#1]	make	F1000_7495	C2/in1000.c
-time	INTERVAL [G#1]	start_bound	F1000_7496	C2/in1000.c
-time	INTERVAL [G#1]	end_bound	F1000_7497	C2/in1000.c
-time	INTERVAL [G#1]	duration	F1000_7498	C2/in1000.c
-time	INTERVAL [G#1]	is_equal	F1000_7499	C2/in1000.c
-time	INTERVAL [G#1]	intersects	F1000_7500	C2/in1000.c
-time	INTERVAL [G#1]	is_less	F1000_7501	C2/in1000.c
-time	INTERVAL [G#1]	is_less_equal	F1000_7502	C2/in1000.c
-time	INTERVAL [G#1]	is_greater	F1000_7503	C2/in1000.c
-time	INTERVAL [G#1]	is_greater_equal	F1000_7504	C2/in1000.c
-time	INTERVAL [G#1]	is_strict_included_by	F1000_7505	C2/in1000.c
-time	INTERVAL [G#1]	strict_includes	F1000_7506	C2/in1000.c
-time	INTERVAL [G#1]	is_included_by	F1000_7507	C2/in1000.c
-time	INTERVAL [G#1]	includes	F1000_7508	C2/in1000.c
-time	INTERVAL [G#1]	overlaps	F1000_7509	C2/in1000.c
-time	INTERVAL [G#1]	is_overlapped_by	F1000_7510	C2/in1000.c
-time	INTERVAL [G#1]	meets	F1000_7511	C2/in1000.c
-time	INTERVAL [G#1]	is_met_by	F1000_7512	C2/in1000.c
-time	INTERVAL [G#1]	empty	F1000_7513	C2/in1000.c
-time	INTERVAL [G#1]	has	F1000_7514	C2/in1000.c
-time	INTERVAL [G#1]	strict_before	F1000_7515	C2/in1000.c
-time	INTERVAL [G#1]	strict_after	F1000_7516	C2/in1000.c
-time	INTERVAL [G#1]	before	F1000_7517	C2/in1000.c
-time	INTERVAL [G#1]	after	F1000_7518	C2/in1000.c
-time	INTERVAL [G#1]	set_start_bound	F1000_7519	C2/in1000.c
-time	INTERVAL [G#1]	set_end_bound	F1000_7520	C2/in1000.c
-time	INTERVAL [G#1]	union	F1000_7521	C2/in1000.c
-time	INTERVAL [G#1]	intersection	F1000_7522	C2/in1000.c
-time	INTERVAL [G#1]	gather	F1000_7523	C2/in1000.c
-time	INTERVAL [G#1]	out	F1000_7524	C2/in1000.c
-time	DURATION	is_negative	F984_7534	C1/du984.c
-time	DURATION	is_zero	F984_7535	C1/du984.c
-time	DURATION	identity	F984_7536	C1/du984.c
-time	DURATION	minus	F984_7537	C1/du984.c
-time	DATE_TIME_DURATION	make	F985_7538	C1/da985.c
-time	DATE_TIME_DURATION	make_definite	F985_7539	C1/da985.c
-time	DATE_TIME_DURATION	make_fine	F985_7540	C1/da985.c
-time	DATE_TIME_DURATION	make_by_date_time	F985_7541	C1/da985.c
-time	DATE_TIME_DURATION	make_by_date	F985_7542	C1/da985.c
-time	DATE_TIME_DURATION	date	F985_7543	C1/da985.c
-time	DATE_TIME_DURATION	time	F985_7544	C1/da985.c
-time	DATE_TIME_DURATION	origin_date_time	F985_7545	C1/da985.c
-time	DATE_TIME_DURATION	zero	F985_7546	C1/da985.c
-time	DATE_TIME_DURATION	seconds_count	F985_7547	C1/da985.c
-time	DATE_TIME_DURATION	fine_seconds_count	F985_7548	C1/da985.c
-time	DATE_TIME_DURATION	is_less	F985_7549	C1/da985.c
-time	DATE_TIME_DURATION	is_equal	F985_7550	C1/da985.c
-time	DATE_TIME_DURATION	definite	F985_7551	C1/da985.c
-time	DATE_TIME_DURATION	canonical	F985_7552	C1/da985.c
-time	DATE_TIME_DURATION	is_positive	F985_7553	C1/da985.c
-time	DATE_TIME_DURATION	has_origin_date_time	F985_7554	C1/da985.c
-time	DATE_TIME_DURATION	set_origin_date_time	F985_7555	C1/da985.c
-time	DATE_TIME_DURATION	set_date	F985_7556	C1/da985.c
-time	DATE_TIME_DURATION	set_time	F985_7557	C1/da985.c
-time	DATE_TIME_DURATION	plus	F985_7558	C1/da985.c
-time	DATE_TIME_DURATION	opposite	F985_7559	C1/da985.c
-time	DATE_TIME_DURATION	day_add	F985_7560	C1/da985.c
-time	DATE_TIME_DURATION	to_canonical	F985_7561	C1/da985.c
-time	DATE_TIME_DURATION	time_to_canonical	F985_7562	C1/da985.c
-time	DATE_DURATION	make	F986_7563	C1/da986.c
-time	DATE_DURATION	make_by_days	F986_7564	C1/da986.c
-time	DATE_DURATION	zero	F986_7565	C1/da986.c
-time	DATE_DURATION	day	F986_7566	C1/da986.c
-time	DATE_DURATION	month	F986_7567	C1/da986.c
-time	DATE_DURATION	year	F986_7568	C1/da986.c
-time	DATE_DURATION	origin_date	F986_7569	C1/da986.c
-time	DATE_DURATION	days_count	F986_7570	C1/da986.c
-time	DATE_DURATION	is_less	F986_7571	C1/da986.c
-time	DATE_DURATION	is_equal	F986_7572	C1/da986.c
-time	DATE_DURATION	definite	F986_7573	C1/da986.c
-time	DATE_DURATION	canonical	F986_7574	C1/da986.c
-time	DATE_DURATION	is_positive	F986_7575	C1/da986.c
-time	DATE_DURATION	has_origin_date	F986_7576	C1/da986.c
-time	DATE_DURATION	set_origin_date	F986_7577	C1/da986.c
-time	DATE_DURATION	set_day	F986_7578	C1/da986.c
-time	DATE_DURATION	set_month	F986_7579	C1/da986.c
-time	DATE_DURATION	set_year	F986_7580	C1/da986.c
-time	DATE_DURATION	set_date	F986_7581	C1/da986.c
-time	DATE_DURATION	day_add	F986_7582	C1/da986.c
-time	DATE_DURATION	month_add	F986_7583	C1/da986.c
-time	DATE_DURATION	year_add	F986_7584	C1/da986.c
-time	DATE_DURATION	plus	F986_7585	C1/da986.c
-time	DATE_DURATION	opposite	F986_7586	C1/da986.c
-time	DATE_DURATION	to_canonical	F986_7587	C1/da986.c
-time	DATE_DURATION	to_definite	F986_7588	C1/da986.c
-time	DATE_DURATION	to_date_time	F986_7589	C1/da986.c
-time	TIME_DURATION	make	F987_7590	C1/ti987.c
-time	TIME_DURATION	make_fine	F987_7591	C1/ti987.c
-time	TIME_DURATION	make_by_seconds	F987_7592	C1/ti987.c
-time	TIME_DURATION	make_by_fine_seconds	F987_7593	C1/ti987.c
-time	TIME_DURATION	fine_seconds_count	F987_7594	C1/ti987.c
-time	TIME_DURATION	seconds_count	F987_7595	C1/ti987.c
-time	TIME_DURATION	zero	F987_7596	C1/ti987.c
-time	TIME_DURATION	hour	F987_7597	C1/ti987.c
-time	TIME_DURATION	minute	F987_7598	C1/ti987.c
-time	TIME_DURATION	second	F987_7599	C1/ti987.c
-time	TIME_DURATION	fine_second	F987_7600	C1/ti987.c
-time	TIME_DURATION	fractional_second	F987_7601	C1/ti987.c
-time	TIME_DURATION	is_less	F987_7602	C1/ti987.c
-time	TIME_DURATION	is_equal	F987_7603	C1/ti987.c
-time	TIME_DURATION	canonical	F987_7604	C1/ti987.c
-time	TIME_DURATION	is_positive	F987_7605	C1/ti987.c
-time	TIME_DURATION	set_second	F987_7606	C1/ti987.c
-time	TIME_DURATION	set_fine_second	F987_7607	C1/ti987.c
-time	TIME_DURATION	set_fractionals	F987_7608	C1/ti987.c
-time	TIME_DURATION	set_minute	F987_7609	C1/ti987.c
-time	TIME_DURATION	set_hour	F987_7610	C1/ti987.c
-time	TIME_DURATION	second_add	F987_7611	C1/ti987.c
-time	TIME_DURATION	fine_second_add	F987_7612	C1/ti987.c
-time	TIME_DURATION	minute_add	F987_7613	C1/ti987.c
-time	TIME_DURATION	hour_add	F987_7614	C1/ti987.c
-time	TIME_DURATION	plus	F987_7615	C1/ti987.c
-time	TIME_DURATION	opposite	F987_7616	C1/ti987.c
-time	TIME_DURATION	to_canonical	F987_7617	C1/ti987.c
-time	TIME_DURATION	to_days	F987_7618	C1/ti987.c
-time	TIME_DURATION	time_modulo_day	F987_7619	C1/ti987.c
-time	TIME_DURATION	tolerance	F987_7620	C1/ti987.c
-time	ABSOLUTE	is_less	F988_7623	C1/ab988.c
-time	ABSOLUTE	minus	F988_7624	C1/ab988.c
-elks	CELL [CHARACTER_8]	item	F1007_1933	C2/ce1007.c
-elks	CELL [CHARACTER_8]	put	F1007_1934	C2/ce1007.c
-elks	CELL [CHARACTER_8]	replace	F1007_1935	C2/ce1007.c
-elks	LINKABLE [CHARACTER_8]	right	F1006_1936	C2/li1006.c
-elks	LINKABLE [CHARACTER_8]	put_right	F1006_1937	C2/li1006.c
-elks	LINKABLE [CHARACTER_8]	forget_right	F1006_1938	C2/li1006.c
-elks	LINKED_LIST_CURSOR [CHARACTER_8]	make	F1008_2398	C2/li1008.c
-elks	LINKED_LIST_CURSOR [CHARACTER_8]	active	F1008_2399	C2/li1008.c
-elks	LINKED_LIST_CURSOR [CHARACTER_8]	after	F1008_2400	C2/li1008.c
-elks	LINKED_LIST_CURSOR [CHARACTER_8]	before	F1008_2401	C2/li1008.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	keys	F1014_7626	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	data_items_1	F1014_7627	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	data_items_2	F1014_7628	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	new_cursor	F1014_7629	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	another_cursor	F1014_7630	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	make	F1014_7631	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	check_in	F1014_7632	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	check_out	F1014_7633	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	count	F1014_7634	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	exists	F1014_7635	C2/re1014.c
-model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	matching_keys	F1014_7636	C2/re1014.c
-elks	TABLE [G#1, CHARACTER_8]	bag_put	F1012_2642	C2/ta1012.c
-elks	LINKED_LIST [CHARACTER_8]	make	F1004_3635	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	make_from_iterable	F1004_3636	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	item	F1004_3637	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	first	F1004_3638	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	last	F1004_3639	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	index	F1004_3640	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	cursor	F1004_3641	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	new_cursor	F1004_3642	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	first_element	F1004_3643	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	count	F1004_3644	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	readable	F1004_3645	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	after	F1004_3646	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	before	F1004_3647	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	off	F1004_3648	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	isfirst	F1004_3649	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	islast	F1004_3650	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	valid_cursor	F1004_3651	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	full	F1004_3652	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	is_inserted	F1004_3653	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	start	F1004_3654	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	finish	F1004_3655	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	forth	F1004_3656	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	back	F1004_3657	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	move	F1004_3658	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	go_i_th	F1004_3659	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	go_to	F1004_3660	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	put_front	F1004_3661	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	extend	F1004_3662	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	put_left	F1004_3663	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	put_right	F1004_3664	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	replace	F1004_3665	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	merge_left	F1004_3666	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	merge_right	F1004_3667	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	remove	F1004_3668	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	remove_left	F1004_3669	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	remove_right	F1004_3670	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	wipe_out	F1004_3671	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	copy	F1004_3672	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	new_chain	F1004_3673	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	new_cell	F1004_3674	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	previous	F1004_3675	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	next	F1004_3676	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	active	F1004_3677	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	last_element	F1004_3678	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	cleanup_after_remove	F1004_3679	C2/li1004.c
-elks	LINKED_LIST [CHARACTER_8]	internal_wipe_out	F1004_3680	C2/li1004.c
-time	DATE_TIME_CODE	make	F989_7637	C1/da989.c
-time	DATE_TIME_CODE	is_separator_code	F989_7638	C1/da989.c
-time	DATE_TIME_CODE	is_text	F989_7639	C1/da989.c
-time	DATE_TIME_CODE	is_numeric	F989_7640	C1/da989.c
-time	DATE_TIME_CODE	set_value	F989_7641	C1/da989.c
-time	DATE_TIME_CODE	value	F989_7642	C1/da989.c
-time	DATE_TIME_CODE	count_max	F989_7643	C1/da989.c
-time	DATE_TIME_CODE	count_min	F989_7644	C1/da989.c
-time	DATE_TIME_CODE	name	F989_7645	C1/da989.c
-time	DATE_TIME_CODE	value_max	F989_7646	C1/da989.c
-time	DATE_TIME_CODE	value_min	F989_7647	C1/da989.c
-time	DATE_TIME_CODE	type	F989_7648	C1/da989.c
-time	DATE_TIME_CODE	debug_output	F989_7649	C1/da989.c
-time	DATE_TIME_CODE	day_numeric_type_code	F989_7650	C1/da989.c
-time	DATE_TIME_CODE	day_numeric_on_2_digits_type_code	F989_7651	C1/da989.c
-time	DATE_TIME_CODE	day_text_type_code	F989_7652	C1/da989.c
-time	DATE_TIME_CODE	year_on_4_digits_type_code	F989_7653	C1/da989.c
-time	DATE_TIME_CODE	year_on_2_digits_type_code	F989_7654	C1/da989.c
-time	DATE_TIME_CODE	month_numeric_type_code	F989_7655	C1/da989.c
-time	DATE_TIME_CODE	month_numeric_on_2_digits_type_code	F989_7656	C1/da989.c
-time	DATE_TIME_CODE	month_text_type_code	F989_7657	C1/da989.c
-time	DATE_TIME_CODE	hour_numeric_type_code	F989_7658	C1/da989.c
-time	DATE_TIME_CODE	hour_numeric_on_2_digits_type_code	F989_7659	C1/da989.c
-time	DATE_TIME_CODE	hour_12_clock_scale_type_code	F989_7660	C1/da989.c
-time	DATE_TIME_CODE	hour_12_clock_scale_on_2_digits_type_code	F989_7661	C1/da989.c
-time	DATE_TIME_CODE	minute_numeric_type_code	F989_7662	C1/da989.c
-time	DATE_TIME_CODE	minute_numeric_on_2_digits_type_code	F989_7663	C1/da989.c
-time	DATE_TIME_CODE	second_numeric_type_code	F989_7664	C1/da989.c
-time	DATE_TIME_CODE	second_numeric_on_2_digits_type_code	F989_7665	C1/da989.c
-time	DATE_TIME_CODE	fractional_second_numeric_type_code	F989_7666	C1/da989.c
-time	DATE_TIME_CODE	colon_type_code	F989_7667	C1/da989.c
-time	DATE_TIME_CODE	slash_type_code	F989_7668	C1/da989.c
-time	DATE_TIME_CODE	minus_type_code	F989_7669	C1/da989.c
-time	DATE_TIME_CODE	comma_type_code	F989_7670	C1/da989.c
-time	DATE_TIME_CODE	space_type_code	F989_7671	C1/da989.c
-time	DATE_TIME_CODE	dot_type_code	F989_7672	C1/da989.c
-time	DATE_TIME_CODE	meridiem_type_code	F989_7673	C1/da989.c
-time	DATE_VALUE	day	F990_7674	C1/da990.c
-time	DATE_VALUE	month	F990_7675	C1/da990.c
-time	DATE_VALUE	year	F990_7676	C1/da990.c
-time	DATE_VALUE	compact_date	F990_7677	C1/da990.c
-time	DATE_VALUE	ordered_compact_date	F990_7678	C1/da990.c
-time	DATE_VALUE	set_date	F990_7679	C1/da990.c
-time	DATE_VALUE	set_day	F990_7680	C1/da990.c
-time	DATE_VALUE	set_month	F990_7681	C1/da990.c
-time	DATE_VALUE	set_year	F990_7682	C1/da990.c
-time	DATE_VALUE	set_internal_compact_date	F990_7683	C1/da990.c
-time	DATE_VALUE	set_internal_ordered_compact_date	F990_7684	C1/da990.c
-time	DATE_VALUE	correct_mismatch	F990_7685	C1/da990.c
-time	DATE_VALUE	day_mask	F990_7686	C1/da990.c
-time	DATE_VALUE	month_mask	F990_7687	C1/da990.c
-time	DATE_VALUE	year_mask	F990_7688	C1/da990.c
-time	DATE_VALUE	year_shift	F990_7689	C1/da990.c
-time	DATE_VALUE	month_shift	F990_7690	C1/da990.c
-time	DATE_VALUE	day_shift	F990_7691	C1/da990.c
-time	DATE_VALUE	compact_date_attribute_name	F990_7692	C1/da990.c
-time	DATE_VALUE	set_private_internal_compact_date	F990_7693	C1/da990.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	make	F1009_3924	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	make_equal	F1009_3925	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	accommodate	F1009_3926	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	found_item	F1009_3927	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	definite_item	F1009_3928	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	item	F1009_3929	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	at	F1009_3930	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	has	F1009_3931	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	has_key	F1009_3932	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	has_item	F1009_3933	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	current_keys	F1009_3934	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	item_for_iteration	F1009_3935	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	key_for_iteration	F1009_3936	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	cursor	F1009_3937	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	new_cursor	F1009_3938	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	iteration_item	F1009_3939	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	hash_code_of	F1009_3940	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	count	F1009_3941	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	capacity	F1009_3942	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	occurrences	F1009_3943	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	iteration_lower	F1009_3944	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	iteration_upper	F1009_3945	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	is_equal	F1009_3946	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	same_keys	F1009_3947	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	disjoint	F1009_3948	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	full	F1009_3949	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	extendible	F1009_3950	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	prunable	F1009_3951	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	conflict	F1009_3952	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	inserted	F1009_3953	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	replaced	F1009_3954	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	removed	F1009_3955	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	found	F1009_3956	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	not_found	F1009_3957	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	after	F1009_3958	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	off	F1009_3959	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	valid_cursor	F1009_3960	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	valid_key	F1009_3961	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	valid_iteration_index	F1009_3962	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	start	F1009_3963	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	forth	F1009_3964	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	go_to	F1009_3965	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	search	F1009_3966	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	search_item	F1009_3967	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	next_iteration_position	F1009_3968	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	previous_iteration_position	F1009_3969	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	put	F1009_3970	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	force	F1009_3971	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	extend	F1009_3972	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	replace	F1009_3973	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	replace_key	F1009_3974	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	merge	F1009_3975	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	remove	F1009_3976	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	prune	F1009_3977	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	wipe_out	F1009_3978	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	clear_all	F1009_3979	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	linear_representation	F1009_3980	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	copy	F1009_3981	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	empty_duplicate	F1009_3982	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	correct_mismatch	F1009_3983	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	hash_table_version_64	F1009_3984	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	content	F1009_3985	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	keys	F1009_3986	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	indexes_map	F1009_3987	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	deleted_marks	F1009_3988	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	item_position	F1009_3989	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	has_default	F1009_3990	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	iteration_position	F1009_3991	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	position	F1009_3992	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	soon_full	F1009_3993	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	control	F1009_3994	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	deleted_item_position	F1009_3995	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_max_position	F1009_3996	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_impossible_position	F1009_3997	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_deleted_position	F1009_3998	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_lowest_deleted_position	F1009_3999	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_deleted_item	F1009_4000	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	ht_deleted_key	F1009_4001	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	deleted_position	F1009_4002	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	occupied	F1009_4003	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	truly_occupied	F1009_4004	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	is_off_position	F1009_4005	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_content	F1009_4006	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	deleted	F1009_4007	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_keys	F1009_4008	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_deleted_marks	F1009_4009	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_indexes_map	F1009_4010	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	default_key_value	F1009_4011	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	computed_default_key	F1009_4012	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	computed_default_value	F1009_4013	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	internal_search	F1009_4014	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	search_for_insertion	F1009_4015	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	key_at	F1009_4016	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	initial_position	F1009_4017	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	position_increment	F1009_4018	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	conflict_constant	F1009_4019	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_conflict	F1009_4020	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	found_constant	F1009_4021	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_found	F1009_4022	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	inserted_constant	F1009_4023	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_inserted	F1009_4024	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	not_found_constant	F1009_4025	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_not_found	F1009_4026	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_no_status	F1009_4027	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	removed_constant	F1009_4028	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_removed	F1009_4029	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	replaced_constant	F1009_4030	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	set_replaced	F1009_4031	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	special_status	F1009_4032	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	add_space	F1009_4033	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	minimum_capacity	F1009_4034	C2/ha1009.c
-elks	HASH_TABLE [G#1, CHARACTER_8]	collection_extend	F1009_4035	C2/ha1009.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	key	F1001_7694	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_1	F1001_7695	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_2	F1001_7696	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	cursor_pos	F1001_7697	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	make	F1001_7698	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item	F1001_7699	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	after	F1001_7700	C2/tu1001.c
-model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	forth	F1001_7701	C2/tu1001.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	key	F1003_7702	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item_1	F1003_7703	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item_2	F1003_7704	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	cursor_pos	F1003_7705	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	make	F1003_7706	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item	F1003_7707	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	after	F1003_7708	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	forth	F1003_7709	C2/da1003.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	key	F1015_7702	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_1	F1015_7703	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_2	F1015_7704	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	cursor_pos	F1015_7705	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	make	F1015_7706	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item	F1015_7707	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	after	F1015_7708	C2/da1015.c
-model	DATA_SET_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	forth	F1015_7709	C2/da1015.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	item	F1013_4353	C2/ha1013.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	key	F1013_4354	C2/ha1013.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	cursor_index	F1013_4355	C2/ha1013.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	after	F1013_4356	C2/ha1013.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	forth	F1013_4357	C2/ha1013.c
-elks	HASH_TABLE_ITERATION_CURSOR [G#1, CHARACTER_8]	target	F1013_4358	C2/ha1013.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	item	F1005_4359	C2/li1005.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	after	F1005_4360	C2/li1005.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	start	F1005_4361	C2/li1005.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	forth	F1005_4362	C2/li1005.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	target	F1005_4363	C2/li1005.c
-elks	LINKED_LIST_ITERATION_CURSOR [CHARACTER_8]	active	F1005_4364	C2/li1005.c
-time	FIND_SEPARATOR_FACILITY	separator_characters	F991_7710	C1/fi991.c
-time	FIND_SEPARATOR_FACILITY	find_separator	F991_7711	C1/fi991.c
-time	FIND_SEPARATOR_FACILITY	extracted_substrings	F991_7712	C1/fi991.c
-time	FIND_SEPARATOR_FACILITY	has_separators	F991_7713	C1/fi991.c
-time	DATE_TIME_CODE_STRING	make	F992_7714	C2/da992.c
-time	DATE_TIME_CODE_STRING	value	F992_7715	C2/da992.c
-time	DATE_TIME_CODE_STRING	name	F992_7716	C2/da992.c
-time	DATE_TIME_CODE_STRING	base_century	F992_7717	C2/da992.c
-time	DATE_TIME_CODE_STRING	is_date	F992_7718	C2/da992.c
-time	DATE_TIME_CODE_STRING	is_time	F992_7719	C2/da992.c
-time	DATE_TIME_CODE_STRING	is_date_time	F992_7720	C2/da992.c
-time	DATE_TIME_CODE_STRING	is_value_valid	F992_7721	C2/da992.c
-time	DATE_TIME_CODE_STRING	separators_used	F992_7722	C2/da992.c
-time	DATE_TIME_CODE_STRING	set_base_century	F992_7723	C2/da992.c
-time	DATE_TIME_CODE_STRING	correspond	F992_7724	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_string	F992_7725	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_date_string	F992_7726	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_time_string	F992_7727	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_date_time	F992_7728	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_date	F992_7729	C2/da992.c
-time	DATE_TIME_CODE_STRING	create_time	F992_7730	C2/da992.c
-time	DATE_TIME_CODE_STRING	precise	F992_7731	C2/da992.c
-time	DATE_TIME_CODE_STRING	precise_date	F992_7732	C2/da992.c
-time	DATE_TIME_CODE_STRING	precise_time	F992_7733	C2/da992.c
-time	DATE_TIME_CODE_STRING	days	F992_7734	C2/da992.c
-time	DATE_TIME_CODE_STRING	months	F992_7735	C2/da992.c
-time	DATE_TIME_CODE_STRING	right_day_text	F992_7736	C2/da992.c
-time	DATE_TIME_CODE_STRING	parser	F992_7737	C2/da992.c
-time	DATE_TIME_CODE_STRING	internal_parser	F992_7738	C2/da992.c
-time	DATE_VALIDITY_CHECKER	date_valid	F993_7739	C2/da993.c
-time	DATE_VALIDITY_CHECKER	date_valid_with_base	F993_7740	C2/da993.c
-time	DATE_VALIDITY_CHECKER	date_valid_default	F993_7741	C2/da993.c
-time	DATE_VALIDITY_CHECKER	date_valid_default_with_base	F993_7742	C2/da993.c
-time	DATE_VALIDITY_CHECKER	compact_date_valid	F993_7743	C2/da993.c
-time	DATE_VALIDITY_CHECKER	ordered_compact_date_valid	F993_7744	C2/da993.c
-time	DATE_VALIDITY_CHECKER	is_correct_date	F993_7745	C2/da993.c
-time	DATE	make	F994_7746	C2/da994.c
-time	DATE	make_month_day_year	F994_7747	C2/da994.c
-time	DATE	make_day_month_year	F994_7748	C2/da994.c
-time	DATE	make_now	F994_7749	C2/da994.c
-time	DATE	make_now_utc	F994_7750	C2/da994.c
-time	DATE	make_by_days	F994_7751	C2/da994.c
-time	DATE	make_from_string_default	F994_7752	C2/da994.c
-time	DATE	make_from_string_default_with_base	F994_7753	C2/da994.c
-time	DATE	make_from_string	F994_7754	C2/da994.c
-time	DATE	make_from_string_with_base	F994_7755	C2/da994.c
-time	DATE	make_by_compact_date	F994_7756	C2/da994.c
-time	DATE	make_by_ordered_compact_date	F994_7757	C2/da994.c
-time	DATE	origin	F994_7758	C2/da994.c
-time	DATE	is_less	F994_7759	C2/da994.c
-time	DATE	duration	F994_7760	C2/da994.c
-time	DATE	days	F994_7761	C2/da994.c
-time	DATE	leap_year	F994_7762	C2/da994.c
-time	DATE	days_at_month	F994_7763	C2/da994.c
-time	DATE	year_day	F994_7764	C2/da994.c
-time	DATE	week_of_year	F994_7765	C2/da994.c
-time	DATE	days_in_year	F994_7766	C2/da994.c
-time	DATE	day_of_the_week	F994_7767	C2/da994.c
-time	DATE	day_of_january_1st	F994_7768	C2/da994.c
-time	DATE	days_from	F994_7769	C2/da994.c
-time	DATE	to_date_time	F994_7770	C2/da994.c
-time	DATE	plus	F994_7771	C2/da994.c
-time	DATE	add	F994_7772	C2/da994.c
-time	DATE	relative_duration	F994_7773	C2/da994.c
-time	DATE	day_forth	F994_7774	C2/da994.c
-time	DATE	day_back	F994_7775	C2/da994.c
-time	DATE	day_add	F994_7776	C2/da994.c
-time	DATE	month_forth	F994_7777	C2/da994.c
-time	DATE	month_back	F994_7778	C2/da994.c
-time	DATE	month_add	F994_7779	C2/da994.c
-time	DATE	year_forth	F994_7780	C2/da994.c
-time	DATE	year_back	F994_7781	C2/da994.c
-time	DATE	year_add	F994_7782	C2/da994.c
-time	DATE	year_month_add	F994_7783	C2/da994.c
-time	DATE	debug_output	F994_7784	C2/da994.c
-time	DATE	out	F994_7785	C2/da994.c
-time	DATE	formatted_out	F994_7786	C2/da994.c
-time	DATE	days_at_months	F994_7787	C2/da994.c
-time	TIME_VALIDITY_CHECKER	time_valid	F995_7788	C2/ti995.c
-time	TIME_VALIDITY_CHECKER	compact_time_valid	F995_7789	C2/ti995.c
-time	TIME_VALIDITY_CHECKER	is_correct_time	F995_7790	C2/ti995.c
-time	TIME	make	F996_7791	C2/ti996.c
-time	TIME	make_fine	F996_7792	C2/ti996.c
-time	TIME	make_now	F996_7793	C2/ti996.c
-time	TIME	make_now_utc	F996_7794	C2/ti996.c
-time	TIME	make_by_seconds	F996_7795	C2/ti996.c
-time	TIME	make_by_fine_seconds	F996_7796	C2/ti996.c
-time	TIME	make_from_string_default	F996_7797	C2/ti996.c
-time	TIME	make_from_string	F996_7798	C2/ti996.c
-time	TIME	make_by_compact_time	F996_7799	C2/ti996.c
-time	TIME	origin	F996_7800	C2/ti996.c
-time	TIME	is_less	F996_7801	C2/ti996.c
-time	TIME	duration	F996_7802	C2/ti996.c
-time	TIME	seconds	F996_7803	C2/ti996.c
-time	TIME	fine_seconds	F996_7804	C2/ti996.c
-time	TIME	plus	F996_7805	C2/ti996.c
-time	TIME	relative_duration	F996_7806	C2/ti996.c
-time	TIME	second_add	F996_7807	C2/ti996.c
-time	TIME	fine_second_add	F996_7808	C2/ti996.c
-time	TIME	minute_add	F996_7809	C2/ti996.c
-time	TIME	hour_add	F996_7810	C2/ti996.c
-time	TIME	second_forth	F996_7811	C2/ti996.c
-time	TIME	second_back	F996_7812	C2/ti996.c
-time	TIME	minute_forth	F996_7813	C2/ti996.c
-time	TIME	minute_back	F996_7814	C2/ti996.c
-time	TIME	hour_forth	F996_7815	C2/ti996.c
-time	TIME	hour_back	F996_7816	C2/ti996.c
-time	TIME	debug_output	F996_7817	C2/ti996.c
-time	TIME	out	F996_7818	C2/ti996.c
-time	TIME	formatted_out	F996_7819	C2/ti996.c
-time	DATE_TIME_VALIDITY_CHECKER	date_time_valid	F997_7820	C2/da997.c
-time	DATE_TIME_VALIDITY_CHECKER	date_time_valid_with_base	F997_7821	C2/da997.c
-time	DATE_TIME_VALIDITY_CHECKER	is_correct_date_time	F997_7822	C2/da997.c
-time	DATE_TIME_PARSER	make	F998_7823	C2/da998.c
-time	DATE_TIME_PARSER	source_string	F998_7824	C2/da998.c
-time	DATE_TIME_PARSER	year	F998_7825	C2/da998.c
-time	DATE_TIME_PARSER	month	F998_7826	C2/da998.c
-time	DATE_TIME_PARSER	day	F998_7827	C2/da998.c
-time	DATE_TIME_PARSER	hour	F998_7828	C2/da998.c
-time	DATE_TIME_PARSER	minute	F998_7829	C2/da998.c
-time	DATE_TIME_PARSER	fine_second	F998_7830	C2/da998.c
-time	DATE_TIME_PARSER	day_text	F998_7831	C2/da998.c
-time	DATE_TIME_PARSER	parsed	F998_7832	C2/da998.c
-time	DATE_TIME_PARSER	is_set_up	F998_7833	C2/da998.c
-time	DATE_TIME_PARSER	is_date	F998_7834	C2/da998.c
-time	DATE_TIME_PARSER	is_time	F998_7835	C2/da998.c
-time	DATE_TIME_PARSER	is_date_time	F998_7836	C2/da998.c
-time	DATE_TIME_PARSER	is_value_valid	F998_7837	C2/da998.c
-time	DATE_TIME_PARSER	set_source_string	F998_7838	C2/da998.c
-time	DATE_TIME_PARSER	set_day_array	F998_7839	C2/da998.c
-time	DATE_TIME_PARSER	set_month_array	F998_7840	C2/da998.c
-time	DATE_TIME_PARSER	set_base_century	F998_7841	C2/da998.c
-time	DATE_TIME_PARSER	parse	F998_7842	C2/da998.c
-time	DATE_TIME_PARSER	year_val	F998_7843	C2/da998.c
-time	DATE_TIME_PARSER	month_val	F998_7844	C2/da998.c
-time	DATE_TIME_PARSER	day_val	F998_7845	C2/da998.c
-time	DATE_TIME_PARSER	hour_val	F998_7846	C2/da998.c
-time	DATE_TIME_PARSER	minute_val	F998_7847	C2/da998.c
-time	DATE_TIME_PARSER	fine_second_val	F998_7848	C2/da998.c
-time	DATE_TIME_PARSER	day_text_val	F998_7849	C2/da998.c
-time	DATE_TIME_PARSER	code	F998_7850	C2/da998.c
-time	DATE_TIME_PARSER	months	F998_7851	C2/da998.c
-time	DATE_TIME_PARSER	days	F998_7852	C2/da998.c
-time	DATE_TIME_PARSER	base_century	F998_7853	C2/da998.c
-time	DATE_TIME	make	F999_7854	C2/da999.c
-time	DATE_TIME	make_fine	F999_7855	C2/da999.c
-time	DATE_TIME	make_by_date_time	F999_7856	C2/da999.c
-time	DATE_TIME	make_by_date	F999_7857	C2/da999.c
-time	DATE_TIME	make_now	F999_7858	C2/da999.c
-time	DATE_TIME	make_now_utc	F999_7859	C2/da999.c
-time	DATE_TIME	make_from_string_default	F999_7860	C2/da999.c
-time	DATE_TIME	make_from_string_default_with_base	F999_7861	C2/da999.c
-time	DATE_TIME	make_from_string	F999_7862	C2/da999.c
-time	DATE_TIME	make_from_string_with_base	F999_7863	C2/da999.c
-time	DATE_TIME	make_from_epoch	F999_7864	C2/da999.c
-time	DATE_TIME	date	F999_7865	C2/da999.c
-time	DATE_TIME	time	F999_7866	C2/da999.c
-time	DATE_TIME	origin	F999_7867	C2/da999.c
-time	DATE_TIME	date_duration	F999_7868	C2/da999.c
-time	DATE_TIME	days	F999_7869	C2/da999.c
-time	DATE_TIME	time_duration	F999_7870	C2/da999.c
-time	DATE_TIME	seconds	F999_7871	C2/da999.c
-time	DATE_TIME	is_less	F999_7872	C2/da999.c
-time	DATE_TIME	is_equal	F999_7873	C2/da999.c
-time	DATE_TIME	duration	F999_7874	C2/da999.c
-time	DATE_TIME	set_date	F999_7875	C2/da999.c
-time	DATE_TIME	set_time	F999_7876	C2/da999.c
-time	DATE_TIME	copy	F999_7877	C2/da999.c
-time	DATE_TIME	plus	F999_7878	C2/da999.c
-time	DATE_TIME	add	F999_7879	C2/da999.c
-time	DATE_TIME	relative_duration	F999_7880	C2/da999.c
-time	DATE_TIME	definite_duration	F999_7881	C2/da999.c
-time	DATE_TIME	day_add	F999_7882	C2/da999.c
-time	DATE_TIME	hour_add	F999_7883	C2/da999.c
-time	DATE_TIME	minute_add	F999_7884	C2/da999.c
-time	DATE_TIME	second_add	F999_7885	C2/da999.c
-time	DATE_TIME	fine_second_add	F999_7886	C2/da999.c
-time	DATE_TIME	debug_output	F999_7887	C2/da999.c
-time	DATE_TIME	out	F999_7888	C2/da999.c
-time	DATE_TIME	formatted_out	F999_7889	C2/da999.c
+tests	STUDENT_TESTS	repos	F971_7366	C1/st971.c
+tests	STUDENT_TESTS	setup	F971_7367	C1/st971.c
+tests	STUDENT_TESTS	teardown	F971_7368	C1/st971.c
+tests	STUDENT_TESTS	t1_test_hashtable_system	F971_7369	C1/st971.c
+tests	STUDENT_TESTS	t2_setup_testing	F971_7370	C1/st971.c
+tests	STUDENT_TESTS	t3_testing_repos_check_in	F971_7371	C1/st971.c
+tests	STUDENT_TESTS	t4_testing_repos_check_in_data1	F971_7372	C1/st971.c
+tests	STUDENT_TESTS	t5_testing_repos_check_in_data2	F971_7373	C1/st971.c
+tests	STUDENT_TESTS	t6_testing_repos_check_out_feature	F971_7374	C1/st971.c
+tests	STUDENT_TESTS	t7_testing_repos_all_data_exists	F971_7375	C1/st971.c
+tests	STUDENT_TESTS	t8_test_iterable	F971_7376	C1/st971.c
+tests	STUDENT_TESTS	t9_test_another_cursor	F971_7377	C1/st971.c
+tests	STUDENT_TESTS	t10_testing_repos_check_out_feature	F971_7378	C1/st971.c
+time	TIME_UTILITY	mod	F972_7379	C1/ti972.c
+time	TIME_UTILITY	div	F972_7380	C1/ti972.c
+time	TIME_UTILITY	date_time_tools	F972_7381	C1/ti972.c
+time	TIME_UTILITY	default_format_string	F972_7382	C1/ti972.c
+time	TIME_CONSTANTS	seconds_in_minute	F973_7383	C1/ti973.c
+time	TIME_CONSTANTS	seconds_in_hour	F973_7384	C1/ti973.c
+time	TIME_CONSTANTS	seconds_in_day	F973_7385	C1/ti973.c
+time	TIME_CONSTANTS	minutes_in_hour	F973_7386	C1/ti973.c
+time	TIME_CONSTANTS	hours_in_day	F973_7387	C1/ti973.c
+time	TIME_CONSTANTS	time_default_format_string	F973_7388	C1/ti973.c
+time	TIME_VALUE	hour	F975_7398	C1/ti975.c
+time	TIME_VALUE	minute	F975_7399	C1/ti975.c
+time	TIME_VALUE	second	F975_7400	C1/ti975.c
+time	TIME_VALUE	fractional_second	F975_7401	C1/ti975.c
+time	TIME_VALUE	compact_time	F975_7402	C1/ti975.c
+time	TIME_VALUE	fine_second	F975_7403	C1/ti975.c
+time	TIME_VALUE	milli_second	F975_7404	C1/ti975.c
+time	TIME_VALUE	micro_second	F975_7405	C1/ti975.c
+time	TIME_VALUE	nano_second	F975_7406	C1/ti975.c
+time	TIME_VALUE	set_hour	F975_7407	C1/ti975.c
+time	TIME_VALUE	set_minute	F975_7408	C1/ti975.c
+time	TIME_VALUE	set_second	F975_7409	C1/ti975.c
+time	TIME_VALUE	set_fine_second	F975_7410	C1/ti975.c
+time	TIME_VALUE	set_fractionals	F975_7411	C1/ti975.c
+time	TIME_VALUE	hour_mask	F975_7412	C1/ti975.c
+time	TIME_VALUE	minute_mask	F975_7413	C1/ti975.c
+time	TIME_VALUE	second_mask	F975_7414	C1/ti975.c
+time	TIME_VALUE	hour_shift	F975_7415	C1/ti975.c
+time	TIME_VALUE	minute_shift	F975_7416	C1/ti975.c
+time	DATE_CONSTANTS	days_in_week	F976_7417	C1/da976.c
+time	DATE_CONSTANTS	max_weeks_in_year	F976_7418	C1/da976.c
+time	DATE_CONSTANTS	months_in_year	F976_7419	C1/da976.c
+time	DATE_CONSTANTS	days_in_leap_year	F976_7420	C1/da976.c
+time	DATE_CONSTANTS	days_in_non_leap_year	F976_7421	C1/da976.c
+time	DATE_CONSTANTS	days_in_i_th_month	F976_7422	C1/da976.c
+time	DATE_CONSTANTS	date_default_format_string	F976_7423	C1/da976.c
+time	DATE_CONSTANTS	days_text	F976_7424	C1/da976.c
+time	DATE_CONSTANTS	months_text	F976_7425	C1/da976.c
+time	DATE_CONSTANTS	long_days_text	F976_7426	C1/da976.c
+time	DATE_CONSTANTS	long_months_text	F976_7427	C1/da976.c
+time	DATE_CONSTANTS	i_th_leap_year	F976_7428	C1/da976.c
+time	DATE_CONSTANTS	is_leap_year	F976_7429	C1/da976.c
+time	DATE_CONSTANTS	days_in_months	F976_7430	C1/da976.c
+time	DATE_TIME_MEASUREMENT	year	F977_7433	C1/da977.c
+time	DATE_TIME_MEASUREMENT	month	F977_7434	C1/da977.c
+time	DATE_TIME_MEASUREMENT	day	F977_7435	C1/da977.c
+time	DATE_TIME_MEASUREMENT	hour	F977_7436	C1/da977.c
+time	DATE_TIME_MEASUREMENT	minute	F977_7437	C1/da977.c
+time	DATE_TIME_MEASUREMENT	second	F977_7438	C1/da977.c
+time	DATE_TIME_MEASUREMENT	fine_second	F977_7439	C1/da977.c
+time	DATE_TIME_VALUE	date	F978_7440	C1/da978.c
+time	DATE_TIME_VALUE	time	F978_7441	C1/da978.c
+time	DATE_TIME_VALUE	fractional_second	F978_7442	C1/da978.c
+time	DATE_MEASUREMENT	days_in_month	F979_7450	C1/da979.c
+time	CODE_VALIDITY_CHECKER	is_code	F980_7451	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_day	F980_7452	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_day0	F980_7453	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_day_text	F980_7454	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_year4	F980_7455	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_year2	F980_7456	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_month	F980_7457	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_month0	F980_7458	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_month_text	F980_7459	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_hour	F980_7460	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_hour0	F980_7461	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_hour12	F980_7462	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_hour12_0	F980_7463	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_minute	F980_7464	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_minute0	F980_7465	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_second	F980_7466	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_second0	F980_7467	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_fractional_second	F980_7468	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_colon	F980_7469	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_slash	F980_7470	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_minus	F980_7471	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_comma	F980_7472	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_space	F980_7473	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_dot	F980_7474	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_separator	F980_7475	C1/co980.c
+time	CODE_VALIDITY_CHECKER	is_meridiem	F980_7476	C1/co980.c
+espec	ES_TEST_CASE	set_bookmark_name	F981_7480	C1/es981.c
+espec	ES_TEST_CASE	set_case_name	F981_7481	C1/es981.c
+espec	ES_TEST_CASE	passed	F981_7482	C1/es981.c
+espec	ES_TEST_CASE	contract_violated	F981_7483	C1/es981.c
+espec	ES_TEST_CASE	case_name	F981_7484	C1/es981.c
+espec	ES_TEST_CASE	bookmark_name	F981_7485	C1/es981.c
+espec	ES_TEST_CASE	violation_tag	F981_7486	C1/es981.c
+espec	ES_TEST_CASE	violation_type	F981_7487	C1/es981.c
+espec	ES_TEST_CASE	case	F981_7488	C1/es981.c
+espec	ES_VIOLATION_CASE	make	F982_7489	C1/es982.c
+espec	ES_VIOLATION_CASE	make_with_tag	F982_7490	C1/es982.c
+espec	ES_VIOLATION_CASE	run	F982_7491	C1/es982.c
+espec	ES_VIOLATION_CASE	is_violation_case	F982_7492	C1/es982.c
+espec	ES_VIOLATION_CASE	expected_tag_name	F982_7493	C1/es982.c
+espec	ES_BOOLEAN_TEST_CASE	make	F983_7494	C1/es983.c
+espec	ES_BOOLEAN_TEST_CASE	run	F983_7495	C1/es983.c
+espec	ES_BOOLEAN_TEST_CASE	is_violation_case	F983_7496	C1/es983.c
+espec	ES_BOOLEAN_TEST_CASE	case	F983_7497	C1/es983.c
+time	INTERVAL [G#1]	make	F1001_7498	C2/in1001.c
+time	INTERVAL [G#1]	start_bound	F1001_7499	C2/in1001.c
+time	INTERVAL [G#1]	end_bound	F1001_7500	C2/in1001.c
+time	INTERVAL [G#1]	duration	F1001_7501	C2/in1001.c
+time	INTERVAL [G#1]	is_equal	F1001_7502	C2/in1001.c
+time	INTERVAL [G#1]	intersects	F1001_7503	C2/in1001.c
+time	INTERVAL [G#1]	is_less	F1001_7504	C2/in1001.c
+time	INTERVAL [G#1]	is_less_equal	F1001_7505	C2/in1001.c
+time	INTERVAL [G#1]	is_greater	F1001_7506	C2/in1001.c
+time	INTERVAL [G#1]	is_greater_equal	F1001_7507	C2/in1001.c
+time	INTERVAL [G#1]	is_strict_included_by	F1001_7508	C2/in1001.c
+time	INTERVAL [G#1]	strict_includes	F1001_7509	C2/in1001.c
+time	INTERVAL [G#1]	is_included_by	F1001_7510	C2/in1001.c
+time	INTERVAL [G#1]	includes	F1001_7511	C2/in1001.c
+time	INTERVAL [G#1]	overlaps	F1001_7512	C2/in1001.c
+time	INTERVAL [G#1]	is_overlapped_by	F1001_7513	C2/in1001.c
+time	INTERVAL [G#1]	meets	F1001_7514	C2/in1001.c
+time	INTERVAL [G#1]	is_met_by	F1001_7515	C2/in1001.c
+time	INTERVAL [G#1]	empty	F1001_7516	C2/in1001.c
+time	INTERVAL [G#1]	has	F1001_7517	C2/in1001.c
+time	INTERVAL [G#1]	strict_before	F1001_7518	C2/in1001.c
+time	INTERVAL [G#1]	strict_after	F1001_7519	C2/in1001.c
+time	INTERVAL [G#1]	before	F1001_7520	C2/in1001.c
+time	INTERVAL [G#1]	after	F1001_7521	C2/in1001.c
+time	INTERVAL [G#1]	set_start_bound	F1001_7522	C2/in1001.c
+time	INTERVAL [G#1]	set_end_bound	F1001_7523	C2/in1001.c
+time	INTERVAL [G#1]	union	F1001_7524	C2/in1001.c
+time	INTERVAL [G#1]	intersection	F1001_7525	C2/in1001.c
+time	INTERVAL [G#1]	gather	F1001_7526	C2/in1001.c
+time	INTERVAL [G#1]	out	F1001_7527	C2/in1001.c
+time	DURATION	is_negative	F984_7537	C1/du984.c
+time	DURATION	is_zero	F984_7538	C1/du984.c
+time	DURATION	identity	F984_7539	C1/du984.c
+time	DURATION	minus	F984_7540	C1/du984.c
+time	DATE_TIME_DURATION	make	F985_7541	C1/da985.c
+time	DATE_TIME_DURATION	make_definite	F985_7542	C1/da985.c
+time	DATE_TIME_DURATION	make_fine	F985_7543	C1/da985.c
+time	DATE_TIME_DURATION	make_by_date_time	F985_7544	C1/da985.c
+time	DATE_TIME_DURATION	make_by_date	F985_7545	C1/da985.c
+time	DATE_TIME_DURATION	date	F985_7546	C1/da985.c
+time	DATE_TIME_DURATION	time	F985_7547	C1/da985.c
+time	DATE_TIME_DURATION	origin_date_time	F985_7548	C1/da985.c
+time	DATE_TIME_DURATION	zero	F985_7549	C1/da985.c
+time	DATE_TIME_DURATION	seconds_count	F985_7550	C1/da985.c
+time	DATE_TIME_DURATION	fine_seconds_count	F985_7551	C1/da985.c
+time	DATE_TIME_DURATION	is_less	F985_7552	C1/da985.c
+time	DATE_TIME_DURATION	is_equal	F985_7553	C1/da985.c
+time	DATE_TIME_DURATION	definite	F985_7554	C1/da985.c
+time	DATE_TIME_DURATION	canonical	F985_7555	C1/da985.c
+time	DATE_TIME_DURATION	is_positive	F985_7556	C1/da985.c
+time	DATE_TIME_DURATION	has_origin_date_time	F985_7557	C1/da985.c
+time	DATE_TIME_DURATION	set_origin_date_time	F985_7558	C1/da985.c
+time	DATE_TIME_DURATION	set_date	F985_7559	C1/da985.c
+time	DATE_TIME_DURATION	set_time	F985_7560	C1/da985.c
+time	DATE_TIME_DURATION	plus	F985_7561	C1/da985.c
+time	DATE_TIME_DURATION	opposite	F985_7562	C1/da985.c
+time	DATE_TIME_DURATION	day_add	F985_7563	C1/da985.c
+time	DATE_TIME_DURATION	to_canonical	F985_7564	C1/da985.c
+time	DATE_TIME_DURATION	time_to_canonical	F985_7565	C1/da985.c
+time	DATE_DURATION	make	F986_7566	C1/da986.c
+time	DATE_DURATION	make_by_days	F986_7567	C1/da986.c
+time	DATE_DURATION	zero	F986_7568	C1/da986.c
+time	DATE_DURATION	day	F986_7569	C1/da986.c
+time	DATE_DURATION	month	F986_7570	C1/da986.c
+time	DATE_DURATION	year	F986_7571	C1/da986.c
+time	DATE_DURATION	origin_date	F986_7572	C1/da986.c
+time	DATE_DURATION	days_count	F986_7573	C1/da986.c
+time	DATE_DURATION	is_less	F986_7574	C1/da986.c
+time	DATE_DURATION	is_equal	F986_7575	C1/da986.c
+time	DATE_DURATION	definite	F986_7576	C1/da986.c
+time	DATE_DURATION	canonical	F986_7577	C1/da986.c
+time	DATE_DURATION	is_positive	F986_7578	C1/da986.c
+time	DATE_DURATION	has_origin_date	F986_7579	C1/da986.c
+time	DATE_DURATION	set_origin_date	F986_7580	C1/da986.c
+time	DATE_DURATION	set_day	F986_7581	C1/da986.c
+time	DATE_DURATION	set_month	F986_7582	C1/da986.c
+time	DATE_DURATION	set_year	F986_7583	C1/da986.c
+time	DATE_DURATION	set_date	F986_7584	C1/da986.c
+time	DATE_DURATION	day_add	F986_7585	C1/da986.c
+time	DATE_DURATION	month_add	F986_7586	C1/da986.c
+time	DATE_DURATION	year_add	F986_7587	C1/da986.c
+time	DATE_DURATION	plus	F986_7588	C1/da986.c
+time	DATE_DURATION	opposite	F986_7589	C1/da986.c
+time	DATE_DURATION	to_canonical	F986_7590	C1/da986.c
+time	DATE_DURATION	to_definite	F986_7591	C1/da986.c
+time	DATE_DURATION	to_date_time	F986_7592	C1/da986.c
+time	TIME_DURATION	make	F987_7593	C1/ti987.c
+time	TIME_DURATION	make_fine	F987_7594	C1/ti987.c
+time	TIME_DURATION	make_by_seconds	F987_7595	C1/ti987.c
+time	TIME_DURATION	make_by_fine_seconds	F987_7596	C1/ti987.c
+time	TIME_DURATION	fine_seconds_count	F987_7597	C1/ti987.c
+time	TIME_DURATION	seconds_count	F987_7598	C1/ti987.c
+time	TIME_DURATION	zero	F987_7599	C1/ti987.c
+time	TIME_DURATION	hour	F987_7600	C1/ti987.c
+time	TIME_DURATION	minute	F987_7601	C1/ti987.c
+time	TIME_DURATION	second	F987_7602	C1/ti987.c
+time	TIME_DURATION	fine_second	F987_7603	C1/ti987.c
+time	TIME_DURATION	fractional_second	F987_7604	C1/ti987.c
+time	TIME_DURATION	is_less	F987_7605	C1/ti987.c
+time	TIME_DURATION	is_equal	F987_7606	C1/ti987.c
+time	TIME_DURATION	canonical	F987_7607	C1/ti987.c
+time	TIME_DURATION	is_positive	F987_7608	C1/ti987.c
+time	TIME_DURATION	set_second	F987_7609	C1/ti987.c
+time	TIME_DURATION	set_fine_second	F987_7610	C1/ti987.c
+time	TIME_DURATION	set_fractionals	F987_7611	C1/ti987.c
+time	TIME_DURATION	set_minute	F987_7612	C1/ti987.c
+time	TIME_DURATION	set_hour	F987_7613	C1/ti987.c
+time	TIME_DURATION	second_add	F987_7614	C1/ti987.c
+time	TIME_DURATION	fine_second_add	F987_7615	C1/ti987.c
+time	TIME_DURATION	minute_add	F987_7616	C1/ti987.c
+time	TIME_DURATION	hour_add	F987_7617	C1/ti987.c
+time	TIME_DURATION	plus	F987_7618	C1/ti987.c
+time	TIME_DURATION	opposite	F987_7619	C1/ti987.c
+time	TIME_DURATION	to_canonical	F987_7620	C1/ti987.c
+time	TIME_DURATION	to_days	F987_7621	C1/ti987.c
+time	TIME_DURATION	time_modulo_day	F987_7622	C1/ti987.c
+time	TIME_DURATION	tolerance	F987_7623	C1/ti987.c
+time	ABSOLUTE	is_less	F988_7626	C1/ab988.c
+time	ABSOLUTE	minus	F988_7627	C1/ab988.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	keys	F1003_7629	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	data_items_1	F1003_7630	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	data_items_2	F1003_7631	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	new_cursor	F1003_7632	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	another_cursor	F1003_7633	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	make	F1003_7634	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	check_in	F1003_7635	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	check_out	F1003_7636	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	count	F1003_7637	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	exists	F1003_7638	C2/re1003.c
+model	REPOSITORY [G#1, CHARACTER_8, INTEGER_32]	matching_keys	F1003_7639	C2/re1003.c
+time	DATE_TIME_CODE	make	F989_7640	C1/da989.c
+time	DATE_TIME_CODE	is_separator_code	F989_7641	C1/da989.c
+time	DATE_TIME_CODE	is_text	F989_7642	C1/da989.c
+time	DATE_TIME_CODE	is_numeric	F989_7643	C1/da989.c
+time	DATE_TIME_CODE	set_value	F989_7644	C1/da989.c
+time	DATE_TIME_CODE	value	F989_7645	C1/da989.c
+time	DATE_TIME_CODE	count_max	F989_7646	C1/da989.c
+time	DATE_TIME_CODE	count_min	F989_7647	C1/da989.c
+time	DATE_TIME_CODE	name	F989_7648	C1/da989.c
+time	DATE_TIME_CODE	value_max	F989_7649	C1/da989.c
+time	DATE_TIME_CODE	value_min	F989_7650	C1/da989.c
+time	DATE_TIME_CODE	type	F989_7651	C1/da989.c
+time	DATE_TIME_CODE	debug_output	F989_7652	C1/da989.c
+time	DATE_TIME_CODE	day_numeric_type_code	F989_7653	C1/da989.c
+time	DATE_TIME_CODE	day_numeric_on_2_digits_type_code	F989_7654	C1/da989.c
+time	DATE_TIME_CODE	day_text_type_code	F989_7655	C1/da989.c
+time	DATE_TIME_CODE	year_on_4_digits_type_code	F989_7656	C1/da989.c
+time	DATE_TIME_CODE	year_on_2_digits_type_code	F989_7657	C1/da989.c
+time	DATE_TIME_CODE	month_numeric_type_code	F989_7658	C1/da989.c
+time	DATE_TIME_CODE	month_numeric_on_2_digits_type_code	F989_7659	C1/da989.c
+time	DATE_TIME_CODE	month_text_type_code	F989_7660	C1/da989.c
+time	DATE_TIME_CODE	hour_numeric_type_code	F989_7661	C1/da989.c
+time	DATE_TIME_CODE	hour_numeric_on_2_digits_type_code	F989_7662	C1/da989.c
+time	DATE_TIME_CODE	hour_12_clock_scale_type_code	F989_7663	C1/da989.c
+time	DATE_TIME_CODE	hour_12_clock_scale_on_2_digits_type_code	F989_7664	C1/da989.c
+time	DATE_TIME_CODE	minute_numeric_type_code	F989_7665	C1/da989.c
+time	DATE_TIME_CODE	minute_numeric_on_2_digits_type_code	F989_7666	C1/da989.c
+time	DATE_TIME_CODE	second_numeric_type_code	F989_7667	C1/da989.c
+time	DATE_TIME_CODE	second_numeric_on_2_digits_type_code	F989_7668	C1/da989.c
+time	DATE_TIME_CODE	fractional_second_numeric_type_code	F989_7669	C1/da989.c
+time	DATE_TIME_CODE	colon_type_code	F989_7670	C1/da989.c
+time	DATE_TIME_CODE	slash_type_code	F989_7671	C1/da989.c
+time	DATE_TIME_CODE	minus_type_code	F989_7672	C1/da989.c
+time	DATE_TIME_CODE	comma_type_code	F989_7673	C1/da989.c
+time	DATE_TIME_CODE	space_type_code	F989_7674	C1/da989.c
+time	DATE_TIME_CODE	dot_type_code	F989_7675	C1/da989.c
+time	DATE_TIME_CODE	meridiem_type_code	F989_7676	C1/da989.c
+time	DATE_VALUE	day	F990_7677	C1/da990.c
+time	DATE_VALUE	month	F990_7678	C1/da990.c
+time	DATE_VALUE	year	F990_7679	C1/da990.c
+time	DATE_VALUE	compact_date	F990_7680	C1/da990.c
+time	DATE_VALUE	ordered_compact_date	F990_7681	C1/da990.c
+time	DATE_VALUE	set_date	F990_7682	C1/da990.c
+time	DATE_VALUE	set_day	F990_7683	C1/da990.c
+time	DATE_VALUE	set_month	F990_7684	C1/da990.c
+time	DATE_VALUE	set_year	F990_7685	C1/da990.c
+time	DATE_VALUE	set_internal_compact_date	F990_7686	C1/da990.c
+time	DATE_VALUE	set_internal_ordered_compact_date	F990_7687	C1/da990.c
+time	DATE_VALUE	correct_mismatch	F990_7688	C1/da990.c
+time	DATE_VALUE	day_mask	F990_7689	C1/da990.c
+time	DATE_VALUE	month_mask	F990_7690	C1/da990.c
+time	DATE_VALUE	year_mask	F990_7691	C1/da990.c
+time	DATE_VALUE	year_shift	F990_7692	C1/da990.c
+time	DATE_VALUE	month_shift	F990_7693	C1/da990.c
+time	DATE_VALUE	day_shift	F990_7694	C1/da990.c
+time	DATE_VALUE	compact_date_attribute_name	F990_7695	C1/da990.c
+time	DATE_VALUE	set_private_internal_compact_date	F990_7696	C1/da990.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	key	F1002_7697	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_1	F1002_7698	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item_2	F1002_7699	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	cursor_pos	F1002_7700	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	make	F1002_7701	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	item	F1002_7702	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	after	F1002_7703	C2/tu1002.c
+model	TUPLE_ITERATION_CURSOR [G#1, CHARACTER_8, INTEGER_32]	forth	F1002_7704	C2/tu1002.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	key	F1004_7705	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item_1	F1004_7706	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item_2	F1004_7707	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	cursor_pos	F1004_7708	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	make	F1004_7709	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	item	F1004_7710	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	after	F1004_7711	C2/da1004.c
+model	DATA_SET_ITERATION_CURSOR [CHARACTER_8, INTEGER_32, G#3]	forth	F1004_7712	C2/da1004.c
+time	FIND_SEPARATOR_FACILITY	separator_characters	F991_7713	C1/fi991.c
+time	FIND_SEPARATOR_FACILITY	find_separator	F991_7714	C1/fi991.c
+time	FIND_SEPARATOR_FACILITY	extracted_substrings	F991_7715	C1/fi991.c
+time	FIND_SEPARATOR_FACILITY	has_separators	F991_7716	C1/fi991.c
+time	DATE_TIME_CODE_STRING	make	F992_7717	C2/da992.c
+time	DATE_TIME_CODE_STRING	value	F992_7718	C2/da992.c
+time	DATE_TIME_CODE_STRING	name	F992_7719	C2/da992.c
+time	DATE_TIME_CODE_STRING	base_century	F992_7720	C2/da992.c
+time	DATE_TIME_CODE_STRING	is_date	F992_7721	C2/da992.c
+time	DATE_TIME_CODE_STRING	is_time	F992_7722	C2/da992.c
+time	DATE_TIME_CODE_STRING	is_date_time	F992_7723	C2/da992.c
+time	DATE_TIME_CODE_STRING	is_value_valid	F992_7724	C2/da992.c
+time	DATE_TIME_CODE_STRING	separators_used	F992_7725	C2/da992.c
+time	DATE_TIME_CODE_STRING	set_base_century	F992_7726	C2/da992.c
+time	DATE_TIME_CODE_STRING	correspond	F992_7727	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_string	F992_7728	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_date_string	F992_7729	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_time_string	F992_7730	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_date_time	F992_7731	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_date	F992_7732	C2/da992.c
+time	DATE_TIME_CODE_STRING	create_time	F992_7733	C2/da992.c
+time	DATE_TIME_CODE_STRING	precise	F992_7734	C2/da992.c
+time	DATE_TIME_CODE_STRING	precise_date	F992_7735	C2/da992.c
+time	DATE_TIME_CODE_STRING	precise_time	F992_7736	C2/da992.c
+time	DATE_TIME_CODE_STRING	days	F992_7737	C2/da992.c
+time	DATE_TIME_CODE_STRING	months	F992_7738	C2/da992.c
+time	DATE_TIME_CODE_STRING	right_day_text	F992_7739	C2/da992.c
+time	DATE_TIME_CODE_STRING	parser	F992_7740	C2/da992.c
+time	DATE_TIME_CODE_STRING	internal_parser	F992_7741	C2/da992.c
+time	DATE_VALIDITY_CHECKER	date_valid	F993_7742	C2/da993.c
+time	DATE_VALIDITY_CHECKER	date_valid_with_base	F993_7743	C2/da993.c
+time	DATE_VALIDITY_CHECKER	date_valid_default	F993_7744	C2/da993.c
+time	DATE_VALIDITY_CHECKER	date_valid_default_with_base	F993_7745	C2/da993.c
+time	DATE_VALIDITY_CHECKER	compact_date_valid	F993_7746	C2/da993.c
+time	DATE_VALIDITY_CHECKER	ordered_compact_date_valid	F993_7747	C2/da993.c
+time	DATE_VALIDITY_CHECKER	is_correct_date	F993_7748	C2/da993.c
+time	DATE	make	F994_7749	C2/da994.c
+time	DATE	make_month_day_year	F994_7750	C2/da994.c
+time	DATE	make_day_month_year	F994_7751	C2/da994.c
+time	DATE	make_now	F994_7752	C2/da994.c
+time	DATE	make_now_utc	F994_7753	C2/da994.c
+time	DATE	make_by_days	F994_7754	C2/da994.c
+time	DATE	make_from_string_default	F994_7755	C2/da994.c
+time	DATE	make_from_string_default_with_base	F994_7756	C2/da994.c
+time	DATE	make_from_string	F994_7757	C2/da994.c
+time	DATE	make_from_string_with_base	F994_7758	C2/da994.c
+time	DATE	make_by_compact_date	F994_7759	C2/da994.c
+time	DATE	make_by_ordered_compact_date	F994_7760	C2/da994.c
+time	DATE	origin	F994_7761	C2/da994.c
+time	DATE	is_less	F994_7762	C2/da994.c
+time	DATE	duration	F994_7763	C2/da994.c
+time	DATE	days	F994_7764	C2/da994.c
+time	DATE	leap_year	F994_7765	C2/da994.c
+time	DATE	days_at_month	F994_7766	C2/da994.c
+time	DATE	year_day	F994_7767	C2/da994.c
+time	DATE	week_of_year	F994_7768	C2/da994.c
+time	DATE	days_in_year	F994_7769	C2/da994.c
+time	DATE	day_of_the_week	F994_7770	C2/da994.c
+time	DATE	day_of_january_1st	F994_7771	C2/da994.c
+time	DATE	days_from	F994_7772	C2/da994.c
+time	DATE	to_date_time	F994_7773	C2/da994.c
+time	DATE	plus	F994_7774	C2/da994.c
+time	DATE	add	F994_7775	C2/da994.c
+time	DATE	relative_duration	F994_7776	C2/da994.c
+time	DATE	day_forth	F994_7777	C2/da994.c
+time	DATE	day_back	F994_7778	C2/da994.c
+time	DATE	day_add	F994_7779	C2/da994.c
+time	DATE	month_forth	F994_7780	C2/da994.c
+time	DATE	month_back	F994_7781	C2/da994.c
+time	DATE	month_add	F994_7782	C2/da994.c
+time	DATE	year_forth	F994_7783	C2/da994.c
+time	DATE	year_back	F994_7784	C2/da994.c
+time	DATE	year_add	F994_7785	C2/da994.c
+time	DATE	year_month_add	F994_7786	C2/da994.c
+time	DATE	debug_output	F994_7787	C2/da994.c
+time	DATE	out	F994_7788	C2/da994.c
+time	DATE	formatted_out	F994_7789	C2/da994.c
+time	DATE	days_at_months	F994_7790	C2/da994.c
+time	TIME_VALIDITY_CHECKER	time_valid	F995_7791	C2/ti995.c
+time	TIME_VALIDITY_CHECKER	compact_time_valid	F995_7792	C2/ti995.c
+time	TIME_VALIDITY_CHECKER	is_correct_time	F995_7793	C2/ti995.c
+time	TIME	make	F996_7794	C2/ti996.c
+time	TIME	make_fine	F996_7795	C2/ti996.c
+time	TIME	make_now	F996_7796	C2/ti996.c
+time	TIME	make_now_utc	F996_7797	C2/ti996.c
+time	TIME	make_by_seconds	F996_7798	C2/ti996.c
+time	TIME	make_by_fine_seconds	F996_7799	C2/ti996.c
+time	TIME	make_from_string_default	F996_7800	C2/ti996.c
+time	TIME	make_from_string	F996_7801	C2/ti996.c
+time	TIME	make_by_compact_time	F996_7802	C2/ti996.c
+time	TIME	origin	F996_7803	C2/ti996.c
+time	TIME	is_less	F996_7804	C2/ti996.c
+time	TIME	duration	F996_7805	C2/ti996.c
+time	TIME	seconds	F996_7806	C2/ti996.c
+time	TIME	fine_seconds	F996_7807	C2/ti996.c
+time	TIME	plus	F996_7808	C2/ti996.c
+time	TIME	relative_duration	F996_7809	C2/ti996.c
+time	TIME	second_add	F996_7810	C2/ti996.c
+time	TIME	fine_second_add	F996_7811	C2/ti996.c
+time	TIME	minute_add	F996_7812	C2/ti996.c
+time	TIME	hour_add	F996_7813	C2/ti996.c
+time	TIME	second_forth	F996_7814	C2/ti996.c
+time	TIME	second_back	F996_7815	C2/ti996.c
+time	TIME	minute_forth	F996_7816	C2/ti996.c
+time	TIME	minute_back	F996_7817	C2/ti996.c
+time	TIME	hour_forth	F996_7818	C2/ti996.c
+time	TIME	hour_back	F996_7819	C2/ti996.c
+time	TIME	debug_output	F996_7820	C2/ti996.c
+time	TIME	out	F996_7821	C2/ti996.c
+time	TIME	formatted_out	F996_7822	C2/ti996.c
+time	DATE_TIME_VALIDITY_CHECKER	date_time_valid	F997_7823	C2/da997.c
+time	DATE_TIME_VALIDITY_CHECKER	date_time_valid_with_base	F997_7824	C2/da997.c
+time	DATE_TIME_VALIDITY_CHECKER	is_correct_date_time	F997_7825	C2/da997.c
+time	DATE_TIME_PARSER	make	F998_7826	C2/da998.c
+time	DATE_TIME_PARSER	source_string	F998_7827	C2/da998.c
+time	DATE_TIME_PARSER	year	F998_7828	C2/da998.c
+time	DATE_TIME_PARSER	month	F998_7829	C2/da998.c
+time	DATE_TIME_PARSER	day	F998_7830	C2/da998.c
+time	DATE_TIME_PARSER	hour	F998_7831	C2/da998.c
+time	DATE_TIME_PARSER	minute	F998_7832	C2/da998.c
+time	DATE_TIME_PARSER	fine_second	F998_7833	C2/da998.c
+time	DATE_TIME_PARSER	day_text	F998_7834	C2/da998.c
+time	DATE_TIME_PARSER	parsed	F998_7835	C2/da998.c
+time	DATE_TIME_PARSER	is_set_up	F998_7836	C2/da998.c
+time	DATE_TIME_PARSER	is_date	F998_7837	C2/da998.c
+time	DATE_TIME_PARSER	is_time	F998_7838	C2/da998.c
+time	DATE_TIME_PARSER	is_date_time	F998_7839	C2/da998.c
+time	DATE_TIME_PARSER	is_value_valid	F998_7840	C2/da998.c
+time	DATE_TIME_PARSER	set_source_string	F998_7841	C2/da998.c
+time	DATE_TIME_PARSER	set_day_array	F998_7842	C2/da998.c
+time	DATE_TIME_PARSER	set_month_array	F998_7843	C2/da998.c
+time	DATE_TIME_PARSER	set_base_century	F998_7844	C2/da998.c
+time	DATE_TIME_PARSER	parse	F998_7845	C2/da998.c
+time	DATE_TIME_PARSER	year_val	F998_7846	C2/da998.c
+time	DATE_TIME_PARSER	month_val	F998_7847	C2/da998.c
+time	DATE_TIME_PARSER	day_val	F998_7848	C2/da998.c
+time	DATE_TIME_PARSER	hour_val	F998_7849	C2/da998.c
+time	DATE_TIME_PARSER	minute_val	F998_7850	C2/da998.c
+time	DATE_TIME_PARSER	fine_second_val	F998_7851	C2/da998.c
+time	DATE_TIME_PARSER	day_text_val	F998_7852	C2/da998.c
+time	DATE_TIME_PARSER	code	F998_7853	C2/da998.c
+time	DATE_TIME_PARSER	months	F998_7854	C2/da998.c
+time	DATE_TIME_PARSER	days	F998_7855	C2/da998.c
+time	DATE_TIME_PARSER	base_century	F998_7856	C2/da998.c
+time	DATE_TIME	make	F999_7857	C2/da999.c
+time	DATE_TIME	make_fine	F999_7858	C2/da999.c
+time	DATE_TIME	make_by_date_time	F999_7859	C2/da999.c
+time	DATE_TIME	make_by_date	F999_7860	C2/da999.c
+time	DATE_TIME	make_now	F999_7861	C2/da999.c
+time	DATE_TIME	make_now_utc	F999_7862	C2/da999.c
+time	DATE_TIME	make_from_string_default	F999_7863	C2/da999.c
+time	DATE_TIME	make_from_string_default_with_base	F999_7864	C2/da999.c
+time	DATE_TIME	make_from_string	F999_7865	C2/da999.c
+time	DATE_TIME	make_from_string_with_base	F999_7866	C2/da999.c
+time	DATE_TIME	make_from_epoch	F999_7867	C2/da999.c
+time	DATE_TIME	date	F999_7868	C2/da999.c
+time	DATE_TIME	time	F999_7869	C2/da999.c
+time	DATE_TIME	origin	F999_7870	C2/da999.c
+time	DATE_TIME	date_duration	F999_7871	C2/da999.c
+time	DATE_TIME	days	F999_7872	C2/da999.c
+time	DATE_TIME	time_duration	F999_7873	C2/da999.c
+time	DATE_TIME	seconds	F999_7874	C2/da999.c
+time	DATE_TIME	is_less	F999_7875	C2/da999.c
+time	DATE_TIME	is_equal	F999_7876	C2/da999.c
+time	DATE_TIME	duration	F999_7877	C2/da999.c
+time	DATE_TIME	set_date	F999_7878	C2/da999.c
+time	DATE_TIME	set_time	F999_7879	C2/da999.c
+time	DATE_TIME	copy	F999_7880	C2/da999.c
+time	DATE_TIME	plus	F999_7881	C2/da999.c
+time	DATE_TIME	add	F999_7882	C2/da999.c
+time	DATE_TIME	relative_duration	F999_7883	C2/da999.c
+time	DATE_TIME	definite_duration	F999_7884	C2/da999.c
+time	DATE_TIME	day_add	F999_7885	C2/da999.c
+time	DATE_TIME	hour_add	F999_7886	C2/da999.c
+time	DATE_TIME	minute_add	F999_7887	C2/da999.c
+time	DATE_TIME	second_add	F999_7888	C2/da999.c
+time	DATE_TIME	fine_second_add	F999_7889	C2/da999.c
+time	DATE_TIME	debug_output	F999_7890	C2/da999.c
+time	DATE_TIME	out	F999_7891	C2/da999.c
+time	DATE_TIME	formatted_out	F999_7892	C2/da999.c
